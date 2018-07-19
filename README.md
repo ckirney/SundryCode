@@ -1,0 +1,2 @@
+# SundryCode
+This is a repository for random code that I generate at home or at work that has no real place anywhere else.  It is really only for my use but you are welcome to look at my code if you really want (e.g. if you are having trouble sleeping, or want to feel better about yourself by looking at someone else's bad code).  Maybe someday something useful to the masses will appear.  Until then you can safely ignore anything here.
