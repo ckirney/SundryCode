@@ -19,6 +19,7 @@ class Combine_results
       csv_comb << [csv_infoa[indexa][0], csv_infoa[indexa][1], csv_infob[indexa][0], csv_infob[indexa][1], csv_infoc[indexc][0], csv_infoc[indexc][1], csv_infob[indexb][0], csv_infob[indexb][1], csv_infoa[indexb][0], csv_infoa[indexb][1]]
       indexc += 1
     end
+	csv_comb << " "
   end
   CSV.open(csv_out, "w") do |csv_line|
     csv_comb.each do |out|
