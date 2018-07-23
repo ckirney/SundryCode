@@ -1,6 +1,4 @@
 [
-  "A OS:Schedule:Day called 'Service Water Loop Temp - 140F Default' was found only in the true model",
-  "A OS:Schedule:Ruleset called 'Service Water Loop Temp - 140F' was found only in the true model",
   "A OS:WaterHeater:Mixed called '600gal NaturalGas Water Heater - 600kBtu/hr 0.805 Therm Eff' was found only in the true model",
   "A OS:WaterUse:Equipment called 'Er_exam1_mult4_flr_1 Service Water Use 0.04gal/min' was found only in the true model",
   "A OS:WaterUse:Equipment called 'Er_exam3_mult4_flr_1 Service Water Use 0.04gal/min' was found only in the true model",
@@ -36,8 +34,6 @@
   "A OS:WaterUse:Equipment:Definition called 'Patroom5_mult10_flr_4 Service Water Use Def 0.01gal/min' was found only in the true model",
   "A OS:WaterUse:Equipment:Definition called 'Patroom7_mult10_flr_3 Service Water Use Def 0.01gal/min' was found only in the true model",
   "A OS:WaterUse:Equipment:Definition called 'Patroom7_mult10_flr_4 Service Water Use Def 0.01gal/min' was found only in the true model",
-  "A OS:Schedule:Day called 'Service Water Loop Temp - 131F Default' was found only in the compare model",
-  "A OS:Schedule:Ruleset called 'Service Water Loop Temp - 131F' was found only in the compare model",
   "A OS:WaterHeater:Mixed called '729gal NaturalGas Water Heater - 492kBtu/hr 0.806 Therm Eff' was found only in the compare model",
   "A OS:WaterUse:Equipment called 'Er_exam1_mult4_flr_1 Service Water Use 0.14gal/min' was found only in the compare model",
   "A OS:WaterUse:Equipment called 'Er_exam3_mult4_flr_1 Service Water Use 0.14gal/min' was found only in the compare model",
@@ -99,7 +95,6 @@
   "For OS:Schedule:Rule called 'Schedule Rule 73' field 'Day Schedule Name': true model = NECB-A-Service Water Heating Sun|Hol Day, compare model = NECB-C-Service Water Heating Sun|Hol Day",
   "For OS:Pump:ConstantSpeed called 'Service Water Loop Pump' field 'Rated Pump Head': true model = 29891.0, compare model = 179532.0",
   "For OS:Pump:ConstantSpeed called 'Service Water Loop Pump' field 'Motor Efficiency': true model = 0.7, compare model = 0.855",
-  "For OS:SetpointManager:Scheduled called 'Service hot water setpoint manager' field 'Schedule Name': true model = Service Water Loop Temp - 140F, compare model = Service Water Loop Temp - 131F",
   "For OS:WaterUse:Equipment:Definition called 'Basement Service Water Use Def 2.83gal/min' field 'Target Temperature Schedule Name': true model = Schedule Ruleset 122, compare model = Schedule Ruleset 5",
   "For OS:WaterUse:Equipment:Definition called 'Basement Service Water Use Def 2.83gal/min' field 'Sensible Fraction Schedule Name': true model = Schedule Ruleset 120, compare model = Schedule Ruleset 3",
   "For OS:WaterUse:Equipment:Definition called 'Basement Service Water Use Def 2.83gal/min' field 'Latent Fraction Schedule Name': true model = Schedule Ruleset 121, compare model = Schedule Ruleset 4",

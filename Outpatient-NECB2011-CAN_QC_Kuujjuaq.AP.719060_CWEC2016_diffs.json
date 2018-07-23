@@ -1,9 +1,5 @@
 [
-  "A OS:Schedule:Day called 'Service Water Loop Temp - 140F Default' was found only in the true model",
-  "A OS:Schedule:Ruleset called 'Service Water Loop Temp - 140F' was found only in the true model",
   "A OS:WaterHeater:Mixed called '600gal Electricity Water Heater - 600kBtu/hr 1.0 Therm Eff' was found only in the true model",
-  "A OS:Schedule:Day called 'Service Water Loop Temp - 131F Default' was found only in the compare model",
-  "A OS:Schedule:Ruleset called 'Service Water Loop Temp - 131F' was found only in the compare model",
   "A OS:WaterHeater:Mixed called '86gal Electricity Water Heater - 58kBtu/hr 1.0 Therm Eff' was found only in the compare model",
   "For OS:Schedule:Rule called 'Schedule Rule 77' field 'Schedule Ruleset Name': true model = NECB-C-Service Water Heating, compare model = NECB-H-Service Water Heating",
   "For OS:Schedule:Rule called 'Schedule Rule 77' field 'Day Schedule Name': true model = NECB-C-Service Water Heating Default|Wkdy Day, compare model = NECB-H-Service Water Heating Default|Wkdy Day",
@@ -36,7 +32,6 @@
   "For OS:Schedule:Rule called 'Schedule Rule 91' field 'Schedule Ruleset Name': true model = NECB-E-Service Water Heating, compare model = NECB-A-Service Water Heating",
   "For OS:Schedule:Rule called 'Schedule Rule 91' field 'Day Schedule Name': true model = NECB-E-Service Water Heating Sun|Hol Day, compare model = NECB-A-Service Water Heating Sun|Hol Day",
   "For OS:Pump:ConstantSpeed called 'Service Water Loop Pump' field 'Rated Pump Head': true model = 29891.0, compare model = 179532.0",
-  "For OS:SetpointManager:Scheduled called 'Service hot water setpoint manager' field 'Schedule Name': true model = Service Water Loop Temp - 140F, compare model = Service Water Loop Temp - 131F",
   "For OS:WaterUse:Equipment:Definition called 'Floor 1 anesthesia Service Water Use Def 0.01gal/min' field 'Target Temperature Schedule Name': true model = Schedule Ruleset 86, compare model = Schedule Ruleset 5",
   "For OS:WaterUse:Equipment:Definition called 'Floor 1 anesthesia Service Water Use Def 0.01gal/min' field 'Sensible Fraction Schedule Name': true model = Schedule Ruleset 84, compare model = Schedule Ruleset 3",
   "For OS:WaterUse:Equipment:Definition called 'Floor 1 anesthesia Service Water Use Def 0.01gal/min' field 'Latent Fraction Schedule Name': true model = Schedule Ruleset 85, compare model = Schedule Ruleset 4",
