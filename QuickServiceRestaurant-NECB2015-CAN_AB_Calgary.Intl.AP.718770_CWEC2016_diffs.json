@@ -1,0 +1,5 @@
+[
+  "A OS:WaterHeater:Mixed called '100gal NaturalGas Water Heater - 100kBtu/hr 0.81 Therm Eff' was found only in the true model",
+  "A OS:WaterHeater:Mixed called '16gal NaturalGas Water Heater - 11kBtu/hr 0.82 Therm Eff' was found only in the compare model",
+  "For OS:Pump:ConstantSpeed called 'Service Water Loop Pump' field 'Rated Pump Head': true model = 0.001, compare model = 179532.0"
+]
