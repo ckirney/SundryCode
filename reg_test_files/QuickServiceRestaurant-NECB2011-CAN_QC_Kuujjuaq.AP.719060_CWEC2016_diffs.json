@@ -1,0 +1,15 @@
+[
+  "A OS:SubSurface called 'Dining_Wall_East_Window' was found only in the true model",
+  "A OS:SubSurface called 'Dining_Wall_South_Window' was found only in the true model",
+  "A OS:SubSurface called 'Dining_Wall_West_Window' was found only in the true model",
+  "A OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 1 13kBtu/hr 14.0SEER' was found only in the true model",
+  "A OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 2 25kBtu/hr 14.0SEER' was found only in the true model",
+  "A OS:SubSurface called 'Dining_Wall_East_FixedWindow' was found only in the compare model",
+  "A OS:SubSurface called 'Dining_Wall_South_FixedWindow' was found only in the compare model",
+  "A OS:SubSurface called 'Dining_Wall_West_FixedWindow' was found only in the compare model",
+  "A OS:SubSurface called 'Kitchen_Wall_East_FixedWindow' was found only in the compare model",
+  "A OS:SubSurface called 'Kitchen_Wall_North_FixedWindow' was found only in the compare model",
+  "A OS:SubSurface called 'Kitchen_Wall_West_FixedWindow' was found only in the compare model",
+  "A OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 1 19kBtu/hr 14.0SEER' was found only in the compare model",
+  "A OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 2 24kBtu/hr 14.0SEER' was found only in the compare model"
+]
