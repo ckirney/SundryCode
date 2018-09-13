@@ -1,0 +1,1157 @@
+[
+  {
+    "template": "NECB2011",
+    "epw_file": "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+    "file_info": [
+      {
+        "File_name": "LargeHotel.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Corridor_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Corridor_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_1_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_1_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_2_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_2_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_3_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult9_Flr_6",
+            "tz_mult": 9,
+            "tz_spaces": [
+              "Room_3_Mult9_Flr_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_4_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_4_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_5_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_5_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_6_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_6_Flr_3"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "PrimarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "RetailStripmall.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "LargeOffice.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Core_mid",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Core_mid"
+            ]
+          },
+          {
+            "tz_name": "TZ-DataCenter_mid_ZN_6",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "DataCenter_mid_ZN_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-MidFloor_Plenum",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "MidFloor_Plenum"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_1",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_2",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "RetailStandalone.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "FullServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallHotel.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MediumOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MidriseApartment.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-M Corridor",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M Corridor"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NW Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SW Apartment"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Warehouse.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "HighriseApartment.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "QuickServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "Hospital.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-ER_Exam1_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Exam3_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam3_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Triage_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Triage_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom1_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "IC_PatRoom1_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom3_Mult6_Flr_2",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "IC_PatRoom3_Mult6_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office1_Mult4_Flr_1",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office2_Mult5_Flr_5",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office2_Mult5_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office4_Mult6_Flr_5",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "Office4_Mult6_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-OR2_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "OR2_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Outpatient.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SecondarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "template": "NECB2015",
+    "epw_file": "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+    "file_info": [
+      {
+        "File_name": "LargeHotel.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Corridor_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Corridor_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_1_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_1_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_2_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_2_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_3_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult9_Flr_6",
+            "tz_mult": 9,
+            "tz_spaces": [
+              "Room_3_Mult9_Flr_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_4_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_4_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_5_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_5_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_6_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_6_Flr_3"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "PrimarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "RetailStripmall.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "LargeOffice.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Core_mid",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Core_mid"
+            ]
+          },
+          {
+            "tz_name": "TZ-DataCenter_mid_ZN_6",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "DataCenter_mid_ZN_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-MidFloor_Plenum",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "MidFloor_Plenum"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_1",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_2",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "RetailStandalone.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "FullServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallHotel.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MediumOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MidriseApartment.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-M Corridor",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M Corridor"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NW Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SW Apartment"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Warehouse.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "HighriseApartment.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "QuickServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "Hospital.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-ER_Exam1_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Exam3_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam3_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Triage_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Triage_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom1_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "IC_PatRoom1_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom3_Mult6_Flr_2",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "IC_PatRoom3_Mult6_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office1_Mult4_Flr_1",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office2_Mult5_Flr_5",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office2_Mult5_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office4_Mult6_Flr_5",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "Office4_Mult6_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-OR2_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "OR2_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Outpatient.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SecondarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "template": "NECB2017",
+    "epw_file": "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+    "file_info": [
+      {
+        "File_name": "LargeHotel.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Corridor_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Corridor_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_1_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_1_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_2_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_2_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_3_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_3_Mult9_Flr_6",
+            "tz_mult": 9,
+            "tz_spaces": [
+              "Room_3_Mult9_Flr_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_4_Mult19_Flr_3",
+            "tz_mult": 76,
+            "tz_spaces": [
+              "Room_4_Mult19_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_5_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_5_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Room_6_Flr_3",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "Room_6_Flr_3"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "PrimarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "RetailStripmall.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "LargeOffice.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-Core_mid",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Core_mid"
+            ]
+          },
+          {
+            "tz_name": "TZ-DataCenter_mid_ZN_6",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "DataCenter_mid_ZN_6"
+            ]
+          },
+          {
+            "tz_name": "TZ-MidFloor_Plenum",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "MidFloor_Plenum"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_1",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_2",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-Perimeter_mid_ZN_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "Perimeter_mid_ZN_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "RetailStandalone.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "FullServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallHotel.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MediumOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "MidriseApartment.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-M Corridor",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M Corridor"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M N2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M N2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M NW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M NW Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S1 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S1 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M S2 Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M S2 Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SE Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SE Apartment"
+            ]
+          },
+          {
+            "tz_name": "TZ-M SW Apartment",
+            "tz_mult": 2,
+            "tz_spaces": [
+              "M SW Apartment"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Warehouse.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "HighriseApartment.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "QuickServiceRestaurant.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "Hospital.osm",
+        "Thermal_zone_info": [
+          {
+            "tz_name": "TZ-ER_Exam1_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Exam3_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Exam3_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-ER_Triage_Mult4_Flr_1",
+            "tz_mult": 4,
+            "tz_spaces": [
+              "ER_Triage_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom1_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "IC_PatRoom1_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-IC_PatRoom3_Mult6_Flr_2",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "IC_PatRoom3_Mult6_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office1_Mult4_Flr_1",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office1_Mult4_Flr_1"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office2_Mult5_Flr_5",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "Office2_Mult5_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-Office4_Mult6_Flr_5",
+            "tz_mult": 6,
+            "tz_spaces": [
+              "Office4_Mult6_Flr_5"
+            ]
+          },
+          {
+            "tz_name": "TZ-OR2_Mult5_Flr_2",
+            "tz_mult": 5,
+            "tz_spaces": [
+              "OR2_Mult5_Flr_2"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom1_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom1_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom3_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom3_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom5_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom5_Mult10_Flr_4"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_3",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_3"
+            ]
+          },
+          {
+            "tz_name": "TZ-PatRoom7_Mult10_Flr_4",
+            "tz_mult": 10,
+            "tz_spaces": [
+              "PatRoom7_Mult10_Flr_4"
+            ]
+          }
+        ]
+      },
+      {
+        "File_name": "Outpatient.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SecondarySchool.osm",
+        "Thermal_zone_info": [
+
+        ]
+      },
+      {
+        "File_name": "SmallOffice.osm",
+        "Thermal_zone_info": [
+
+        ]
+      }
+    ]
+  }
+]
