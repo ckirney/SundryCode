@@ -30,7 +30,7 @@ class Concave_to_convex_surfaces
       # Is this line segment pointing up?  If no, then ignore it and go to the next line segment.
       if surf_verts[i][:y].to_f.round(tol) > surf_verts[i-1][:y].to_f.round(tol)
       # Go through each line segment
-
+        overlap_seg = []
         for j in 1..(surf_verts.length-1)
         # Is the line segment to the left of the current (index i) line segment?  If no, then ignore it and go to the next one.
           if surf_verts[j][:x].to_f.round(tol) < surf_verts[i][:x].to_f.round(tol) and surf_verts[j-1][:x].to_f.round(tol) < surf_verts[i-1][:x].to_f.round(tol)
@@ -39,49 +39,52 @@ class Concave_to_convex_surfaces
             # Do the y coordinates of the line segment overlap with the current (index i) line segment?  If no
             # then ignore it and go to the next line segment.
               overlap_y = line_segment_overlap_y?(surf_verts[i][:y].to_f.round(tol), surf_verts[i-1][:y].to_f.round(tol), surf_verts[j][:y].to_f.round(tol), surf_verts[j-1][:y].to_f.round(tol))
-              unless overlap_y == 0
-                overlap_x_coords = line_segment_overlap_x_coord(point_a1: surf_verts[i], point_a2: surf_verts[i-1], point_b1: surf_verts[j], point_b2: surf_verts[j-1], tol: tol)
-                a = (surf_verts[j][:y].to_f.round(tol) - surf_verts[j-1][:y].to_f.round(tol))/(surf_verts[j][:x].to_f.round(tol) - surf_verts[j-1][:x].to_f.round(tol))
-                b = surf_verts[j-1][:y].to_f.round(tol)
+              unless (overlap_y[:overlap_start].nil? || overlap_y[:overlap_end].nil?)
                 overlap_seg << [surf_verts[j][:y].to_f.round(tol), surf_verts[j-1][:y].to_f.round(tol)]
               end
             end
           end
+        end
+        if overlap_seg.length > 0
+          puts "hello"
         end
       end
     end
   end
 
   def self.line_segment_overlap_y?(point_a1, point_a2, point_b1, point_b2)
-    if (point_a1 >= point_b1) && (point_a2 <= point_b1) or (point_a1 >= point_b2) && (point_a2 <= point_b2)
-      puts "hello"
-      bottom_overlap_start = nil
-      bottom_overlap_end = nil
-      top_overlap_start = nil
-      top_overlap_end = nil
-      if point_a1 >= point_b1 && point_a2 <= point_b1
-        bottom_overlap_start = point_b1
-        bottom_overlap_end = point_a2
+    overlap_start = nil
+    overlap_end = nil
+    if (point_a1 >= point_b1) && (point_a2 <= point_b1)
+      overlap_start = point_a1
+      overlap_end = point_b1
+      if point_a1 > point_b2
+        overlap_start = point_b2
       end
-      if point_a1 >= point_b1 && point_a2 <= point_b1
-        top_overlap_start = point_b1
-        top_overlap_end = point_a2
-      end
-      overlap_y = {
-          "top_overlap_start" => top_overlap_start,
-          "top_overlap_end" => top_overlap_end,
-          "bottom_overlap_start" => bottom_overlap_start,
-          "bottom_overlap_end" => bottom_overlap_end
-      }
-      return overlap_y
-    else
-      return 0
     end
+    if (point_a1 >= point_b2) && (point_a2 <= point_b2)
+      overlap_start = point_b2
+      overlap_end = point_a2
+      if point_a2 <= point_b1
+        overlap_end = point_b1
+      end
+    end
+    if (point_a1 <= point_b2) && (point_a2 >= point_b1)
+      overlap_start = point_a1
+      overlap_end = point_a2
+    end
+    overlap_y = {
+        overlap_start: overlap_start,
+        overlap_end: overlap_end
+    }
+    return overlap_y
   end
 
-  def self.line_segment_overlap_x_coord(point_a1:, point_a2:, point_b1:, point_b2:, tol: 8)
+  def self.line_segment_overlap_x_coord(point_a:, point_b1:, point_b2:, tol: 8)
     a = (point_b1[:y].to_f.round(tol) - point_b2[:y].to_f.round(tol))/(point_b1[:x].to_f.round(tol) - point_b2[:x].to_f.round(tol))
-    b = point_b2[:y].to_f.round(tol)
+    b = point_b1[:y].to_f.round(tol) - a*point_b1[:x]
+    xcross = (point_a - b)/a
+    return xcross
   end
 
   self.get_guaranteed_concave_surfaces(1)
