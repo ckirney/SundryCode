@@ -55,7 +55,7 @@ class Concave_to_convex_surfaces
             if surf_verts[j][:y].to_f.round(tol) < surf_verts[j-1][:y].to_f.round(tol)
             # Do the y coordinates of the line segment overlap with the current (index i) line segment?  If no
             # then ignore it and go to the next line segment.
-              overlap_y = line_segment_overlap_y?(surf_verts[i][:y].to_f.round(tol), surf_verts[i-1][:y].to_f.round(tol), surf_verts[j][:y].to_f.round(tol), surf_verts[j-1][:y].to_f.round(tol))
+              overlap_y = line_segment_overlap_y?(point_a1: surf_verts[i][:y].to_f.round(tol), point_a2: surf_verts[i-1][:y].to_f.round(tol), point_b1: surf_verts[j][:y].to_f.round(tol), point_b2: surf_verts[j-1][:y].to_f.round(tol))
               unless (overlap_y[:overlap_start].nil? || overlap_y[:overlap_end].nil?)
                 overlap_seg = {
                     point_b1: surf_verts[j],
@@ -68,13 +68,60 @@ class Concave_to_convex_surfaces
           end
         end
         if overlap_segs.length > 1
-          overlap_segs.sort.each do |overlap_seg|
+          overlap_segs.each do |overlap_seg|
             for j in 1..(overlap_segs.length-1)
-              if overlap_seg[:overlap_y][:start] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:start] >= overlap_segs[j][:point_b1][:y]
-                puts "hello"
+              if ((overlap_seg[:point_b1][:x] == overlap_segs[j][:point_b1][:x]) && (overlap_seg[:point_b1][:y] == overlap_segs[j][:point_b1][:y])) && ((overlap_seg[:point_b2][:x] == overlap_segs[j][:point_b2][:x]) && (overlap_seg[:point_b2][:y] == overlap_segs[j][:point_b2][:y]))
+                next
               end
-              if overlap_seg[:overlap_y][:end] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:end] >= overlap_segs[j][:point_b1][:y]
+              overlap_segs_overlap = line_segment_overlap_y?(point_a1: overlap_seg[:overlap_y][:overlap_start], point_a2: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][:overlap_y][:overlap_end], point_b2: overlap_segs[j][:overlap_y][:overlap_end])
+              unless ((overlap_segs_overlap[:overlap_start].nil?) || (overlap_segs_overlap[:overlap_end].nil?))
+                if (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlapy_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
+                  overlap_top_over = {
+                      overlap_start: overlap_seg[:overlap_y][:overlap_start],
+                      overlap_end: overlap_segs_overlap[:overlap_start]
+                  }
+                  overlap_top = {
+                      point_b1: overlap_seg[:point_b1],
+                      point_b2: overlap_seg[:point_b2],
+                      overlap_y: overlap_top_over
+                  }
+                  overlap_mid = {
+                      point_b1: overlap_seg[:point_b1],
+                      point_b2: overlap_seg[:point_b2],
+                      overlap_y: overlap_segs_overlap
+                  }
+                  overlap_bottom_over = {
+                      overlap_start: overlap_segs_overlap[:overlap_end],
+                      overlap_end: overlap_seg[:overlap_y][:overlap_end]
+                  }
+                  overlap_bottom = {
+                      point_b1: overlap_seg[:point_b1],
+                      point_b2: overlap_seg[:point_b2],
+                      overlap_y: overlap_bottom_over
+                  }
+                  overlap_segs.delete(overlap_seg)
+                  overlap_segs << overlap_top
+                  overlap_segs << overlap_mid
+                  overlap_segs << overlap_bottom
+                end
+              end
+              if overlap_seg[:overlap_y][:overlap_start] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:overlap_start] >= overlap_segs[j][:point_b1][:y]
                 puts "hello"
+                x_cross_overlap_seg = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: overlap_seg[:point_b1], point_b2: overlap_seg[:point_b2], tol: tol)
+                x_cross_up_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: surf_verts[i], point_b2: surf_verts[i-1], tol: tol)
+                x_cross_check_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: overlap_segs[j][point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
+                if ((x_cross_up_line-x_cross_overlap_seg) < (x_cross_up_line - x_cross_check_line))
+                  puts "hello"
+                end
+              end
+              if overlap_seg[:overlap_y][:overlap_end] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:overlap_end] >= overlap_segs[j][:point_b1][:y]
+                puts "hello"
+                x_cross_overlap_seg = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_seg[:point_b1], point_b2: overlap_seg[:point_b2], tol: tol)
+                x_cross_up_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: surf_verts[i], point_b2: surf_verts[i-1], tol: tol)
+                x_cross_check_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
+                if (x_cross_up_line-x_cross_overlap_seg) < (x_cross_up_line - x_cross_check_line)
+                  puts "hello"
+                end
               end
             end
           end
@@ -83,27 +130,30 @@ class Concave_to_convex_surfaces
     end
   end
 
-  def self.line_segment_overlap_y?(point_a1, point_a2, point_b1, point_b2)
+  def self.line_segment_overlap_y?(point_a1:, point_a2:, point_b1:, point_b2:)
     overlap_start = nil
     overlap_end = nil
-    if (point_a1 >= point_b1) && (point_a2 <= point_b1)
+    if (point_a1 > point_b1) && (point_a2 < point_b1)
       overlap_start = point_a1
       overlap_end = point_b1
       if point_a1 > point_b2
         overlap_start = point_b2
       end
     end
-    if (point_a1 >= point_b2) && (point_a2 <= point_b2)
+    if (point_a1 > point_b2) && (point_a2 < point_b2)
       overlap_start = point_b2
       overlap_end = point_a2
-      if point_a2 <= point_b1
+      if point_a2 < point_b1
         overlap_end = point_b1
       end
     end
-    if (point_a1 <= point_b2) && (point_a2 >= point_b1)
+    if (point_a1 < point_b2) && (point_a2 > point_b1)
       overlap_start = point_a1
       overlap_end = point_a2
     end
+    # Overlap vectors always point down.  Thus overlap_start is the y location of the top of the overlap vector and
+    # overlap_end is the y location of the bottom of the overlap vector.  The overlap vector will later be constructed
+    # using point_b1 and point_b2 and checking which overlaps are closest (and not obstructed) by other overlaps.
     overlap_y = {
         overlap_start: overlap_start,
         overlap_end: overlap_end
