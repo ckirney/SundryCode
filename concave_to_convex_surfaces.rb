@@ -55,7 +55,7 @@ class Concave_to_convex_surfaces
             if surf_verts[j][:y].to_f.round(tol) < surf_verts[j-1][:y].to_f.round(tol)
             # Do the y coordinates of the line segment overlap with the current (index i) line segment?  If no
             # then ignore it and go to the next line segment.
-              overlap_y = line_segment_overlap_y?(point_a1: surf_verts[i][:y].to_f.round(tol), point_a2: surf_verts[i-1][:y].to_f.round(tol), point_b1: surf_verts[j][:y].to_f.round(tol), point_b2: surf_verts[j-1][:y].to_f.round(tol))
+              overlap_y = line_segment_overlap_eq_y?(point_a1: surf_verts[i][:y].to_f.round(tol), point_a2: surf_verts[i-1][:y].to_f.round(tol), point_b1: surf_verts[j][:y].to_f.round(tol), point_b2: surf_verts[j-1][:y].to_f.round(tol))
               unless (overlap_y[:overlap_start].nil? || overlap_y[:overlap_end].nil?)
                 overlap_seg = {
                     index_a1: i,
@@ -74,230 +74,249 @@ class Concave_to_convex_surfaces
       end
     end
     if overlap_segs.length > 1
-      restart = false
-      while restart == false
-        overlap_segs.each do |overlap_seg|
-          for j in 1..(overlap_segs.length-1)
-            if overlap_seg == overlap_segs[j]
-              next
+      overlap_segs = subdivide_overlaps(overlap_segs: overlap_segs)
+      for i in 1..(surf_verts.length-1)
+        if surf_verts[i][:y].to_f.round(tol) > surf_verts[i-1][:y].to_f.round(tol)
+          closest_overlaps = get_overlapping_segments(overlap_segs: overlap_segs, index: i, tol: tol)
+          
+          puts "hello"
+        end
+      end
+    end
+  end
+
+  def self.get_overlapping_segments(overlap_segs:, index:, tol: 8)
+    closest_overlaps = []
+    for j in 1..(overlap_segs.length-1)
+      if overlap_segs[j][:index_a1] == index
+        closest_overlap = overlap_segs[j]
+        for k in 1..(overlap_segs.length-1)
+          next if j == k
+          if overlap_segs[j][:overlap_y][:overlap_start] == overlap_segs[k][:overlap_y][:overlap_start]
+            closest_overlap = []
+            upline_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: surf_verts[i], point_b2: surf_verts[i-1], tol: tol)
+            overlap_line1_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: overlap_segs[j][:point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
+            overlap_line2_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: overlap_segs[k][:point_b1], point_b2: overlap_segs[k][:point_b2], tol: tol)
+            if (upline_x_coord - overlap_line1_x_coord) <= (upline_x_coord - overlap_line2_x_coord)
+              closest_overlap = overlap_segs[j]
+            elsif (upline_x_coord - overlap_line1_x_coord) > (upline_x_coord - overlap_line2_x_coord)
+              closest_overlap = overlap_segs[k]
             end
-            overlap_segs_overlap = line_segment_overlap_y?(point_a1: overlap_seg[:overlap_y][:overlap_start], point_a2: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][:overlap_y][:overlap_end], point_b2: overlap_segs[j][:overlap_y][:overlap_end])
-            unless ((overlap_segs_overlap[:overlap_start].nil?) || (overlap_segs_overlap[:overlap_end].nil?))
-              if (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlapy_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
-                overlap_top_over = {
-                    overlap_start: overlap_seg[:overlap_y][:overlap_start],
-                    overlap_end: overlap_segs_overlap[:overlap_start]
-                }
-                overlap_top = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    point_b1: overlap_seg[:point_b1],
-                    point_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_top_over
-                }
-                overlap_mid = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    point_b1: overlap_seg[:point_b1],
-                    point_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_bottom_over = {
-                    overlap_start: overlap_segs_overlap[:overlap_end],
-                    overlap_end: overlap_seg[:overlap_y][:overlap_end]
-                }
-                overlap_bottom = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    point_b1: overlap_seg[:point_b1],
-                    point_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_bottom_over
-                }
-                overlap_segs.delete(overlap_seg)
-                overlap_segs << overlap_top
-                overlap_segs << overlap_mid
-                overlap_segs << overlap_bottom
-              elsif overlap_seg[:overlap_y][:overlap_start] < overlap_segs[j][:overlap_y][:overlap_start] && overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end]
-                overlap_top_over = {
-                    overlap_start: overlap_segs[j][:overlap_y][:overlap_start],
-                    overlap_end: overlap_segs_overlap[:overlap_start]
-                }
-                overlap_top = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    point_b1: overlap_segs[j][:point_b1],
-                    point_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_top_over
-                }
-                overlap_mid = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    point_b1: overlap_segs[j][:point_b1],
-                    point_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_bottom_over = {
-                    overlap_start: overlap_segs_overlap[:overlap_end],
-                    overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
-                }
-                overlap_bottom = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    point_b1: overlap_segs[j][:point_b1],
-                    point_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_bottom_over
-                }
-                overlap_segs.delete(overlap_segs[j])
-                overlap_segs << overlap_top
-                overlap_segs << overlap_mid
-                overlap_segs << overlap_bottom
-              elsif (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_start]) && (overlap_seg[:overlap_end] < overlap_segs[j][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end])
-                overlap_top_over = {
-                    overlap_start: overlap_seg[:overlap_y][:overlap_start],
-                    overlap_end: overlap_segs_overlap[:overlap_start]
-                }
-                overlap_top = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    overlap_b1: overlap_seg[:point_b1],
-                    overlap_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_top_over
-                }
-                overlap_mid_seg = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    overlap_b1: overlap_seg[:point_b1],
-                    overlap_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_mid_segs = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    overlap_b1: overlap_segs[j][:point_b1],
-                    overlap_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_bottom_over = {
-                    overlap_start: overlap_segs_overlap[:overlap_end],
-                    overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
-                }
-                overlap_bottom = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    overlap_b1: overlap_segs[j][:point_b1],
-                    overlap_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_bottom_over
-                }
-                overlap_segs.delete(overlap_seg)
-                overlap_segs.delete(overlap_segs[j])
-                overlap_segs << overlap_top
-                overlap_segs << overlap_mid_seg
-                overlap_segs << overlap_mid_segs
-                overlap_segs << overlap_bottom
-              elsif (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_end]) && (overlap_seg[:overlap_end] < overlap_segs[j][:overlap_end]) && (overlap_seg[:overlap_y][:overlap_start] < overlap_segs[j][:overlap_y][:overlap_start])
-                overlap_top_over = {
-                    overlap_start: overlap_segs[j][:overlap_y][:overlap_start],
-                    overlap_end: overlap_segs_overlap[:overlap_start]
-                }
-                overlap_top = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    overlap_b1: overlap_segs[j][:point_b1],
-                    overlap_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_top_over
-                }
-                overlap_mid_seg = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    overlap_b1: overlap_seg[:point_b1],
-                    overlap_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_mid_segs = {
-                    index_a1: overlap_segs[j][:index_a1],
-                    index_a2: overlap_segs[j][:index_a2],
-                    index_b1: overlap_segs[j][:index_b1],
-                    index_b2: overlap_segs[j][:index_b2],
-                    overlap_b1: overlap_segs[j][:point_b1],
-                    overlap_b2: overlap_segs[j][:point_b2],
-                    overlap_y: overlap_segs_overlap
-                }
-                overlap_bottom_over = {
-                    overlap_start: overlap_segs_overlap[:overlap_end],
-                    overlap_end: overlap_seg[:overlap_y][:overlap_end]
-                }
-                overlap_bottom = {
-                    index_a1: overlap_seg[:index_a1],
-                    index_a2: overlap_seg[:index_a2],
-                    index_b1: overlap_seg[:index_b1],
-                    index_b2: overlap_seg[:index_b2],
-                    overlap_b1: overlap_seg[:point_b1],
-                    overlap_b2: overlap_seg[:point_b2],
-                    overlap_y: overlap_bottom_over
-                }
-                overlap_segs.delete(overlap_seg)
-                overlap_segs.delete(overlap_seg[j])
-                overlap_segs << overlap_top
-                overlap_segs << overlap_mid_seg
-                overlap_segs << overlap_mid_segs
-                overlap_segs << overlap_bottom
-              end
-              restart = true
-              break
-            end
+            closest_overlaps << closest_overlap
           end
-          if restart == true
+        end
+        if closest_overlap == overlap_segs[j]
+          closest_overlaps << closest_overlap
+        end
+      end
+    end
+    return closest_overlaps
+  end
+
+  def self.subdivide_overlaps(overlap_segs:)
+    restart = false
+    while restart == false
+      restart == false
+      overlap_segs.each do |overlap_seg|
+        for j in 1..(overlap_segs.length-1)
+          if overlap_seg == overlap_segs[j]
+            next
+          end
+          overlap_segs_overlap = line_segment_overlap_y?(point_a1: overlap_seg[:overlap_y][:overlap_start], point_a2: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][:overlap_y][:overlap_end], point_b2: overlap_segs[j][:overlap_y][:overlap_end])
+          unless ((overlap_segs_overlap[:overlap_start].nil?) || (overlap_segs_overlap[:overlap_end].nil?))
+            if (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlapy_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
+              overlap_top_over = {
+                  overlap_start: overlap_seg[:overlap_y][:overlap_start],
+                  overlap_end: overlap_segs_overlap[:overlap_start]
+              }
+              overlap_top = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_top_over
+              }
+              overlap_mid = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_bottom_over = {
+                  overlap_start: overlap_segs_overlap[:overlap_end],
+                  overlap_end: overlap_seg[:overlap_y][:overlap_end]
+              }
+              overlap_bottom = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_bottom_over
+              }
+              overlap_segs.delete(overlap_seg)
+              overlap_segs << overlap_top
+              overlap_segs << overlap_mid
+              overlap_segs << overlap_bottom
+            elsif overlap_seg[:overlap_y][:overlap_start] < overlap_segs[j][:overlap_y][:overlap_start] && overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end]
+              overlap_top_over = {
+                  overlap_start: overlap_segs[j][:overlap_y][:overlap_start],
+                  overlap_end: overlap_segs_overlap[:overlap_start]
+              }
+              overlap_top = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_top_over
+              }
+              overlap_mid = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_bottom_over = {
+                  overlap_start: overlap_segs_overlap[:overlap_end],
+                  overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
+              }
+              overlap_bottom = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_bottom_over
+              }
+              overlap_segs.delete(overlap_segs[j])
+              overlap_segs << overlap_top
+              overlap_segs << overlap_mid
+              overlap_segs << overlap_bottom
+            elsif (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_start]) && (overlap_seg[:overlap_end] < overlap_segs[j][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end])
+              overlap_top_over = {
+                  overlap_start: overlap_seg[:overlap_y][:overlap_start],
+                  overlap_end: overlap_segs_overlap[:overlap_start]
+              }
+              overlap_top = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_top_over
+              }
+              overlap_mid_seg = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_mid_segs = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_bottom_over = {
+                  overlap_start: overlap_segs_overlap[:overlap_end],
+                  overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
+              }
+              overlap_bottom = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_bottom_over
+              }
+              overlap_segs.delete(overlap_seg)
+              overlap_segs.delete(overlap_segs[j])
+              overlap_segs << overlap_top
+              overlap_segs << overlap_mid_seg
+              overlap_segs << overlap_mid_segs
+              overlap_segs << overlap_bottom
+            elsif (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_end]) && (overlap_seg[:overlap_end] < overlap_segs[j][:overlap_end]) && (overlap_seg[:overlap_y][:overlap_start] < overlap_segs[j][:overlap_y][:overlap_start])
+              overlap_top_over = {
+                  overlap_start: overlap_segs[j][:overlap_y][:overlap_start],
+                  overlap_end: overlap_segs_overlap[:overlap_start]
+              }
+              overlap_top = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_top_over
+              }
+              overlap_mid_seg = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_mid_segs = {
+                  index_a1: overlap_segs[j][:index_a1],
+                  index_a2: overlap_segs[j][:index_a2],
+                  index_b1: overlap_segs[j][:index_b1],
+                  index_b2: overlap_segs[j][:index_b2],
+                  point_b1: overlap_segs[j][:point_b1],
+                  point_b2: overlap_segs[j][:point_b2],
+                  overlap_y: overlap_segs_overlap
+              }
+              overlap_bottom_over = {
+                  overlap_start: overlap_segs_overlap[:overlap_end],
+                  overlap_end: overlap_seg[:overlap_y][:overlap_end]
+              }
+              overlap_bottom = {
+                  index_a1: overlap_seg[:index_a1],
+                  index_a2: overlap_seg[:index_a2],
+                  index_b1: overlap_seg[:index_b1],
+                  index_b2: overlap_seg[:index_b2],
+                  point_b1: overlap_seg[:point_b1],
+                  point_b2: overlap_seg[:point_b2],
+                  overlap_y: overlap_bottom_over
+              }
+              overlap_segs.delete(overlap_seg)
+              overlap_segs.delete(overlap_seg[j])
+              overlap_segs << overlap_top
+              overlap_segs << overlap_mid_seg
+              overlap_segs << overlap_mid_segs
+              overlap_segs << overlap_bottom
+            end
+            restart = true
             break
           end
         end
-      end
-      if overlap_seg[:overlap_y][:overlap_start] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:overlap_start] >= overlap_segs[j][:point_b1][:y]
-        x_cross_overlap_seg = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: overlap_seg[:point_b1], point_b2: overlap_seg[:point_b2], tol: tol)
-        x_cross_up_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: surf_verts[i], point_b2: surf_verts[i-1], tol: tol)
-        x_cross_check_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_start], point_b1: overlap_segs[j][point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
-        if ((x_cross_up_line-x_cross_overlap_seg) < (x_cross_up_line - x_cross_check_line))
-          puts "hello"
-        end
-      end
-      if overlap_seg[:overlap_y][:overlap_end] <= overlap_segs[j][:point_b2][:y] && overlap_seg[:overlap_y][:overlap_end] >= overlap_segs[j][:point_b1][:y]
-        x_cross_overlap_seg = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_seg[:point_b1], point_b2: overlap_seg[:point_b2], tol: tol)
-        x_cross_up_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: surf_verts[i], point_b2: surf_verts[i-1], tol: tol)
-        x_cross_check_line = line_segment_overlap_x_coord(point_a: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
-        if (x_cross_up_line-x_cross_overlap_seg) < (x_cross_up_line - x_cross_check_line)
-          puts "hello"
+        if restart == true
+          break
         end
       end
     end
-    for i in 1..(surf_verts.length-1)
-      for j in 1..(overlap_segs.length-1)
-        puts "hello"
-      end
-      puts "hello"
-    end
+    return overlap_segs
   end
 
   def self.line_segment_overlap_y?(point_a1:, point_a2:, point_b1:, point_b2:)
@@ -331,10 +350,41 @@ class Concave_to_convex_surfaces
     return overlap_y
   end
 
-  def self.line_segment_overlap_x_coord(point_a:, point_b1:, point_b2:, tol: 8)
+  def self.line_segment_overlap_eq_y?(point_a1:, point_a2:, point_b1:, point_b2:)
+    overlap_start = nil
+    overlap_end = nil
+    if (point_a1 > point_b1) && (point_a2 < point_b1)
+      overlap_start = point_a1
+      overlap_end = point_b1
+      if point_a1 > point_b2
+        overlap_start = point_b2
+      end
+    end
+    if (point_a1 > point_b2) && (point_a2 < point_b2)
+      overlap_start = point_b2
+      overlap_end = point_a2
+      if point_a2 < point_b1
+        overlap_end = point_b1
+      end
+    end
+    if (point_a1 < point_b2) && (point_a2 > point_b1)
+      overlap_start = point_a1
+      overlap_end = point_a2
+    end
+    # Overlap vectors always point down.  Thus overlap_start is the y location of the top of the overlap vector and
+    # overlap_end is the y location of the bottom of the overlap vector.  The overlap vector will later be constructed
+    # using point_b1 and point_b2 and checking which overlaps are closest (and not obstructed) by other overlaps.
+    overlap_y = {
+        overlap_start: overlap_start,
+        overlap_end: overlap_end
+    }
+    return overlap_y
+  end
+
+  def self.line_segment_overlap_x_coord(y_check:, point_b1:, point_b2:, tol: 8)
     a = (point_b1[:y].to_f.round(tol) - point_b2[:y].to_f.round(tol))/(point_b1[:x].to_f.round(tol) - point_b2[:x].to_f.round(tol))
     b = point_b1[:y].to_f.round(tol) - a*point_b1[:x]
-    xcross = (point_a - b)/a
+    xcross = (y_check - b)/a
     return xcross
   end
 
