@@ -58,6 +58,10 @@ class Concave_to_convex_surfaces
               overlap_y = line_segment_overlap_y?(point_a1: surf_verts[i][:y].to_f.round(tol), point_a2: surf_verts[i-1][:y].to_f.round(tol), point_b1: surf_verts[j][:y].to_f.round(tol), point_b2: surf_verts[j-1][:y].to_f.round(tol))
               unless (overlap_y[:overlap_start].nil? || overlap_y[:overlap_end].nil?)
                 overlap_seg = {
+                    index_a1: i,
+                    index_a2: i-1,
+                    index_b1: j,
+                    index_b2: j-1,
                     point_b1: surf_verts[j],
                     point_b2: surf_verts[j-1],
                     overlap_y: overlap_y
@@ -85,11 +89,19 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs_overlap[:overlap_start]
                 }
                 overlap_top = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     point_b1: overlap_seg[:point_b1],
                     point_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_top_over
                 }
                 overlap_mid = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     point_b1: overlap_seg[:point_b1],
                     point_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_segs_overlap
@@ -99,6 +111,10 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_seg[:overlap_y][:overlap_end]
                 }
                 overlap_bottom = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     point_b1: overlap_seg[:point_b1],
                     point_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_bottom_over
@@ -113,11 +129,19 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs_overlap[:overlap_start]
                 }
                 overlap_top = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     point_b1: overlap_segs[j][:point_b1],
                     point_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_top_over
                 }
                 overlap_mid = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     point_b1: overlap_segs[j][:point_b1],
                     point_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_segs_overlap
@@ -127,6 +151,10 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
                 }
                 overlap_bottom = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     point_b1: overlap_segs[j][:point_b1],
                     point_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_bottom_over
@@ -141,16 +169,28 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs_overlap[:overlap_start]
                 }
                 overlap_top = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     overlap_b1: overlap_seg[:point_b1],
                     overlap_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_top_over
                 }
                 overlap_mid_seg = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     overlap_b1: overlap_seg[:point_b1],
                     overlap_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_segs_overlap
                 }
                 overlap_mid_segs = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     overlap_b1: overlap_segs[j][:point_b1],
                     overlap_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_segs_overlap
@@ -160,12 +200,16 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs[j][:overlap_y][:overlap_end]
                 }
                 overlap_bottom = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     overlap_b1: overlap_segs[j][:point_b1],
                     overlap_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_bottom_over
                 }
                 overlap_segs.delete(overlap_seg)
-                overlap_segs.delete(overlap_seg[j])
+                overlap_segs.delete(overlap_segs[j])
                 overlap_segs << overlap_top
                 overlap_segs << overlap_mid_seg
                 overlap_segs << overlap_mid_segs
@@ -176,16 +220,28 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_segs_overlap[:overlap_start]
                 }
                 overlap_top = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     overlap_b1: overlap_segs[j][:point_b1],
                     overlap_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_top_over
                 }
                 overlap_mid_seg = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     overlap_b1: overlap_seg[:point_b1],
                     overlap_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_segs_overlap
                 }
                 overlap_mid_segs = {
+                    index_a1: overlap_segs[j][:index_a1],
+                    index_a2: overlap_segs[j][:index_a2],
+                    index_b1: overlap_segs[j][:index_b1],
+                    index_b2: overlap_segs[j][:index_b2],
                     overlap_b1: overlap_segs[j][:point_b1],
                     overlap_b2: overlap_segs[j][:point_b2],
                     overlap_y: overlap_segs_overlap
@@ -195,6 +251,10 @@ class Concave_to_convex_surfaces
                     overlap_end: overlap_seg[:overlap_y][:overlap_end]
                 }
                 overlap_bottom = {
+                    index_a1: overlap_seg[:index_a1],
+                    index_a2: overlap_seg[:index_a2],
+                    index_b1: overlap_seg[:index_b1],
+                    index_b2: overlap_seg[:index_b2],
                     overlap_b1: overlap_seg[:point_b1],
                     overlap_b2: overlap_seg[:point_b2],
                     overlap_y: overlap_bottom_over
@@ -231,6 +291,12 @@ class Concave_to_convex_surfaces
           puts "hello"
         end
       end
+    end
+    for i in 1..(surf_verts.length-1)
+      for j in 1..(overlap_segs.length-1)
+        puts "hello"
+      end
+      puts "hello"
     end
   end
 
