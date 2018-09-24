@@ -43,7 +43,7 @@ class Concave_to_convex_surfaces
     tol = 8
     surf_verts = surface
     overlap_segs = []
-    final_segs = []
+    new_surfs = []
     for i in 1..(surf_verts.length-1)
       # Is this line segment pointing up?  If no, then ignore it and go to the next line segment.
       if surf_verts[i][:y].to_f.round(tol) > surf_verts[i-1][:y].to_f.round(tol)
@@ -78,11 +78,36 @@ class Concave_to_convex_surfaces
       for i in 1..(surf_verts.length-1)
         if surf_verts[i][:y].to_f.round(tol) > surf_verts[i-1][:y].to_f.round(tol)
           closest_overlaps = get_overlapping_segments(overlap_segs: overlap_segs, index: i, tol: tol)
-          
-          puts "hello"
+          closest_overlaps = closest_overlaps.sort_by {|closest_overlap| [closest_overlap[:overlap_y][:overlap_start]]}
+          for j in 1..(closest_overlaps.length - 1)
+            y_loc = closest_overlaps[:overlap_y][:overlap_start]
+            x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: surf_verts[closest_overlaps[j][:index_a1]], point_b2: surf_verts[closest_overlaps[j][:index_a2]], tol: tol)
+            new_surf << [x: x_loc, y: y_loc]
+            x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: closest_overlaps[j][:point_b1], point_b2: closest_overlaps[j][:point_b2], tol: tol)
+            new_surf << [x: x_loc, y: y_loc]
+            y_loc = closest_overlaps[:overlap_y][:overlap_end]
+            x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: closest_overlaps[j][:point_b1], point_b2: closest_overlaps[j][:point_b2], tol: tol)
+            new_surf << [x: x_loc, y: y_loc]
+            x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: surf_verts[closest_overlaps[j][:index_a1]], point_b2: surf_verts[closest_overlaps[j][:index_a2]], tol: tol)
+            new_surf << [x: x_loc, y: y_loc]
+            new_surfs << new_surf
+          end
         end
       end
+    elsif overlap_segs.length == 1
+      y_loc = closest_overlaps[:overlap_y][:overlap_start]
+      x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: surf_verts[closest_overlaps[j][:index_a1]], point_b2: surf_verts[closest_overlaps[j][:index_a2]], tol: tol)
+      new_surf << [x: x_loc, y: y_loc]
+      x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: closest_overlaps[j][:point_b1], point_b2: closest_overlaps[j][:point_b2], tol: tol)
+      new_surf << [x: x_loc, y: y_loc]
+      y_loc = closest_overlaps[:overlap_y][:overlap_end]
+      x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: closest_overlaps[j][:point_b1], point_b2: closest_overlaps[j][:point_b2], tol: tol)
+      new_surf << [x: x_loc, y: y_loc]
+      x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: surf_verts[closest_overlaps[j][:index_a1]], point_b2: surf_verts[closest_overlaps[j][:index_a2]], tol: tol)
+      new_surf << [x: x_loc, y: y_loc]
+      new_surfs << new_surf
     end
+    return new_surfs
   end
 
   def self.get_overlapping_segments(overlap_segs:, index:, tol: 8)
