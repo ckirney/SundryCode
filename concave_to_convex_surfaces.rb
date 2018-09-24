@@ -1,3 +1,6 @@
+require 'json'
+require 'csv'
+
 class Concave_to_convex_surfaces
       # 2018-09-17 Chris Kirney
       # This applies Delaunay triangulation to a surface.  This will return a set of ordered points which define the triangles on the surface.  These triangles can then be used to define subsurfaces or new surfaces.
@@ -73,6 +76,10 @@ class Concave_to_convex_surfaces
         end
       end
     end
+    out_json_filea = './overlap_segs_out.json'
+    File.open(out_json_filea,"w") {|each_file| each_file.write(JSON.pretty_generate(overlap_segs))}
+    out_json_fileb = './in_points.json'
+    File.open(out_json_fileb,"w") {|each_file| each_file.write(JSON.pretty_generate(surf_verts))}
     if overlap_segs.length > 1
       overlap_segs = subdivide_overlaps(overlap_segs: overlap_segs)
       for i in 1..(surf_verts.length-1)
@@ -149,7 +156,7 @@ class Concave_to_convex_surfaces
           end
           overlap_segs_overlap = line_segment_overlap_y?(point_a1: overlap_seg[:overlap_y][:overlap_start], point_a2: overlap_seg[:overlap_y][:overlap_end], point_b1: overlap_segs[j][:overlap_y][:overlap_end], point_b2: overlap_segs[j][:overlap_y][:overlap_end])
           unless ((overlap_segs_overlap[:overlap_start].nil?) || (overlap_segs_overlap[:overlap_end].nil?))
-            if (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlapy_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
+            if (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
               overlap_top_over = {
                   overlap_start: overlap_seg[:overlap_y][:overlap_start],
                   overlap_end: overlap_segs_overlap[:overlap_start]
