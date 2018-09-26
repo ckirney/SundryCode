@@ -129,7 +129,7 @@ class Concave_to_convex_surfaces
     return new_surfs
   end
 
-  def self.get_overlapping_segments(overlap_segs:, index:, point_a1:, point_a2:, tol: 8)
+  def self.get_overlapping_segments_old(overlap_segs:, index:, point_a1:, point_a2:, tol: 8)
     closest_overlaps = []
     for j in 0..(overlap_segs.length-1)
       if overlap_segs[j][:index_a1] == index
@@ -150,7 +150,6 @@ class Concave_to_convex_surfaces
 #          elsif (overlap_segs[j][:overlap_y][:overlap_start] >= overlap_segs[k][:overlap_y][:overlap_start]) && (overlap_segs[j][:overlap_end] <= overlap_segs[k][:overlap_y][:overlap_end])
 #            closest_overlap = []
 #            upline_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: point_a1, point_b2: point_a2, tol: tol)
-
           end
         end
         if closest_overlap == overlap_segs[j]
@@ -159,6 +158,63 @@ class Concave_to_convex_surfaces
       end
     end
     return closest_overlaps
+  end
+
+  def self.get_overlapping_segments(overlap_segs:, index:, point_a1:, point_a2:, tol: 8)
+    closest_overlaps = []
+    linea_overlaps = []
+    for j in 0..(overlap_segs.length-1)
+      if (overlap_segs[j][:index_a1] == index) && (overlap_segs[j][:index_a2] == (index - 1))
+        linea_x_top = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: point_a1, point_b2: point_a2, tol: tol)
+        linea_x_bottom = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_end], point_b1: point_a1, point_b2: point_a2, tol: tol)
+        lineb_x_top = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: overlap_segs[j][:point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
+        lineb_x_bottom = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_end], point_b1: overlap_segs[j][:point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
+        x_distance_top = linea_x_top - lineb_x_top
+        x_distance_bottom = linea_x_bottom - lineb_x_bottom
+        linea_overlap = {
+            dx_top: x_distance_top,
+            dx_bottom: x_distance_bottom,
+            overlap: overlap_segs[j]
+        }
+        linea_overlaps << linea_overlap
+      end
+    end
+    for j in 0..(linea_overlaps.length - 1)
+      for k in 0..(linea_overlaps.length - 1)
+        if (linea_overlaps[j][:overlap][:index_b1] == linea_overlaps[k][:overlap][:index_b1]) && (linea_overlaps[j][:overlap][:index_b2] == linea_overlaps[k][:overlap][:index_b2])
+          next
+        elsif linea_overlaps[j][:dx_top] < linea_overlaps[k][:dx_top] && linea_overlaps[j][:dx_bottom] < linea_overlaps[k][:dx_bottom]
+          closest_overlaps << linea_overlaps[j][:overlap]
+        end
+      end
+    end
+    overlap_exts = [closest_overlaps[0]]
+    for j in 0..(closest_overlaps.length - 1)
+      index = 0
+      found = false
+      for l in 0..(overlap_exts.length - 1)
+        if overlap_exts[l][:index_b1] == closest_overlaps[j][:index_b1] && overlap_exts[l][:index_b2] == closest_overlaps[j][:index_b2]
+          index = l
+          found = true
+          break
+        end
+      end
+      if found == false
+        overlap_exts << closest_overlaps[j]
+        index = overlap_exts.length - 1
+      end
+      for k in 0..(closest_overlaps.length - 1)
+        if (closest_overlaps[j][:index_b1] == closest_overlaps[k][:index_b1]) && (closest_overlaps[j][:index_b2] == closest_overlaps[k][:index_b2])
+          if closest_overlaps[k][:overlap_y][:overlap_start] >= overlap_exts[index][:overlap_y][:overlap_start]
+            overlap_exts[index][:overlap_y][:overlap_start] = closest_overlaps[k][:overlap_y][:overlap_start]
+          end
+          if closest_overlaps[k][:overlap_y][:overlap_end] <= overlap_exts[index][:overlap_y][:overlap_end]
+            overlap_exts[index][:overlap_y][:overlap_end] = closest_overlaps[k][:overlap_y][:overlap_end]
+          end
+        end
+      end
+    end
+    return overlap_exts
   end
 
   def self.subdivide_overlaps(overlap_segs:)
