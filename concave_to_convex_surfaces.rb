@@ -95,7 +95,7 @@ class Concave_to_convex_surfaces
           closest_overlaps = []
           closest_overlaps = get_overlapping_segments(overlap_segs: overlap_segs, index: i, point_a1: surf_verts[i], point_a2: surf_verts[i-1], tol: tol)
           closest_overlaps = closest_overlaps.sort_by {|closest_overlap| [closest_overlap[:overlap_y][:overlap_start]]}
-          for j in 1..(closest_overlaps.length - 1)
+          for j in 0..(closest_overlaps.length - 1)
             new_surf = []
             y_loc = closest_overlaps[j][:overlap_y][:overlap_start]
             x_loc = line_segment_overlap_x_coord(y_check: y_loc, point_b1: surf_verts[closest_overlaps[j][:index_a1]], point_b2: surf_verts[closest_overlaps[j][:index_a2]], tol: tol)
@@ -129,37 +129,6 @@ class Concave_to_convex_surfaces
     return new_surfs
   end
 
-  def self.get_overlapping_segments_old(overlap_segs:, index:, point_a1:, point_a2:, tol: 8)
-    closest_overlaps = []
-    for j in 0..(overlap_segs.length-1)
-      if overlap_segs[j][:index_a1] == index
-        closest_overlap = overlap_segs[j]
-        for k in 0..(overlap_segs.length-1)
-          next if j == k
-          if overlap_segs[j][:overlap_y][:overlap_start] == overlap_segs[k][:overlap_y][:overlap_start]
-            closest_overlap = []
-            upline_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: point_a1, point_b2: point_a2, tol: tol)
-            overlap_line1_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: overlap_segs[j][:point_b1], point_b2: overlap_segs[j][:point_b2], tol: tol)
-            overlap_line2_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: overlap_segs[k][:point_b1], point_b2: overlap_segs[k][:point_b2], tol: tol)
-            if (upline_x_coord - overlap_line1_x_coord) <= (upline_x_coord - overlap_line2_x_coord)
-              closest_overlap = overlap_segs[j]
-            elsif (upline_x_coord - overlap_line1_x_coord) > (upline_x_coord - overlap_line2_x_coord)
-              closest_overlap = overlap_segs[k]
-            end
-            closest_overlaps << closest_overlap
-#          elsif (overlap_segs[j][:overlap_y][:overlap_start] >= overlap_segs[k][:overlap_y][:overlap_start]) && (overlap_segs[j][:overlap_end] <= overlap_segs[k][:overlap_y][:overlap_end])
-#            closest_overlap = []
-#            upline_x_coord = line_segment_overlap_x_coord(y_check: overlap_segs[j][:overlap_y][:overlap_start], point_b1: point_a1, point_b2: point_a2, tol: tol)
-          end
-        end
-        if closest_overlap == overlap_segs[j]
-          closest_overlaps << closest_overlap
-        end
-      end
-    end
-    return closest_overlaps
-  end
-
   def self.get_overlapping_segments(overlap_segs:, index:, point_a1:, point_a2:, tol: 8)
     closest_overlaps = []
     linea_overlaps = []
@@ -180,12 +149,19 @@ class Concave_to_convex_surfaces
       end
     end
     for j in 0..(linea_overlaps.length - 1)
+      overlap_found = false
       for k in 0..(linea_overlaps.length - 1)
-        if (linea_overlaps[j][:overlap][:index_b1] == linea_overlaps[k][:overlap][:index_b1]) && (linea_overlaps[j][:overlap][:index_b2] == linea_overlaps[k][:overlap][:index_b2])
+        if linea_overlaps[j][:overlap] == linea_overlaps[k][:overlap]
           next
-        elsif linea_overlaps[j][:dx_top] < linea_overlaps[k][:dx_top] && linea_overlaps[j][:dx_bottom] < linea_overlaps[k][:dx_bottom]
-          closest_overlaps << linea_overlaps[j][:overlap]
+        elsif (linea_overlaps[j][:overlap][:overlap_y][:overlap_start] == linea_overlaps[k][:overlap][:overlap_y][:overlap_start]) && (linea_overlaps[j][:overlap][:overlap_y][:overlap_end] == linea_overlaps[k][:overlap][:overlap_y][:overlap_end])
+          overlap_found = true
+          if (linea_overlaps[j][:dx_top] < linea_overlaps[k][:dx_top]) && (linea_overlaps[j][:dx_bottom] < linea_overlaps[k][:dx_bottom])
+            closest_overlaps << linea_overlaps[j][:overlap]
+          end
         end
+      end
+      if overlap_found == false
+        closest_overlaps << linea_overlaps[j][:overlap]
       end
     end
     overlap_exts = [closest_overlaps[0]]
@@ -271,8 +247,6 @@ class Concave_to_convex_surfaces
                 overlap_segs.delete(overlap_seg)
                 overlap_segs << overlap_top
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               elsif overlap_seg[:overlap_y][:overlap_end] == overlap_segs[j][:overlap_y][:overlap_end]
                 # If the overlap_seg and overlap_segs[j] end at the same point replace overlap_seg with two segments (
                 # one top and one bottom).
@@ -301,8 +275,6 @@ class Concave_to_convex_surfaces
                 overlap_segs.delete(overlap_seg)
                 overlap_segs << overlap_top
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               elsif (overlap_seg[:overlap_y][:overlap_start] > overlap_segs[j][:overlap_y][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] < overlap_segs[j][:overlap_y][:overlap_end])
                 # If the overlap_seg stretches above and below overlap_segs[j] then break overlap_seg into three pieces
                 # (one top, one middle, one bottom).
@@ -345,9 +317,9 @@ class Concave_to_convex_surfaces
                 overlap_segs << overlap_top
                 overlap_segs << overlap_mid
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               end
+              restart = true
+              break
             # If the overlap_segs[j] segment covers beyond the overlap_seg segment then break overlap_segs[j] into three smaller pieces:
             # -One piece for where overlap_segs[j] starts to where overlap_seg starts;
             # -One piece to cover overlap_seg (the middle part); and
@@ -384,8 +356,6 @@ class Concave_to_convex_surfaces
                 overlap_segs.delete(overlap_segs[j])
                 overlap_segs << overlap_top
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               elsif  overlap_seg[:overlap_y][:overlap_end] == overlap_segs[j][:overlap_y][:overlap_end]
                 # If the overlap_seg and overlap_segs[j] end at the same point replace overlap_segs[j] with two segments (
                 # one top and one bottom).
@@ -414,8 +384,6 @@ class Concave_to_convex_surfaces
                 overlap_segs.delete(overlap_segs[j])
                 overlap_segs << overlap_top
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               elsif overlap_seg[:overlap_y][:overlap_start] < overlap_segs[j][:overlap_y][:overlap_start] && overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end]
                 # If the overlap_segs[j] stretches above and below overlap_seg then break overlap_segs[j] into three pieces
                 # (one top, one middle, one bottom).
@@ -458,9 +426,9 @@ class Concave_to_convex_surfaces
                 overlap_segs << overlap_top
                 overlap_segs << overlap_mid
                 overlap_segs << overlap_bottom
-                restart = true
-                break
               end
+              restart = true
+              break
             # if overlap_seg covers the top of overlap_segs[j] then break overlap_seg into a top and an overlap portion
             # ond break overlap_segs[j] into an overlap portion and a bottom portion.
             elsif (overlap_seg[:overlap_y][:overlap_start] >= overlap_segs[j][:overlap_y][:overlap_start]) && (overlap_seg[:overlap_end] <= overlap_segs[j][:overlap_start]) && (overlap_seg[:overlap_y][:overlap_end] > overlap_segs[j][:overlap_y][:overlap_end])
