@@ -1,0 +1,255 @@
+
+OS:Version,
+  {630098b7-5e8c-4aba-9aee-329f633b6c2f}, !- Handle
+  2.6.0;                                  !- Version Identifier
+
+OS:Site,
+  {28aa36b9-07c7-4ddd-be5e-7721e2870fb1}, !- Handle
+  Site 1,                                 !- Name
+  ,                                       !- Latitude {deg}
+  ,                                       !- Longitude {deg}
+  ,                                       !- Time Zone {hr}
+  ,                                       !- Elevation {m}
+  ;                                       !- Terrain
+
+OS:YearDescription,
+  {835bf169-f069-49e8-a109-dc460f88a5f2}, !- Handle
+  ,                                       !- Calendar Year
+  Sunday;                                 !- Day of Week for Start Day
+
+OS:ClimateZones,
+  {e61ccb3a-7986-47f2-a7ec-9afaa70f8705}, !- Handle
+  ,                                       !- Active Institution
+  ,                                       !- Active Year
+  ,                                       !- Climate Zone Institution Name 1
+  ,                                       !- Climate Zone Document Name 1
+  ,                                       !- Climate Zone Document Year 1
+  ,                                       !- Climate Zone Value 1
+  CEC,                                    !- Climate Zone Institution Name 2
+  California Climate Zone Descriptions,   !- Climate Zone Document Name 2
+  1995,                                   !- Climate Zone Document Year 2
+  ;                                       !- Climate Zone Value 2
+
+OS:Building,
+  {506b5285-2bff-4336-ad86-b7b5558e848a}, !- Handle
+  Building 1,                             !- Name
+  ,                                       !- Building Sector Type
+  ,                                       !- North Axis {deg}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Space Type Name
+  ,                                       !- Default Construction Set Name
+  ;                                       !- Default Schedule Set Name
+
+OS:Facility,
+  {5432b206-182c-4763-8446-e18674479db7}; !- Handle
+
+OS:SimulationControl,
+  {b39bd7a0-5902-48e6-8253-ace012983fb0}; !- Handle
+
+OS:Sizing:Parameters,
+  {6a3a4e83-eb6e-40c4-b9cf-d400fea2d88c}, !- Handle
+  1.25,                                   !- Heating Sizing Factor
+  1.15;                                   !- Cooling Sizing Factor
+
+OS:Timestep,
+  {682e5647-3869-49aa-b5b8-2d0adcd0f02d}, !- Handle
+  6;                                      !- Number of Timesteps per Hour
+
+OS:ShadowCalculation,
+  {5de54207-c727-4758-8d31-0d76b38abbd8}, !- Handle
+  20,                                     !- Calculation Frequency
+  15000;                                  !- Maximum Figures in Shadow Overlap Calculations
+
+OS:HeatBalanceAlgorithm,
+  {d822196a-97b7-43c0-8c4c-a426406c4e2a}, !- Handle
+  ConductionTransferFunction,             !- Algorithm
+  200;                                    !- Surface Temperature Upper Limit {C}
+
+OS:RunPeriod,
+  {e28cdcb8-e6e3-4624-89b5-da8ee750e75d}, !- Handle
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  ,                                       !- Use Weather File Holidays and Special Days
+  ,                                       !- Use Weather File Daylight Saving Period
+  ,                                       !- Apply Weekend Holiday Rule
+  ,                                       !- Use Weather File Rain Indicators
+  ,                                       !- Use Weather File Snow Indicators
+  ;                                       !- Number of Times Runperiod to be Repeated
+
+OS:LifeCycleCost:Parameters,
+  {3ef49d47-0510-4f2e-8550-c0e873963183}, !- Handle
+  FEMP,                                   !- Analysis Type
+  ,                                       !- Discounting Convention
+  ,                                       !- Inflation Approach
+  ,                                       !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  ,                                       !- Base Date Year
+  ,                                       !- Service Date Month
+  ,                                       !- Service Date Year
+  ,                                       !- Length of Study Period in Years
+  ,                                       !- Tax Rate
+  ,                                       !- Depreciation Method
+  Yes;                                    !- Use NIST Fuel Escalation Rates
+
+OS:SpaceType,
+  {e44e3103-94ad-46df-9ce1-265f556aabce}, !- Handle
+  Space Function Corr. >= 2.4m wide-sch-E, !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {152ca655-3127-4cad-b0a4-fc88acbd0351}, !- Group Rendering Name
+  ,                                       !- Design Specification Outdoor Air Object Name
+  ,                                       !- Standards Building Type
+  ;                                       !- Standards Space Type
+
+OS:Rendering:Color,
+  {152ca655-3127-4cad-b0a4-fc88acbd0351}, !- Handle
+  Rendering Color 1,                      !- Name
+  139,                                    !- Rendering Red Value
+  0,                                      !- Rendering Green Value
+  139;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {4dfe1dbb-2ea2-417c-9c1c-6014410ebf71}, !- Handle
+  Space Function Electrical/Mechanical-sch-E, !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {8a51d205-bc9d-4ce0-bf7c-6b5a5dd1359a}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {8a51d205-bc9d-4ce0-bf7c-6b5a5dd1359a}, !- Handle
+  Rendering Color 2,                      !- Name
+  169,                                    !- Rendering Red Value
+  169,                                    !- Rendering Green Value
+  169;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {2c5a118c-2043-4724-a7f3-eadea841538e}, !- Handle
+  Space Function Food preparation,        !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {bfd7d2af-85a5-4b73-b946-c83fbf8797b6}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {bfd7d2af-85a5-4b73-b946-c83fbf8797b6}, !- Handle
+  Rendering Color 3,                      !- Name
+  205,                                    !- Rendering Red Value
+  92,                                     !- Rendering Green Value
+  92;                                     !- Rendering Blue Value
+
+OS:SpaceType,
+  {8c5cf38c-ae43-4530-a4cc-c74e13d254ec}, !- Handle
+  Space Function Hospital - laundry/washing, !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {1fcdc558-5fe8-4798-b10b-7ec706272a66}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {1fcdc558-5fe8-4798-b10b-7ec706272a66}, !- Handle
+  Rendering Color 4,                      !- Name
+  165,                                    !- Rendering Red Value
+  42,                                     !- Rendering Green Value
+  42;                                     !- Rendering Blue Value
+
+OS:SpaceType,
+  {899ec8eb-ac17-40df-a677-4e05c30df10e}, !- Handle
+  Space Function Hotel/Motel - dining,    !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {61156033-be4f-4b59-a32a-f1bb63356886}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {61156033-be4f-4b59-a32a-f1bb63356886}, !- Handle
+  Rendering Color 5,                      !- Name
+  144,                                    !- Rendering Red Value
+  238,                                    !- Rendering Green Value
+  144;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {165e8873-0324-43a7-8bdd-2b94d655b6f6}, !- Handle
+  Space Function Hotel/Motel - lobby,     !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {c5f2fe9b-5b30-4bca-be8a-f2543053bfd4}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {c5f2fe9b-5b30-4bca-be8a-f2543053bfd4}, !- Handle
+  Rendering Color 6,                      !- Name
+  219,                                    !- Rendering Red Value
+  112,                                    !- Rendering Green Value
+  147;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {91f6485d-04d4-4880-aa8a-4c76e9a4a382}, !- Handle
+  Space Function Hotel/Motel - rooms,     !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {38e8eabe-1506-41c2-9b13-01ac02c72e73}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {38e8eabe-1506-41c2-9b13-01ac02c72e73}, !- Handle
+  Rendering Color 7,                      !- Name
+  250,                                    !- Rendering Red Value
+  235,                                    !- Rendering Green Value
+  215;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {1c889d52-d53a-4fd9-a26a-08ea47e26273}, !- Handle
+  Space Function Retail - mall concourse, !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {93f634ec-683e-4944-b95a-faee6fcc7437}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {93f634ec-683e-4944-b95a-faee6fcc7437}, !- Handle
+  Rendering Color 8,                      !- Name
+  255,                                    !- Rendering Red Value
+  192,                                    !- Rendering Green Value
+  203;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {7be3e0f1-3a5a-4459-8dda-2cb84271c44d}, !- Handle
+  Space Function Retail - sales,          !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {f49dff23-ef95-4d64-9996-48c05cb9a7d3}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {f49dff23-ef95-4d64-9996-48c05cb9a7d3}, !- Handle
+  Rendering Color 9,                      !- Name
+  245,                                    !- Rendering Red Value
+  245,                                    !- Rendering Green Value
+  220;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {30f18d1f-fb45-4c11-a2c0-ba1f553547ae}, !- Handle
+  Space Function Storage area,            !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {6fa1ca9a-ba2e-4524-b004-e97abb3082cb}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {6fa1ca9a-ba2e-4524-b004-e97abb3082cb}, !- Handle
+  Rendering Color 10,                     !- Name
+  0,                                      !- Rendering Red Value
+  255,                                    !- Rendering Green Value
+  255;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {17af2173-92dd-4e01-a9bc-ccaeb5ed1f94}, !- Handle
+  Space Function Storage area - occsens,  !- Name
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {90b0e4bc-c3f3-4ede-ae45-6b616a4a4709}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {90b0e4bc-c3f3-4ede-ae45-6b616a4a4709}, !- Handle
+  Rendering Color 11,                     !- Name
+  248,                                    !- Rendering Red Value
+  248,                                    !- Rendering Green Value
+  255;                                    !- Rendering Blue Value
+
