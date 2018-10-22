@@ -17163,7 +17163,7 @@ OS:Surface,
   51.514, 9.449, 19.2;                    !- X,Y,Z Vertex 4 {m}
 
 OS:ClimateZones,
-  {121c3060-a019-47a5-b5fa-e2223e926edb}, !- Handle
+  {ef84f97a-ac0f-46e6-93cf-53ecb4cd2d0e}, !- Handle
   ,                                       !- Active Institution
   ,                                       !- Active Year
   ,                                       !- Climate Zone Institution Name 1
@@ -17176,12 +17176,12 @@ OS:ClimateZones,
   ;                                       !- Climate Zone Value 2
 
 OS:Sizing:Parameters,
-  {2361737f-e191-47c5-bcac-b53ace909d02}, !- Handle
+  {31d849ea-f99d-4cbb-b575-2ec7d9de2833}, !- Handle
   1.25,                                   !- Heating Sizing Factor
   1.15;                                   !- Cooling Sizing Factor
 
 OS:LifeCycleCost:Parameters,
-  {33b11472-9685-449b-882c-8341fcc6ec7e}, !- Handle
+  {c27414c5-c8ba-4b7d-abe2-fcae84d9f1d9}, !- Handle
   ,                                       !- Analysis Type
   ,                                       !- Discounting Convention
   ,                                       !- Inflation Approach
