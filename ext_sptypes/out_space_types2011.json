@@ -1,0 +1,1127 @@
+[
+  {
+    "building": "Automotive facility",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Convention centre",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Courthouse",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Dining - bar/lounge",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Dining - cafeteria",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Dining - family",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Dormitory",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Exercise centre",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Fire station",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Gymnasium",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Health-care clinic",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Hospital",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Hotel",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Library",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Manufacturing facility",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Motel",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Motion picture theatre",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Multi-unit residential",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Museum",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Office",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Parking garage",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Penitentiary",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Performing arts theatre",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Police station",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Post office",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Religious",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Retail",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "School/university",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "- undefined -",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Atrium - H < 13m",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Atrium - H > 13m",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Audience - auditorium",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Audience - motion picture",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Audience - performance arts",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Automotive - repair",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Bank - banking and offices",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Classroom/lecture/training",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Conf./meet./multi-purpose",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Convention centre - audience",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Convention centre - exhibit",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. < 2.4m wide-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Corr. >= 2.4m wide-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Courthouse - cell",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Courthouse - chambers",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Courthouse - courtroom",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dining - bar lounge/leisure",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dining - family space",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dining - other",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dormitory - living quarters",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dress./fitt. - performance arts",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Dwelling Unit(s)",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Electrical/Mechanical-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Fire station - engine room",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Fire station - quarters",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Food preparation",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Food preparation - vented",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Gym - audience",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Gym - fitness",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Gym - play",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - emergency",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - exam",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - laundry/washing",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - lounge/recreation",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - medical supply",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - medical supply - occsens",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - nursery",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - nurses' station",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - operating room",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - patient room",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - pharmacy",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - physical therapy",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - radiology/imaging",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital - recovery",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. < 2.4m-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hospital corr. >= 2.4m-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hotel/Motel - dining",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hotel/Motel - lobby",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hotel/Motel - rooms",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hway lodging - dining",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Hway lodging - rooms",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lab - classrooms",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lab - research",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Library - cataloging",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Library - reading",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Library - stacks",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lobby - elevator",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lobby - motion picture",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lobby - other",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lobby - performance arts",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Locker room-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Lounge/recreation",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - 7.5 <= bay H <= 15m",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - bay H < 7.5m",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - bay H > 15m",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. < 2.4m-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - corr. >= 2.4m-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - detailed",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Mfg - equipment",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Museum - exhibition",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Museum - restoration",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Office - enclosed",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Office - enclosed - occsens",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Office - open plan",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Parking garage space",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Penitentiary - audience",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Penitentiary - classroom",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Penitentiary - dining",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Post office sorting",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Religious - audience",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Religious - fellowship hall",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Religious - pulpit/choir",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Retail - dressing/fitting",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Retail - mall concourse",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Retail - sales",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sales area",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - audience",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - court c1",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - court c2",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - court c3",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - court c4",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Sports arena - ring",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Stairway-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Storage area",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Storage area - occsens",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Storage area - refrigerated",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Storage area - refrigerated - occsens",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Transp. baggage",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Transp. concourse",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Transp. counter",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Transp. seating",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - fine",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - fine - refrigerated",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - med/blk",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - med/blk - refrigerated",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - med/blk2",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Warehouse - med/blk2 - refrigerated",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-A",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-B",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-C",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-D",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-E",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-F",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-G",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-H",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Washroom-sch-I",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Workshop space",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Sports arena",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Town hall",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Transportation",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Warehouse",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Warehouse - refrigerated",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Workshop",
+    "space_type": "WholeBuilding",
+    "duct_vel_fpm": 0
+  },
+  {
+    "building": "Space Function",
+    "space_type": "Return Plenum",
+    "duct_vel_fpm": 0
+  }
+]
