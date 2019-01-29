@@ -1,0 +1,109 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "BTAP-ExteriorRoof-IEAD-2_5.181347150259064": {
+      "area": 258.8566891728746,
+      "cost": 41760.82466993837,
+      "note": "Surf #1: OK / 2: OK / 3: OK / 4: OK",
+      "space_type": "- undefined -"
+    },
+    "BTAP-ExteriorWall-SteelFramed-1_3.174603174603174": {
+      "area": 55.766698367999936,
+      "cost": 2462.312177512408,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-SteelFramed-1 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-SteelFramed-1 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 3: RSI out of the range (3.17). Range for BTAP-ExteriorWall-SteelFramed-1 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Dining area - bar lounge/leisure dining"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-6_0.47619047619047616": {
+      "area": 74.35559782400014,
+      "cost": 22405.855551726247,
+      "note": "Surf #1: OK / 2: OK / 3: OK / 1: OK / 2: OK / 3: OK",
+      "space_type": "Food preparation area"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 232.34295184,
+      "cost": 18589.980470401846,
+      "note": "Surf #1: OK / 1: OK",
+      "space_type": "Food preparation area"
+    },
+    "BTAP-ExteriorWall-Mass-2_3.174603174603174": {
+      "area": 55.766698367999936,
+      "cost": 3181.0016036978086,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 3: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Food preparation area"
+    },
+    "total_envelope_cost": 88399.9744732767
+  },
+  "lighting": {
+    "Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN": {
+      "sName": "- undefined -",
+      "height(avg ft)": 3.6,
+      "area(ft2)": 2500.9,
+      "cost": 0,
+      "note": "Space count: 1"
+    },
+    "Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN": {
+      "sName": "Dining area - bar lounge/leisure dining",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1250.5,
+      "cost": 6984.17353088506,
+      "note": "Space count: 1"
+    },
+    "Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN": {
+      "sName": "Food preparation area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1250.5,
+      "cost": 6984.17353088506,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 13968.35
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 13.6,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 37.5,
+      "boiler_utility_distance_ft": 37.5,
+      "boilers": 6765.95,
+      "boiler_flues": 1119.72,
+      "boiler_utilties": 1026.61,
+      "boiler_pumps": 9679.63,
+      "boiler_piping": 1684.02,
+      "boilers_total": 20275.92
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 13.6,
+      "chiller_longest_distance_to_ext_ft": 37.5,
+      "chiller_utility_distance_ft": 37.5,
+      "chillers": 0.0,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 0.0,
+      "chiller_pumps": 0.0,
+      "chiller_piping": 0.0,
+      "chillers_total": 0.0
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 13.6,
+      "coolingtower_longest_distance_to_ext_ft": 37.5,
+      "coolingtower_utility_distance_ft": 37.5,
+      "coolingtowers": 0.0,
+      "coolingtower_utilties": 0.0,
+      "coolingtower_pumps": 0.0,
+      "coolingtower_piping": 0.0,
+      "coolingtower_total": 0.0
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 88399.97,
+    "lighting": 13968.35,
+    "heating & cooling": 20275.92,
+    "shw": 0.0,
+    "ventilation": 71580.9,
+    "grand total": 194225.15
+  }
+}

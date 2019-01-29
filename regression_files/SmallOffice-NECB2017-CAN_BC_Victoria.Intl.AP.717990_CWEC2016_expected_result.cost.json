@@ -1,0 +1,130 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "BTAP-ExteriorRoof-IEAD-2_5.181347150259064": {
+      "area": 598.7616811798496,
+      "cost": 96597.00765982551,
+      "note": "Surf #1: OK / 2: OK / 3: OK / 4: OK",
+      "space_type": "- undefined -"
+    },
+    "BTAP-ExteriorFloor-SteelFramed-1_4.40528634361233": {
+      "area": 56.8199999999999,
+      "cost": 2477.6064563373143,
+      "note": "Surf #1: RSI out of the range (4.41). Range for BTAP-ExteriorFloor-SteelFramed-1 is 4.41-7.04.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (4.41). Range for BTAP-ExteriorFloor-SteelFramed-1 is 4.41-7.04.Using extrapolation up to +/-30% of library boundaries.  / 3: RSI out of the range (4.41). Range for BTAP-ExteriorFloor-SteelFramed-1 is 4.41-7.04.Using extrapolation up to +/-30% of library boundaries.  / 4: RSI out of the range (4.41). Range for BTAP-ExteriorFloor-SteelFramed-1 is 4.41-7.04.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "- undefined -"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 511.1574,
+      "cost": 40898.18954286634,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWall-WoodFramed-5_3.174603174603174": {
+      "area": 168.90900000000022,
+      "cost": 9002.95822052155,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-6_0.47619047619047616": {
+      "area": 112.6059999999998,
+      "cost": 33931.994955238035,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "total_envelope_cost": 182907.7568347887
+  },
+  "lighting": {
+    "Sp-Attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN": {
+      "sName": "- undefined -",
+      "height(avg ft)": 4.6,
+      "area(ft2)": 6113.7,
+      "cost": 0,
+      "note": "Space count: 1"
+    },
+    "Sp-Core_ZN Sys-3 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1610.9,
+      "cost": 8997.331259704959,
+      "note": "Space count: 1"
+    },
+    "Sp-Perimeter_ZN_1 Sys-3 Flr-1 Sch-A HPlcmt-south ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1221.2,
+      "cost": 6820.559701114193,
+      "note": "Space count: 1"
+    },
+    "Sp-Perimeter_ZN_2 Sys-3 Flr-1 Sch-A HPlcmt-east ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 724.4,
+      "cost": 4046.043789202162,
+      "note": "Space count: 1"
+    },
+    "Sp-Perimeter_ZN_3 Sys-3 Flr-1 Sch-A HPlcmt-north ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1221.2,
+      "cost": 6820.559701114195,
+      "note": "Space count: 1"
+    },
+    "Sp-Perimeter_ZN_4 Sys-3 Flr-1 Sch-A HPlcmt-west ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 724.4,
+      "cost": 4046.043789202162,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 30730.54
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 15.1,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 45.4,
+      "boiler_utility_distance_ft": 45.4,
+      "boilers": 6765.95,
+      "boiler_flues": 1160.51,
+      "boiler_utilties": 1232.33,
+      "boiler_pumps": 9679.63,
+      "boiler_piping": 1684.02,
+      "boilers_total": 20522.43
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 15.1,
+      "chiller_longest_distance_to_ext_ft": 45.4,
+      "chiller_utility_distance_ft": 45.4,
+      "chillers": 0.0,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 0.0,
+      "chiller_pumps": 0.0,
+      "chiller_piping": 0.0,
+      "chillers_total": 0.0
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 15.1,
+      "coolingtower_longest_distance_to_ext_ft": 45.4,
+      "coolingtower_utility_distance_ft": 45.4,
+      "coolingtowers": 0.0,
+      "coolingtower_utilties": 0.0,
+      "coolingtower_pumps": 0.0,
+      "coolingtower_piping": 0.0,
+      "coolingtower_total": 0.0
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 182907.76,
+    "lighting": 30730.54,
+    "heating & cooling": 20522.43,
+    "shw": 0.0,
+    "ventilation": 177705.07,
+    "grand total": 411865.8
+  }
+}

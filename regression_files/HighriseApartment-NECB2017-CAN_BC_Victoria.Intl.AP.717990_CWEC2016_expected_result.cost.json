@@ -1,0 +1,748 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "undefined space type_3.174603174603174": {
+      "area": 61.3083256799999,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Corridor/Transition area other-sch-G"
+    },
+    "undefined space type_0.47619047619047616": {
+      "area": 42.42538617980009,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Corridor/Transition area other-sch-G"
+    },
+    "BTAP-ExteriorWall-Mass-4_3.174603174603174": {
+      "area": 2216.5916708879963,
+      "cost": 173730.80897075334,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Dwelling units general"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-1_0.47619047619047616": {
+      "area": 1501.1365913600027,
+      "cost": 67848.99117297793,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK",
+      "space_type": "Dwelling units general"
+    },
+    "undefined space type_1.321003963011886": {
+      "area": 77.65845299,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Corridor/Transition area other-sch-G"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 705.9894662400001,
+      "cost": 56486.888393967405,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWall-WoodFramed-5_3.174603174603174": {
+      "area": 35.11321615199995,
+      "cost": 1871.5569804131082,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "undefined space type_5.181347150259064": {
+      "area": 76.10528393019997,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Corridor/Transition area other-sch-G"
+    },
+    "BTAP-ExteriorRoof-IEAD-2_5.181347150259064": {
+      "area": 691.8696769152001,
+      "cost": 111617.93177694036,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Dwelling units general"
+    },
+    "BTAP-Skylight-1_0.47619047619047616": {
+      "area": 14.11978932479994,
+      "cost": 2189.696928489975,
+      "note": "Surf #1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Dwelling units general"
+    },
+    "total_envelope_cost": 413745.87422354263
+  },
+  "lighting": {
+    "Sp-F2 Corridor Sys-1 Flr-3 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 N1 Apartment Sys-1 Flr-3 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 N2 Apartment Sys-1 Flr-3 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 NE Apartment Sys-1 Flr-3 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 NW Apartment Sys-1 Flr-3 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 S1 Apartment Sys-1 Flr-3 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 S2 Apartment Sys-1 Flr-3 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 SE Apartment Sys-1 Flr-3 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F2 SW Apartment Sys-1 Flr-3 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 Corridor Sys-1 Flr-4 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 N1 Apartment Sys-1 Flr-4 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 N2 Apartment Sys-1 Flr-4 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 NE Apartment Sys-1 Flr-4 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 NW Apartment Sys-1 Flr-4 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 S1 Apartment Sys-1 Flr-4 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 S2 Apartment Sys-1 Flr-4 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 SE Apartment Sys-1 Flr-4 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F3 SW Apartment Sys-1 Flr-4 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 Corridor Sys-1 Flr-5 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 N1 Apartment Sys-1 Flr-5 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 N2 Apartment Sys-1 Flr-5 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 NE Apartment Sys-1 Flr-5 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 NW Apartment Sys-1 Flr-5 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 S1 Apartment Sys-1 Flr-5 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 S2 Apartment Sys-1 Flr-5 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 SE Apartment Sys-1 Flr-5 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F4 SW Apartment Sys-1 Flr-5 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 Corridor Sys-1 Flr-7 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 N1 Apartment Sys-1 Flr-7 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 N2 Apartment Sys-1 Flr-7 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 NE Apartment Sys-1 Flr-7 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 NW Apartment Sys-1 Flr-7 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 S1 Apartment Sys-1 Flr-7 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 S2 Apartment Sys-1 Flr-7 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 SE Apartment Sys-1 Flr-7 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F6 SW Apartment Sys-1 Flr-7 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 Corridor Sys-1 Flr-8 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 N1 Apartment Sys-1 Flr-8 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 N2 Apartment Sys-1 Flr-8 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 NE Apartment Sys-1 Flr-8 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 NW Apartment Sys-1 Flr-8 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 S1 Apartment Sys-1 Flr-8 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 S2 Apartment Sys-1 Flr-8 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 SE Apartment Sys-1 Flr-8 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F7 SW Apartment Sys-1 Flr-8 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 Corridor Sys-1 Flr-9 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 N1 Apartment Sys-1 Flr-9 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 N2 Apartment Sys-1 Flr-9 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 NE Apartment Sys-1 Flr-9 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 NW Apartment Sys-1 Flr-9 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 S1 Apartment Sys-1 Flr-9 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 S2 Apartment Sys-1 Flr-9 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 SE Apartment Sys-1 Flr-9 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F8 SW Apartment Sys-1 Flr-9 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 Corridor Sys-1 Flr-10 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 N1 Apartment Sys-1 Flr-10 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 N2 Apartment Sys-1 Flr-10 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 NE Apartment Sys-1 Flr-10 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 NW Apartment Sys-1 Flr-10 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 S1 Apartment Sys-1 Flr-10 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 S2 Apartment Sys-1 Flr-10 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 SE Apartment Sys-1 Flr-10 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-F9 SW Apartment Sys-1 Flr-10 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G Corridor Sys-1 Flr-1 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-G N1 Apartment Sys-1 Flr-1 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G N2 Apartment Sys-1 Flr-1 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G NE Apartment Sys-1 Flr-1 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G NW Apartment Sys-1 Flr-1 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G S1 Apartment Sys-1 Flr-1 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G S2 Apartment Sys-1 Flr-1 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-G SW Apartment Sys-1 Flr-1 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M Corridor Sys-1 Flr-6 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-M N1 Apartment Sys-1 Flr-6 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M N2 Apartment Sys-1 Flr-6 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M NE Apartment Sys-1 Flr-6 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M NW Apartment Sys-1 Flr-6 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M S1 Apartment Sys-1 Flr-6 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M S2 Apartment Sys-1 Flr-6 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M SE Apartment Sys-1 Flr-6 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-M SW Apartment Sys-1 Flr-6 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-Office Sys-6 Flr-1 Sch-A HPlcmt-south ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 5305.468601639118,
+      "note": "Space count: 1"
+    },
+    "Sp-T Corridor Sys-1 Flr-2 Sch-G HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area other-sch-G",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 835.9,
+      "cost": 4668.789025248701,
+      "note": "Space count: 1"
+    },
+    "Sp-T N1 Apartment Sys-1 Flr-2 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T N2 Apartment Sys-1 Flr-2 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T NE Apartment Sys-1 Flr-2 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T NW Apartment Sys-1 Flr-2 Sch-G HPlcmt-north ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T S1 Apartment Sys-1 Flr-2 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T S2 Apartment Sys-1 Flr-2 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T SE Apartment Sys-1 Flr-2 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "Sp-T SW Apartment Sys-1 Flr-2 Sch-G HPlcmt-south ZN": {
+      "sName": "Dwelling units general",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 949.9,
+      "cost": 1695.6081957190313,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 185946.41
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 10.0,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 77.5,
+      "boiler_utility_distance_ft": 77.5,
+      "boilers": 33469.45,
+      "boiler_flues": 3384.27,
+      "boiler_utilties": 2066.2,
+      "boiler_pumps": 14925.82,
+      "boiler_piping": 1684.02,
+      "boilers_total": 55529.75
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 10.0,
+      "chiller_longest_distance_to_ext_ft": 77.5,
+      "chiller_utility_distance_ft": 77.5,
+      "chillers": 5536.4,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 791.49,
+      "chiller_pumps": 9679.63,
+      "chiller_piping": 1684.02,
+      "chillers_total": 17691.54
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 10.0,
+      "coolingtower_longest_distance_to_ext_ft": 77.5,
+      "coolingtower_utility_distance_ft": 77.5,
+      "coolingtowers": 261.46,
+      "coolingtower_utilties": 791.49,
+      "coolingtower_pumps": 4839.82,
+      "coolingtower_piping": 421.0,
+      "coolingtower_total": 6313.77
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 413745.87,
+    "lighting": 185946.41,
+    "heating & cooling": 73221.29,
+    "shw": 0.0,
+    "ventilation": 185868.72,
+    "grand total": 865096.06
+  }
+}

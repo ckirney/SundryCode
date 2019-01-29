@@ -1,0 +1,323 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "BTAP-ExteriorWall-WoodFramed-5_3.174603174603174": {
+      "area": 1358.3999999999992,
+      "cost": 72403.59274376412,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorRoof-IEAD-2_5.181347150259064": {
+      "area": 4293.38,
+      "cost": 692642.2878787565,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Classroom/Lecture hall/Training room other"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-6_0.47619047619047616": {
+      "area": 945.6000000000008,
+      "cost": 284941.25028571446,
+      "note": "Surf #1: OK / 1: OK / 2: OK / 1: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 2: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-Skylight-1_0.47619047619047616": {
+      "area": 19.34000000000016,
+      "cost": 2999.2472000000253,
+      "note": "Surf #1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Electrical/Mechanical room-sch-D"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 6871.0,
+      "cost": 549755.242414635,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-Skylight-2_0.47619047619047616": {
+      "area": 118.07999999999976,
+      "cost": 26601.06239999994,
+      "note": "Surf #1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWall-Mass-2_3.174603174603174": {
+      "area": 103.20000000000002,
+      "cost": 5886.655927437643,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-2 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Corridor/Transition area other-sch-D"
+    },
+    "BTAP-ExteriorRoof-IEAD-4_5.181347150259064": {
+      "area": 1099.5600000000004,
+      "cost": 276504.5016093265,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Corridor/Transition area other-sch-D"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-4_0.47619047619047616": {
+      "area": 28.80000000000001,
+      "cost": 2867.7805714285723,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Corridor/Transition area other-sch-D"
+    },
+    "BTAP-ExteriorRoof-IEAD-1_5.181347150259064": {
+      "area": 349.8599999999999,
+      "cost": 55841.154599999965,
+      "note": "Surf #1: OK",
+      "space_type": "Gymnasium/Fitness centre playing area"
+    },
+    "BTAP-ExteriorRoof-IEAD-6_5.181347150259064": {
+      "area": 391.02,
+      "cost": 186293.56453523316,
+      "note": "Surf #1: OK",
+      "space_type": "Library reading area"
+    },
+    "BTAP-ExteriorWall-Mass-4_3.174603174603174": {
+      "area": 45.60000000000002,
+      "cost": 3574.0118458049906,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorRoof-Metal-1_5.181347150259064": {
+      "area": 167.58000000000007,
+      "cost": 71530.60385284977,
+      "note": "Surf #1: OK",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-1_0.47619047619047616": {
+      "area": 30.399999999999977,
+      "cost": 1374.031746031745,
+      "note": "Surf #1: OK",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorRoof-IEAD-3_5.181347150259064": {
+      "area": 432.1799999999997,
+      "cost": 108953.74242279785,
+      "note": "Surf #1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "total_envelope_cost": 2342168.73003378
+  },
+  "lighting": {
+    "Sp-Bath_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-west ZN": {
+      "sName": "Washroom - other-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 2045.1,
+      "cost": 11422.709063126458,
+      "note": "Space count: 1"
+    },
+    "Sp-Cafeteria_ZN_1_FLR_1 Sys-3 Flr-1 Sch-C HPlcmt-north ZN": {
+      "sName": "Conference/Meeting/Multi-purpose room",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 3390.6,
+      "cost": 18937.64923623597,
+      "note": "Space count: 1"
+    },
+    "Sp-Computer_Class_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1743.8,
+      "cost": 9739.362464349928,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_1_Pod_1_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_1_Pod_2_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_1_Pod_3_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_2_Pod_1_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_2_Pod_2_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corner_Class_2_Pod_3_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1065.6,
+      "cost": 5951.832617102734,
+      "note": "Space count: 1"
+    },
+    "Sp-Corridor_Pod_1_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area other-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 2066.7,
+      "cost": 11542.948105896212,
+      "note": "Space count: 1"
+    },
+    "Sp-Corridor_Pod_2_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area other-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 2066.7,
+      "cost": 11542.948105896212,
+      "note": "Space count: 1"
+    },
+    "Sp-Corridor_Pod_3_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area other-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 2066.7,
+      "cost": 11542.948105896212,
+      "note": "Space count: 1"
+    },
+    "Sp-Gym_ZN_1_FLR_1 Sys-3 Flr-1 Sch-B HPlcmt-east ZN": {
+      "sName": "Gymnasium/Fitness centre playing area",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 3842.7,
+      "cost": 21462.66913440077,
+      "note": "Space count: 1"
+    },
+    "Sp-Kitchen_ZN_1_FLR_1 Sys-3 Flr-1 Sch-B HPlcmt-east ZN": {
+      "sName": "Food preparation area",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1808.3,
+      "cost": 10100.079592659185,
+      "note": "Space count: 1"
+    },
+    "Sp-Library_Media_Center_ZN_1_FLR_1 Sys-3 Flr-1 Sch-C HPlcmt-east ZN": {
+      "sName": "Library reading area",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 4294.8,
+      "cost": 23987.689032565562,
+      "note": "Space count: 1"
+    },
+    "Sp-Lobby_ZN_1_FLR_1 Sys-3 Flr-1 Sch-C HPlcmt-south ZN": {
+      "sName": "Lobby - elevator",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 1840.6,
+      "cost": 10280.438156813812,
+      "note": "Space count: 1"
+    },
+    "Sp-Main_Corridor_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area other-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5877.1,
+      "cost": 32825.25867614235,
+      "note": "Space count: 1"
+    },
+    "Sp-Mech_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-core ZN": {
+      "sName": "Electrical/Mechanical room-sch-D",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 2712.5,
+      "cost": 15150.119388988776,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_1_Pod_1_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5134.4,
+      "cost": 28677.011700585903,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_1_Pod_2_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5134.4,
+      "cost": 28677.011700585903,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_1_Pod_3_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-south ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5134.4,
+      "cost": 28677.011700585903,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_2_Pod_1_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5134.4,
+      "cost": 28677.011700585903,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_2_Pod_2_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 5134.4,
+      "cost": 28677.011700585903,
+      "note": "Space count: 1"
+    },
+    "Sp-Mult_Class_2_Pod_3_ZN_1_FLR_1 Sys-3 Flr-1 Sch-D HPlcmt-north ZN": {
+      "sName": "Classroom/Lecture hall/Training room other",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 3390.6,
+      "cost": 18937.64923623597,
+      "note": "Space count: 1"
+    },
+    "Sp-Offices_ZN_1_FLR_1 Sys-3 Flr-1 Sch-A HPlcmt-east ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 13.1,
+      "area(ft2)": 4746.9,
+      "cost": 26512.70893073036,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 413081.23
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 13.1,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 305.2,
+      "boiler_utility_distance_ft": 305.2,
+      "boilers": 17683.35,
+      "boiler_flues": 1107.89,
+      "boiler_utilties": 7984.35,
+      "boiler_pumps": 12190.58,
+      "boiler_piping": 1684.02,
+      "boilers_total": 40650.19
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 13.1,
+      "chiller_longest_distance_to_ext_ft": 305.2,
+      "chiller_utility_distance_ft": 305.2,
+      "chillers": 0.0,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 0.0,
+      "chiller_pumps": 0.0,
+      "chiller_piping": 0.0,
+      "chillers_total": 0.0
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 13.1,
+      "coolingtower_longest_distance_to_ext_ft": 305.2,
+      "coolingtower_utility_distance_ft": 305.2,
+      "coolingtowers": 0.0,
+      "coolingtower_utilties": 0.0,
+      "coolingtower_pumps": 0.0,
+      "coolingtower_piping": 0.0,
+      "coolingtower_total": 0.0
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 2342168.73,
+    "lighting": 413081.23,
+    "heating & cooling": 40650.19,
+    "shw": 0.0,
+    "ventilation": 1115452.04,
+    "grand total": 3911352.19
+  }
+}

@@ -1,0 +1,950 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "undefined space type_3.174603174603174": {
+      "area": 764.7778252799997,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 3: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 3: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Stairway/Stairwell-sch-H"
+    },
+    "undefined space type_0.47619047619047616": {
+      "area": 530.0713011456003,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 3: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 3: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Stairway/Stairwell-sch-H"
+    },
+    "undefined space type_1.321003963011886": {
+      "area": 1215.26466624,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Stairway/Stairwell-sch-H"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 158.02807104000004,
+      "cost": 12643.976204760933,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorWall-WoodFramed-5_3.174603174603174": {
+      "area": 109.81139327999986,
+      "cost": 5853.017813361625,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-1_0.47619047619047616": {
+      "area": 111.48364800000014,
+      "cost": 5038.883931428577,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK / 1: OK / 2: OK / 1: OK / 1: OK / 1: OK / 2: OK",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorWall-Mass-4_3.174603174603174": {
+      "area": 57.414078720000006,
+      "cost": 4499.969242571495,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-4 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Lobby - elevator"
+    },
+    "undefined space type_5.181347150259064": {
+      "area": 990.7514636544,
+      "cost": 0.0,
+      "note": "Surf #1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 2: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0! / 1: No cost found for this! So Cost is set to 0.0!",
+      "space_type": "Stairway/Stairwell-sch-H"
+    },
+    "BTAP-ExteriorRoof-IEAD-4_5.181347150259064": {
+      "area": 342.3291217919999,
+      "cost": 86084.92779607783,
+      "note": "Surf #1: OK / 1: OK / 1: OK / 1: OK",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-Skylight-2_0.47619047619047616": {
+      "area": 7.246437120000098,
+      "cost": 1632.477354393622,
+      "note": "Surf #1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-2 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Lobby - elevator"
+    },
+    "BTAP-ExteriorRoof-Metal-1_5.181347150259064": {
+      "area": 12.746297088,
+      "cost": 5440.68700079043,
+      "note": "Surf #1: OK",
+      "space_type": "Lobby - elevator"
+    },
+    "total_envelope_cost": 121193.93934338453
+  },
+  "lighting": {
+    "Sp-Floor 1 Anesthesia Sys-3 Flr-1 Sch-H HPlcmt-south ZN": {
+      "sName": "Health care facility operating room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 108.0,
+      "cost": 977.4374489999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Bio Haz Sys-4 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 56.0,
+      "cost": 312.77603279999994,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Cafe Sys-3 Flr-1 Sch-B HPlcmt-south ZN": {
+      "sName": "Dining area - bar lounge/leisure dining",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 420.0,
+      "cost": 2345.820246,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Clean Sys-3 Flr-1 Sch-C HPlcmt-core ZN": {
+      "sName": "Laundry/Washing area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 126.0,
+      "cost": 703.7460737999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Clean Work Sys-3 Flr-1 Sch-C HPlcmt-core ZN": {
+      "sName": "Laundry/Washing area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 165.0,
+      "cost": 921.5722395,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Dictation Sys-6 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 126.0,
+      "cost": 703.7460737999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Dressing Room Sys-6 Flr-1 Sch-A HPlcmt-north ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 45.0,
+      "cost": 251.3378835,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Electrical Room Sys-3 Flr-1 Sch-H HPlcmt-east ZN": {
+      "sName": "Electrical/Mechanical room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 98.0,
+      "cost": 547.3580574,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Elevator Pump Room Sys-3 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Electrical/Mechanical room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 91.0,
+      "cost": 508.26105329999996,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Humid Sys-6 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 IT Hall Sys-4 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 140.0,
+      "cost": 781.9400820000001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 IT Room Sys-6 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 112.0,
+      "cost": 625.5520655999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Lobby Hall Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 240.0,
+      "cost": 1340.4687119999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Lobby Sys-3 Flr-1 Sch-C HPlcmt-west ZN": {
+      "sName": "Lobby - elevator",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 622.0,
+      "cost": 3474.0480786000007,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Lobby Toilet Sys-3 Flr-1 Sch-H HPlcmt-west ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Locker Room Hall Sys-6 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 496.0,
+      "cost": 2770.3020048,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Locker Room Sys-6 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Locker room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 660.0,
+      "cost": 3686.288958,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Lounge Sys-3 Flr-1 Sch-B HPlcmt-core ZN": {
+      "sName": "Lounge/Break room - health care facility",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 360.0,
+      "cost": 2010.703068,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Med Gas Sys-4 Flr-1 Sch-A HPlcmt-north ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 56.0,
+      "cost": 312.77603279999994,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 MRI Control Room Sys-3 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Health care facility imaging room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 168.0,
+      "cost": 938.3280983999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 MRI Hall Sys-6 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 147.0,
+      "cost": 821.0370861000001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 MRI Room Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility imaging room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 440.0,
+      "cost": 2457.5259720000004,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 MRI Toilet Sys-6 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Nourishment Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility nurses station",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 182.0,
+      "cost": 1016.5221065999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Nurse Hall Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 496.0,
+      "cost": 2770.3020048,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Nurse Janitor Sys-4 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Nurse Station Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility nurses station",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 261.0,
+      "cost": 1457.7597243,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Nurse Toilet Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Office Sys-6 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 483.0,
+      "cost": 2697.6932829000007,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Operating Room 1 Sys-3 Flr-1 Sch-H HPlcmt-east ZN": {
+      "sName": "Health care facility operating room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 460.0,
+      "cost": 4163.159505,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Operating Room 2 Sys-3 Flr-1 Sch-H HPlcmt-east ZN": {
+      "sName": "Health care facility operating room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 480.0,
+      "cost": 4344.166439999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Operating Room 3 Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility operating room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 476.0,
+      "cost": 4307.965053,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 PACU Sys-6 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Locker room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 108.0,
+      "cost": 603.2109203999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Pre-Op Hall Sys-6 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 528.0,
+      "cost": 2949.031166400001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Pre-Op Room 1 Sys-3 Flr-1 Sch-H HPlcmt-west ZN": {
+      "sName": "Health care facility patient room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 189.0,
+      "cost": 1055.6191106999995,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Pre-Op Room 2 Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility patient room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 338.0,
+      "cost": 1887.8267694,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Pre-Op Toilet Sys-6 Flr-1 Sch-H HPlcmt-west ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Procedure Room Sys-3 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Health care facility operating room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 285.0,
+      "cost": 2579.3488237499996,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Reception Hall Sys-6 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 128.0,
+      "cost": 714.9166464,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Reception Sys-3 Flr-1 Sch-C HPlcmt-south ZN": {
+      "sName": "Conference/Meeting/Multi-purpose room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 509.0,
+      "cost": 2842.9107267,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Recovery Room Sys-3 Flr-1 Sch-H HPlcmt-south ZN": {
+      "sName": "Health care facility recovery room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 540.0,
+      "cost": 3016.0546019999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Scheduling Sys-6 Flr-1 Sch-A HPlcmt-south ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 119.0,
+      "cost": 664.6490697,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Scrub Sys-3 Flr-1 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 84.0,
+      "cost": 469.16404919999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Soil Hold Sys-3 Flr-1 Sch-C HPlcmt-core ZN": {
+      "sName": "Laundry/Washing area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 56.0,
+      "cost": 312.77603279999994,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Soil Sys-3 Flr-1 Sch-C HPlcmt-core ZN": {
+      "sName": "Laundry/Washing area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 126.0,
+      "cost": 703.7460737999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Soil Work Sys-3 Flr-1 Sch-C HPlcmt-core ZN": {
+      "sName": "Laundry/Washing area",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 180.0,
+      "cost": 1005.351534,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Step Down Sys-3 Flr-1 Sch-B HPlcmt-south ZN": {
+      "sName": "Lounge/Break room - health care facility",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 300.0,
+      "cost": 1675.5858900000003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Sterile Hall Sys-3 Flr-1 Sch-H HPlcmt-south ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 616.0,
+      "cost": 3440.5363608000002,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Sterile Storage Sys-4 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 396.0,
+      "cost": 2211.7733748000005,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Storage Sys-4 Flr-1 Sch-A HPlcmt-north ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 920.0,
+      "cost": 5138.463396,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Sub-Sterile Sys-4 Flr-1 Sch-A HPlcmt-east ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 196.0,
+      "cost": 1094.7161148,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Utility Hall Sys-4 Flr-1 Sch-H HPlcmt-east ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 256.0,
+      "cost": 1429.8332927999995,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Utility Janitor Sys-4 Flr-1 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 42.0,
+      "cost": 234.58202459999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Utility Room Sys-4 Flr-1 Sch-A HPlcmt-east ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 360.0,
+      "cost": 2010.703068,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 1 Vestibule Sys-6 Flr-1 Sch-H HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 72.0,
+      "cost": 402.1406136,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Conference Sys-3 Flr-2 Sch-C HPlcmt-south ZN": {
+      "sName": "Conference/Meeting/Multi-purpose room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 336.0,
+      "cost": 1876.6561967999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Conference Toilet Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 64.0,
+      "cost": 357.4583232,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Dictation Sys-6 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 70.0,
+      "cost": 390.97004100000004,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 1 Sys-3 Flr-2 Sch-C HPlcmt-west ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 360.0,
+      "cost": 3258.1248299999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 2 Sys-3 Flr-2 Sch-C HPlcmt-south ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 540.0,
+      "cost": 4887.187244999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 3 Sys-3 Flr-2 Sch-C HPlcmt-south ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 720.0,
+      "cost": 6516.2496599999995,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 4 Sys-3 Flr-2 Sch-C HPlcmt-south ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 84.0,
+      "cost": 760.229127,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 5 Sys-3 Flr-2 Sch-C HPlcmt-east ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 350.0,
+      "cost": 3167.6213625,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 6 Sys-3 Flr-2 Sch-C HPlcmt-north ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 225.0,
+      "cost": 2036.32801875,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 7 Sys-3 Flr-2 Sch-C HPlcmt-north ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 792.0,
+      "cost": 7167.874626000001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 8 Sys-3 Flr-2 Sch-C HPlcmt-north ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 270.0,
+      "cost": 2443.593622499999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam 9 Sys-3 Flr-2 Sch-C HPlcmt-north ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 396.0,
+      "cost": 3583.9373130000004,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 1 Sys-3 Flr-2 Sch-H HPlcmt-south ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 180.0,
+      "cost": 1005.351534,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 2 Sys-3 Flr-2 Sch-H HPlcmt-south ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 180.0,
+      "cost": 1005.3515339999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 3 Sys-6 Flr-2 Sch-H HPlcmt-south ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 180.0,
+      "cost": 1005.351534,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 4 Sys-3 Flr-2 Sch-H HPlcmt-north ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 198.0,
+      "cost": 1105.8866874000003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 5 Sys-3 Flr-2 Sch-H HPlcmt-north ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 198.0,
+      "cost": 1105.8866874000003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Exam Hall 6 Sys-3 Flr-2 Sch-H HPlcmt-north ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 198.0,
+      "cost": 1105.8866873999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Janitor Sys-4 Flr-2 Sch-A HPlcmt-north ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 63.0,
+      "cost": 351.8730368999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Lounge Sys-3 Flr-2 Sch-B HPlcmt-core ZN": {
+      "sName": "Lounge/Break room - health care facility",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 80.0,
+      "cost": 446.822904,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Nurse Station 1 Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility nurses station",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 150.0,
+      "cost": 837.7929449999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Nurse Station 2 Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility nurses station",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 180.0,
+      "cost": 1005.3515339999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Office Hall Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 444.0,
+      "cost": 2479.8671171999995,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Office Sys-6 Flr-2 Sch-A HPlcmt-east ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 560.0,
+      "cost": 3127.7603280000003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Reception Hall Sys-6 Flr-2 Sch-H HPlcmt-south ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 564.0,
+      "cost": 3150.1014732000003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Reception Sys-3 Flr-2 Sch-C HPlcmt-south ZN": {
+      "sName": "Conference/Meeting/Multi-purpose room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 984.0,
+      "cost": 5495.9217192,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Reception Toilet Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 126.0,
+      "cost": 703.7460738,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Scheduling 1 Sys-6 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 324.0,
+      "cost": 1809.6327612,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Scheduling 2 Sys-6 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 342.0,
+      "cost": 1910.1679145999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Storage 1 Sys-4 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 56.0,
+      "cost": 312.77603279999994,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Storage 2 Sys-4 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 120.0,
+      "cost": 670.2343559999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Storage 3 Sys-4 Flr-2 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 144.0,
+      "cost": 804.2812272,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Utility Sys-4 Flr-2 Sch-A HPlcmt-east ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 126.0,
+      "cost": 703.7460737999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Work Hall Sys-3 Flr-2 Sch-H HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 834.0,
+      "cost": 4658.128774199999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Work Sys-6 Flr-2 Sch-A HPlcmt-north ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1690.0,
+      "cost": 9439.133847000001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 Work Toilet Sys-4 Flr-2 Sch-H HPlcmt-west ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 2 X-Ray Sys-3 Flr-2 Sch-H HPlcmt-core ZN": {
+      "sName": "Health care facility imaging room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 900.0,
+      "cost": 5026.75767,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Dressing Room Sys-6 Flr-3 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 42.0,
+      "cost": 234.58202459999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Elevator Hall Sys-4 Flr-3 Sch-H HPlcmt-north ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 370.0,
+      "cost": 2066.555931,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Humid Sys-6 Flr-3 Sch-A HPlcmt-core ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 108.0,
+      "cost": 603.2109203999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Janitor Sys-4 Flr-3 Sch-A HPlcmt-north ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 63.0,
+      "cost": 351.8730368999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Locker Sys-6 Flr-3 Sch-H HPlcmt-core ZN": {
+      "sName": "Locker room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 120.0,
+      "cost": 670.2343559999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Lounge Sys-3 Flr-3 Sch-B HPlcmt-north ZN": {
+      "sName": "Lounge/Break room - health care facility",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 759.0,
+      "cost": 4239.2323017,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Lounge Toilet Sys-6 Flr-3 Sch-H HPlcmt-north ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 192.0,
+      "cost": 1072.3749696000002,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Mechanical Hall Sys-3 Flr-3 Sch-H HPlcmt-core ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 300.0,
+      "cost": 1675.5858899999996,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Mechanical Sys-6 Flr-3 Sch-H HPlcmt-east ZN": {
+      "sName": "Electrical/Mechanical room-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 350.0,
+      "cost": 1954.8502050000002,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Office Hall Sys-4 Flr-3 Sch-H HPlcmt-west ZN": {
+      "sName": "Corridor/Transition area - hospital-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 834.0,
+      "cost": 4658.128774199999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Office Sys-6 Flr-3 Sch-A HPlcmt-north ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 3036.0,
+      "cost": 16956.929206800003,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Office Toilet Sys-4 Flr-3 Sch-H HPlcmt-west ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 54.0,
+      "cost": 301.6054601999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Physical Therapy 1 Sys-3 Flr-3 Sch-C HPlcmt-south ZN": {
+      "sName": "Health care facility physical therapy room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1300.0,
+      "cost": 7260.872190000002,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Physical Therapy 2 Sys-3 Flr-3 Sch-C HPlcmt-core ZN": {
+      "sName": "Health care facility physical therapy room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 592.0,
+      "cost": 3306.4894896,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Physical Therapy Toilet Sys-6 Flr-3 Sch-H HPlcmt-core ZN": {
+      "sName": "Washroom - other-sch-H",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 84.0,
+      "cost": 469.1640491999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Storage 1 Sys-4 Flr-3 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 108.0,
+      "cost": 603.2109203999998,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Storage 2 Sys-4 Flr-3 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 84.0,
+      "cost": 469.16404919999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Treatment Sys-3 Flr-3 Sch-C HPlcmt-core ZN": {
+      "sName": "Health care facility exam/treatment room",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 476.0,
+      "cost": 4307.965052999999,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Undeveloped 1 Sys-4 Flr-3 Sch-A HPlcmt-south ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 2268.0,
+      "cost": 12667.429328400001,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Undeveloped 2 Sys-4 Flr-3 Sch-A HPlcmt-south ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 1152.0,
+      "cost": 6434.2498176,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Utility Sys-4 Flr-3 Sch-A HPlcmt-core ZN": {
+      "sName": "Storage room < 5 m2-sch-A",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 216.0,
+      "cost": 1206.4218407999997,
+      "note": "Space count: 1"
+    },
+    "Sp-Floor 3 Work Sys-6 Flr-3 Sch-A HPlcmt-east ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 10.0,
+      "area(ft2)": 574.0,
+      "cost": 3205.9543362,
+      "note": "Space count: 1"
+    },
+    "Sp-NE Stair Sys-4 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Stairway/Stairwell-sch-H",
+      "height(avg ft)": 30.0,
+      "area(ft2)": 168.0,
+      "cost": 953.94865104,
+      "note": "Space count: 1"
+    },
+    "Sp-NW Elevator Sys-3 Flr-1 Sch-C HPlcmt-west ZN": {
+      "sName": "Lobby - elevator",
+      "height(avg ft)": 30.0,
+      "area(ft2)": 140.0,
+      "cost": 794.9572092000001,
+      "note": "Space count: 1"
+    },
+    "Sp-NW Stair Sys-3 Flr-1 Sch-H HPlcmt-north ZN": {
+      "sName": "Stairway/Stairwell-sch-H",
+      "height(avg ft)": 30.0,
+      "area(ft2)": 192.0,
+      "cost": 1090.22702976,
+      "note": "Space count: 1"
+    },
+    "Sp-SW Stair Sys-3 Flr-1 Sch-H HPlcmt-south ZN": {
+      "sName": "Stairway/Stairwell-sch-H",
+      "height(avg ft)": 30.0,
+      "area(ft2)": 96.0,
+      "cost": 545.11351488,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 249617.14
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 10.3,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 161.0,
+      "boiler_utility_distance_ft": 161.0,
+      "boilers": 16748.3,
+      "boiler_flues": 1573.02,
+      "boiler_utilties": 4234.62,
+      "boiler_pumps": 8606.24,
+      "boiler_piping": 1684.02,
+      "boilers_total": 32846.2
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 10.3,
+      "chiller_longest_distance_to_ext_ft": 161.0,
+      "chiller_utility_distance_ft": 161.0,
+      "chillers": 18117.28,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 1643.55,
+      "chiller_pumps": 8606.24,
+      "chiller_piping": 1684.02,
+      "chillers_total": 30051.09
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 10.3,
+      "coolingtower_longest_distance_to_ext_ft": 161.0,
+      "coolingtower_utility_distance_ft": 161.0,
+      "coolingtowers": 261.46,
+      "coolingtower_utilties": 1643.55,
+      "coolingtower_pumps": 6095.29,
+      "coolingtower_piping": 421.0,
+      "coolingtower_total": 8421.31
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 121193.94,
+    "lighting": 249617.14,
+    "heating & cooling": 62897.28,
+    "shw": 0.0,
+    "ventilation": 3021353.74,
+    "grand total": 3463483.41
+  }
+}

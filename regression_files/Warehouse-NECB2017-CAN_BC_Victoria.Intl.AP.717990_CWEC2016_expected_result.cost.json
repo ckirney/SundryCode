@@ -1,0 +1,115 @@
+{
+  "rs_means_city": "VICTORIA",
+  "rs_means_prov": "BRITISH COLUMBIA",
+  "envelope": {
+    "BTAP-ExteriorWall-WoodFramed-5_3.174603174603174": {
+      "area": 89.73558376347314,
+      "cost": 4782.964267840433,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-WoodFramed-5 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Office enclosed <= 25 m2"
+    },
+    "BTAP-ExteriorWindow-FixedWindow-6_0.47619047619047616": {
+      "area": 998.7960627586574,
+      "cost": 300971.02252844814,
+      "note": "Surf #1: OK / 2: OK / 1: OK / 2: OK / 3: OK / 4: OK / 5: OK / 1: OK / 2: OK / 3: OK",
+      "space_type": "Warehouse storage area medium to bulky palletized items"
+    },
+    "BTAP-GroundContactFloor-Unheated-1_1.321003963011886": {
+      "area": 4598.251963035113,
+      "cost": 367910.5112242672,
+      "note": "Surf #1: OK / 1: OK / 1: OK",
+      "space_type": "Warehouse storage area medium to bulky palletized items"
+    },
+    "BTAP-ExteriorWall-Mass-6_3.174603174603174": {
+      "area": 1408.4585103745126,
+      "cost": 88179.96771328198,
+      "note": "Surf #1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 3: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 4: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 5: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 2: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries.  / 3: RSI out of the range (3.17). Range for BTAP-ExteriorWall-Mass-6 is 3.18-5.46.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Warehouse storage area medium to bulky palletized items"
+    },
+    "BTAP-ExteriorRoof-IEAD-2_5.181347150259064": {
+      "area": 4506.286923774411,
+      "cost": 726990.1300889349,
+      "note": "Surf #1: OK / 1: OK",
+      "space_type": "Warehouse storage area medium to bulky palletized items"
+    },
+    "BTAP-Skylight-1_0.47619047619047616": {
+      "area": 91.96503926070206,
+      "cost": 14261.938288549674,
+      "note": "Surf #1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries.  / 1: RSI out of the range (0.48). Range for BTAP-Skylight-1 is 0.42-0.42.Using extrapolation up to +/-30% of library boundaries. ",
+      "space_type": "Warehouse storage area medium to bulky palletized items"
+    },
+    "total_envelope_cost": 1503096.5341113224
+  },
+  "lighting": {
+    "Sp-Zone1 Office Sys-3 Flr-1 Sch-A HPlcmt-south ZN": {
+      "sName": "Office enclosed <= 25 m2",
+      "height(avg ft)": 14.0,
+      "area(ft2)": 2549.8,
+      "cost": 14241.090978244074,
+      "note": "Space count: 1"
+    },
+    "Sp-Zone2 Fine Storage Sys-4 Flr-1 Sch-A HPlcmt-south ZN": {
+      "sName": "Warehouse storage area small hand-carried items(4)",
+      "height(avg ft)": 22.4,
+      "area(ft2)": 14998.5,
+      "cost": 85165.67957537484,
+      "note": "Space count: 1"
+    },
+    "Sp-Zone3 Bulk Storage Sys-4 Flr-1 Sch-A HPlcmt-east ZN": {
+      "sName": "Warehouse storage area medium to bulky palletized items",
+      "height(avg ft)": 28.0,
+      "area(ft2)": 34496.6,
+      "cost": 195881.06302336144,
+      "note": "Space count: 1"
+    },
+    "total_lighting_cost": 295287.83
+  },
+  "heating & cooling": {
+    "boilers": {
+      "nom_flr2flr_hght_ft": 25.7,
+      "boiler_lonhorizontal_distgest_distance_to_ext_ft": 217.4,
+      "boiler_utility_distance_ft": 217.4,
+      "boilers": 17683.35,
+      "boiler_flues": 1437.43,
+      "boiler_utilties": 5702.33,
+      "boiler_pumps": 12190.58,
+      "boiler_piping": 1684.02,
+      "boilers_total": 38697.7
+    },
+    "chillers": {
+      "nom_flr2flr_hght_ft": 25.7,
+      "chiller_longest_distance_to_ext_ft": 217.4,
+      "chiller_utility_distance_ft": 217.4,
+      "chillers": 0.0,
+      "chiller_flues": 0.0,
+      "chiller_utilties": 0.0,
+      "chiller_pumps": 0.0,
+      "chiller_piping": 0.0,
+      "chillers_total": 0.0
+    },
+    "coolingTower": {
+    },
+    "coolingtowers": {
+      "nom_flr2flr_hght_ft": 25.7,
+      "coolingtower_longest_distance_to_ext_ft": 217.4,
+      "coolingtower_utility_distance_ft": 217.4,
+      "coolingtowers": 0.0,
+      "coolingtower_utilties": 0.0,
+      "coolingtower_pumps": 0.0,
+      "coolingtower_piping": 0.0,
+      "coolingtower_total": 0.0
+    }
+  },
+  "shw": {
+  },
+  "ventilation": {
+  },
+  "totals": {
+    "envelope": 1503096.53,
+    "lighting": 295287.83,
+    "heating & cooling": 38697.7,
+    "shw": 0.0,
+    "ventilation": 246875.22,
+    "grand total": 2083957.29
+  }
+}
