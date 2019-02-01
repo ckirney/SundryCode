@@ -9,15 +9,7 @@ class GetZeroCostData
   out_info = []
   data_tables.each do |data_table|
     envelope_info = data_table['costing_information']['envelope']
-    zero_cost = []
-    envelope_info.each_with_index do |data, index|
-      if index < envelope_info.size - 2
-        test = data[1]['cost']
-        if test == 0.0
-          zero_cost << data
-        end
-      end
-    end
+    zero_cost = envelope_info.select {|key, value| value['cost'] == 0.0 if key != 'total_envelope_cost'}
     unless zero_cost.empty?
       out_info << {
           building_name: data_table['building']['name'],
