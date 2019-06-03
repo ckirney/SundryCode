@@ -1,0 +1,13 @@
+[
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Constant Volume No Reheat 1' only found in compare model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Constant Volume No Reheat 2' only found in compare model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Uncontrolled 1' only found in true model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Uncontrolled 2' only found in true model",
+  "A OS:Node called 'Air Terminal Single Duct Uncontrolled 1 Inlet Node' only found in true model",
+  "A OS:Node called 'Air Terminal Single Duct Uncontrolled 2 Inlet Node' only found in true model",
+  "A OS:Node called 'Node 44' only found in compare model",
+  "A OS:Pipe:Adiabatic called 'Pipe Adiabatic 5' only found in true model",
+  "A OS:Pump:ConstantSpeed called 'Main Service Water Loop Circulator Pump' only found in compare model",
+  "A OS:Pump:ConstantSpeed called 'Service Water Loop Pump' only found in true model",
+  "For OS:WaterHeater:Mixed called '49gal Electricity Water Heater - 33kBtu/hr 1.0 Therm Eff'  'Maximum Temperature Limit': true model = '82.2222', compare model = '60.0'"
+]

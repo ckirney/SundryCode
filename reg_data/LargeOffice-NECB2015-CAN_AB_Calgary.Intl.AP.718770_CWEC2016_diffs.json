@@ -1,0 +1,22 @@
+[
+  "A OS:Boiler:HotWater called 'Primary Boiler 8195kBtu/hr 0.833 Combustion Eff' only found in compare model",
+  "A OS:Boiler:HotWater called 'Primary Boiler 8284kBtu/hr 0.833 Combustion Eff' only found in true model",
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 315tons 0.6kW/ton' only found in true model",
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 573tons 0.6kW/ton' only found in compare model",
+  "A OS:Chiller:Electric:EIR called 'Secondary Chiller WaterCooled Scroll 0tons 0.8kW/ton' only found in compare model",
+  "A OS:Chiller:Electric:EIR called 'Secondary Chiller WaterCooled Scroll 315tons 0.6kW/ton' only found in true model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat1OptimumStartCallingManager0' only found in compare model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat2OptimumStartCallingManager0' only found in compare model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat3OptimumStartCallingManager0' only found in compare model",
+  "A OS:Node called 'Node 309' only found in true model",
+  "A OS:Node called 'Node 310' only found in compare model",
+  "A OS:Node called 'Node 312' only found in true model",
+  "A OS:Pipe:Adiabatic called 'Pipe Adiabatic 11' only found in true model",
+  "A OS:Pump:ConstantSpeed called 'Main Service Water Loop Circulator Pump' only found in compare model",
+  "A OS:Pump:ConstantSpeed called 'Service Water Loop Pump' only found in true model",
+  "For OS:CoolingTower:SingleSpeed called 'Cooling Tower Single Speed 1'  'Fan Power at Design Air Flow Rate': true model = '33891.504', compare model = '30813.8905'",
+  "For OS:Pump:ConstantSpeed called 'Pump Constant Speed 2'  'Design Shaft Power per Unit Flow Rate per Unit Head': true model = '1.6009', compare model = '1.5941'",
+  "For OS:Pump:ConstantSpeed called 'Pump Constant Speed 2'  'Motor Efficiency': true model = '0.954', compare model = '0.95'",
+  "For OS:WaterHeater:Mixed called '1089gal NaturalGas Water Heater - 735kBtu/hr 0.805 Therm Eff'  'Maximum Temperature Limit': true model = '82.2222', compare model = '60.0'",
+  "For OS:WaterHeater:Mixed called '1089gal NaturalGas Water Heater - 735kBtu/hr 0.805 Therm Eff'  'On Cycle Parasitic Fuel Consumption Rate': true model = ' - ', compare model = '249.0118'"
+]

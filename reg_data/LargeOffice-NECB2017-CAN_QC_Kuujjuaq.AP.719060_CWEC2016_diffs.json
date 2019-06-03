@@ -1,0 +1,16 @@
+[
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 419tons 0.6kW/ton' only found in compare model",
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 455tons 0.6kW/ton' only found in true model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat1OptimumStartCallingManager0' only found in compare model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat2OptimumStartCallingManager0' only found in compare model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys6VAVwithReheat3OptimumStartCallingManager0' only found in compare model",
+  "A OS:Node called 'Node 209' only found in true model",
+  "A OS:Node called 'Node 210' only found in compare model",
+  "A OS:Node called 'Node 218' only found in true model",
+  "A OS:Pipe:Adiabatic called 'Pipe Adiabatic 9' only found in true model",
+  "A OS:Pump:ConstantSpeed called 'Main Service Water Loop Circulator Pump' only found in compare model",
+  "A OS:Pump:ConstantSpeed called 'Service Water Loop Pump' only found in true model",
+  "For OS:CoolingTower:SingleSpeed called 'Cooling Tower Single Speed 1'  'Fan Power at Design Air Flow Rate': true model = '24478.7043', compare model = '22517.5357'",
+  "For OS:CoolingTower:SingleSpeed called 'Cooling Tower Single Speed 1'  'Number of Cells': true model = '2.0', compare model = '1.0'",
+  "For OS:WaterHeater:Mixed called '1089gal Electricity Water Heater - 735kBtu/hr 1.0 Therm Eff'  'Maximum Temperature Limit': true model = '82.2222', compare model = '60.0'"
+]

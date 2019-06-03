@@ -1,0 +1,12 @@
+[
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 54tons 0.8kW/ton' only found in compare model",
+  "A OS:Chiller:Electric:EIR called 'Primary Chiller WaterCooled Scroll 59tons 0.8kW/ton' only found in true model",
+  "A OS:Node called 'Node 169' only found in true model",
+  "A OS:Node called 'Node 170' only found in compare model",
+  "A OS:Node called 'Node 176' only found in true model",
+  "A OS:Pipe:Adiabatic called 'Pipe Adiabatic 9' only found in true model",
+  "A OS:Pump:ConstantSpeed called 'Main Service Water Loop Circulator Pump' only found in compare model",
+  "A OS:Pump:ConstantSpeed called 'Service Water Loop Pump' only found in true model",
+  "For OS:CoolingTower:SingleSpeed called 'Cooling Tower Single Speed 1'  'Fan Power at Design Air Flow Rate': true model = '3303.0625', compare model = '3031.2954'",
+  "For OS:WaterHeater:Mixed called '125gal Electricity Water Heater - 84kBtu/hr 1.0 Therm Eff'  'Maximum Temperature Limit': true model = '82.2222', compare model = '60.0'"
+]

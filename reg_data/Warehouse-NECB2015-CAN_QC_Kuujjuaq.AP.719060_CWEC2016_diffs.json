@@ -1,0 +1,21 @@
+[
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Constant Volume No Reheat 1' only found in compare model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Constant Volume No Reheat 2' only found in compare model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Constant Volume No Reheat 3' only found in compare model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Uncontrolled 1' only found in true model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Uncontrolled 2' only found in true model",
+  "A OS:AirTerminal:SingleDuct:ConstantVolume:NoReheat called 'Air Terminal Single Duct Uncontrolled 3' only found in true model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys4PSZSpZone2FineStorageSys4Flr1SchAHPlcmtsouthZNOptimumStartCallingManager0' only found in compare model",
+  "A OS:EnergyManagementSystem:ProgramCallingManager called 'Sys4PSZSpZone3BulkStorageSys4Flr1SchAHPlcmteastZNOptimumStartCallingManager0' only found in compare model",
+  "A OS:Node called 'Air Terminal Single Duct Uncontrolled 1 Inlet Node' only found in true model",
+  "A OS:Node called 'Air Terminal Single Duct Uncontrolled 2 Inlet Node' only found in true model",
+  "A OS:Node called 'Air Terminal Single Duct Uncontrolled 3 Inlet Node' only found in true model",
+  "A OS:Node called 'Node 57' only found in compare model",
+  "A OS:Node called 'Node 58' only found in compare model",
+  "A OS:Pipe:Adiabatic called 'Pipe Adiabatic 5' only found in true model",
+  "A OS:Pump:ConstantSpeed called 'Main Service Water Loop Circulator Pump' only found in compare model",
+  "A OS:Pump:ConstantSpeed called 'Service Water Loop Pump' only found in true model",
+  "For OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 2 574kBtu/hr 8.39EER'  'Rated COP': true model = '3.2133', compare model = '2.9298'",
+  "For OS:Coil:Cooling:DX:SingleSpeed called 'Coil Cooling DX Single Speed 3 301kBtu/hr 8.39EER'  'Rated COP': true model = '3.0337', compare model = '2.9298'",
+  "For OS:WaterHeater:Mixed called '28gal Electricity Water Heater - 19kBtu/hr 1.0 Therm Eff'  'Maximum Temperature Limit': true model = '82.2222', compare model = '60.0'"
+]
