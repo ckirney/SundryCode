@@ -2,9 +2,20 @@ require 'json'
 
 class Convert_to_tables
   def convert_tables()
+    necb_ver = '/2011'
     curr_dir = File.expand_path File.dirname(__FILE__)
-    comm = curr_dir + "/*"
+    comm = curr_dir + necb_ver + "/*"
     files = Dir[comm]
+    files.each do |json_file|
+      data = JSON.parse(File.read(json_file))['tables']
+      key_name = data.keys.first
+      table_data = data[key_name]['table']
+      ref_data = data[key_name]['refs']
+      out_table_data = {key_name => table_data}
+      ref_out_data = {key_name => ref_data}
+      out_json = json_file[0..-6] + '_mod.json'
+      # File.open(out_json,"w") {|each_file| each_file.write(JSON.pretty_generate(table_data))}
+    end
     puts 'Hello?'
     puts 'Are you there?'
   end
