@@ -1,0 +1,3520 @@
+{
+  "sql_data": [
+    {
+      "report_name": "AnnualBuildingUtilityPerformanceSummary",
+      "report_for_string": "Entire Facility",
+      "table_name": "End Uses",
+      "table": [
+        {
+          "name": "Heating",
+          "natural_gas_GJ": 537.11
+        },
+        {
+          "name": "Cooling",
+          "electricity_GJ": 12.69
+        },
+        {
+          "name": "Interior Lighting",
+          "electricity_GJ": 104.93
+        },
+        {
+          "name": "Interior Equipment",
+          "electricity_GJ": 34.34
+        },
+        {
+          "name": "Fans",
+          "electricity_GJ": 62.34
+        },
+        {
+          "name": "Pumps",
+          "electricity_GJ": 0.3
+        },
+        {
+          "name": "Water Systems",
+          "natural_gas_GJ": 104.94,
+          "water_m3": 375.71
+        },
+        {
+          "name": "Total End Uses",
+          "electricity_GJ": 214.6,
+          "natural_gas_GJ": 642.05,
+          "water_m3": 375.71
+        }
+      ]
+    },
+    {
+      "report_name": "AnnualBuildingUtilityPerformanceSummary",
+      "report_for_string": "Entire Facility",
+      "table_name": "Site and Source Energy",
+      "table": [
+        {
+          "name": "Total Site Energy",
+          "total_energy_GJ": 856.66,
+          "energy_per_total_building_area_MJ/m2": 1675.93,
+          "energy_per_conditioned_building_area_MJ/m2": 1675.93
+        },
+        {
+          "name": "Net Site Energy",
+          "total_energy_GJ": 856.66,
+          "energy_per_total_building_area_MJ/m2": 1675.93,
+          "energy_per_conditioned_building_area_MJ/m2": 1675.93
+        },
+        {
+          "name": "Total Source Energy",
+          "total_energy_GJ": 1375.64,
+          "energy_per_total_building_area_MJ/m2": 2691.24,
+          "energy_per_conditioned_building_area_MJ/m2": 2691.24
+        },
+        {
+          "name": "Net Source Energy",
+          "total_energy_GJ": 1375.64,
+          "energy_per_total_building_area_MJ/m2": 2691.24,
+          "energy_per_conditioned_building_area_MJ/m2": 2691.24
+        }
+      ]
+    }
+  ],
+  "os_standards_revision": "140c1c1",
+  "os_standards_version": "0.2.9",
+  "openstudio_version": "2.8.1.6914d4f590",
+  "energyplus_version": "9.1.0",
+  "building": {
+    "name": "FullServiceRestaurant",
+    "conditioned_floor_area_m2": 511.15331569,
+    "exterior_area_m2": 845.223329175342,
+    "volume": 2384.1066906608494,
+    "number_of_stories": 2,
+    "standards_number_of_stories": 1,
+    "standards_number_of_above_ground_stories": 1,
+    "standards_number_of_living_units": null,
+    "nominal_floor_to_ceiling_height": null,
+    "nominal_floor_to_floor_height": null,
+    "principal_heating_source": "Natural Gas"
+  },
+  "geography": {
+    "hdd": 5000.0,
+    "cdd": 64.0,
+    "climate_zone": "7a",
+    "city": "Calgary Intl AP",
+    "state_province_region": "AB",
+    "country": "CAN",
+    "latitude": 51.114,
+    "longitude": -114.02
+  },
+  "spacetype_area_breakdown": {
+    "space_function_-_undefined_-": 0,
+    "space_function_dining_area_-_family_dining": 371.74807149,
+    "space_function_food_preparation_area": 139.4052442
+  },
+  "economics": {
+    "total_neb_cost": 6095.915499999999,
+    "total_neb_cost_per_m2": 11.925806432011877,
+    "Electricity_neb_cost": 4201.8679999999995,
+    "Electricity_neb_cost_per_m2": 8.220367296899846,
+    "Natural Gas_neb_cost": 1894.0475,
+    "Natural Gas_neb_cost_per_m2": 3.7054391351120297,
+    "Oil_neb_cost": 0.0,
+    "Oil_neb_cost_per_m2": 0.0,
+    "electricity_cost": 0.0,
+    "electricity_cost_per_m2": 0.0,
+    "natural_gas_cost": 0.0,
+    "natural_gas_cost_per_m2": 0.0,
+    "additional_cost": 0.0,
+    "additional_cost_per_m2": 0.0,
+    "total_cost": 0.0,
+    "total_cost_per_m2": 0.0
+  },
+  "end_uses": {
+    "heating_gj": 537.11,
+    "cooling_gj": 12.69,
+    "interior_lighting_gj": 104.93,
+    "exterior_lighting_gj": 0,
+    "interior_equipment_gj": 34.34,
+    "exterior_equipment_gj": 0,
+    "fans_gj": 62.34,
+    "pumps_gj": 0.3,
+    "heat_rejection_gj": 0,
+    "humidification_gj": 0,
+    "heat_recovery_gj": 0,
+    "water_systems_gj": 104.94,
+    "water_systems_water_m3": 375.71,
+    "refrigeration_gj": 0,
+    "generators_gj": 0,
+    "total_end_uses_gj": 856.65,
+    "total_end_uses_water_m3": 375.71
+  },
+  "end_uses_eui": {
+    "heating_gj_per_m2": 1.0507806239600763,
+    "cooling_gj_per_m2": 0.024826210865657623,
+    "interior_lighting_gj_per_m2": 0.20528087518782148,
+    "exterior_lighting_gj_per_m2": 0,
+    "interior_equipment_gj_per_m2": 0.06718140907223663,
+    "exterior_equipment_gj_per_m2": 0,
+    "fans_gj_per_m2": 0.12195949451261595,
+    "pumps_gj_per_m2": 0.0005869080582897783,
+    "heat_rejection_gj_per_m2": 0,
+    "humidification_gj_per_m2": 0,
+    "heat_recovery_gj_per_m2": 0,
+    "water_systems_gj_per_m2": 0.20530043878976448,
+    "water_systems_water_m3_per_m2": 0.7350240886001754,
+    "refrigeration_gj_per_m2": 0,
+    "generators_gj_per_m2": 0,
+    "total_end_uses_gj_per_m2": 1.6759159604464622,
+    "total_end_uses_water_m3_per_m2": 0.7350240886001754
+  },
+  "meter_peaks": {
+    "electric_w": 18046.63,
+    "natural_gas_w": 109875.49
+  },
+  "unmet_hours": {
+    "cooling": 15.17,
+    "heating": 0.0
+  },
+  "service_water_heating": {
+    "total_nominal_occupancy": 44.14898699349675,
+    "electricity_per_year": 0.0,
+    "electricity_per_day": 0.0,
+    "electricity_per_day_per_occupant": 0.0,
+    "natural_gas_per_year": 104.94,
+    "additional_fuel_per_year": 0.0,
+    "water_m3_per_year": 375.71,
+    "water_m3_per_day": 1.0279343365253077,
+    "water_m3_per_day_per_occupant": 0.023283305156621713
+  },
+  "envelope": {
+    "outdoor_walls_area_m2": 183.90365136608003,
+    "outdoor_roofs_area_m2": 569.505710935342,
+    "outdoor_floors_area_m2": 0,
+    "ground_walls_area_m2": 0,
+    "ground_roofs_area_m2": 0,
+    "ground_floors_area_m2": 511.15331569,
+    "interior_floors_area_m2": 511.15331569,
+    "windows_area_m2": 91.81396687391995,
+    "skylights_area_m2": 0,
+    "doors_area_m2": 0,
+    "overhead_doors_area_m2": 0,
+    "total_exterior_area_m2": 1356.3766448653419,
+    "total_ground_area_m2": 511.15331569,
+    "total_outdoor_area_m2": 845.223329175342,
+    "outdoor_walls_average_conductance_w_per_m2_k": 0.21,
+    "outdoor_roofs_average_conductance_w_per_m2_k": 0.162,
+    "ground_floors_average_conductance_w_per_m2_k": 0.757,
+    "windows_average_conductance_w_per_m2_k": 2.2,
+    "building_outdoor_average_conductance_w_per_m2_k": 0.39382540399801486,
+    "building_ground_average_conductance_w_per_m2_k": 0.757,
+    "building_average_conductance_w_per_m2_k": 0.5306884940722477,
+    "fdwr": 33.3,
+    "srr": 0.0,
+    "constructions": {
+      "exterior_fenestration": [
+        {
+          "name": "BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600",
+          "net_area_m2": 91.81,
+          "thermal_conductance_m2_w_per_k": 2.2,
+          "solar_transmittance": 0.6,
+          "visible_tranmittance": 0.21
+        }
+      ],
+      "exterior_opaque": [
+        {
+          "name": "BTAP-Ext-Roof-Metal:U-0.162",
+          "net_area_m2": 569.51,
+          "thermal_conductance_m2_w_per_k": 0.162,
+          "solar_absorptance": 0.7
+        },
+        {
+          "name": "BTAP-Ext-Wall-Mass:U-0.21",
+          "net_area_m2": 183.9,
+          "thermal_conductance_m2_w_per_k": 0.21,
+          "solar_absorptance": 0.92
+        }
+      ],
+      "ground": [
+        {
+          "name": "BTAP-Grnd-Floor-Mass:U-0.757",
+          "net_area_m2": 511.15,
+          "thermal_conductance_m2_w_per_k": 0.757,
+          "solar_absorptance": 0.7
+        }
+      ]
+    },
+    "average_thermal_conductance_m2_w_per_k": [
+      {
+        "name": "attic",
+        "multiplier": 1,
+        "volume": 825.7024617851778,
+        "exterior_wall_area": 0.0,
+        "space_type_name": "Space Function - undefined -",
+        "thermal_zone": "ALL_ST=- undefined -_FL=Building Story 2_SCH=A",
+        "breathing_zone_outdoor_airflow_vbz": -1,
+        "infiltration_method": "Flow/ExteriorArea",
+        "infiltration_flow_per_m2": 0.00025,
+        "occupancy_schedule": null,
+        "waterUseEquipment": [
+
+        ]
+      },
+      {
+        "name": "Dining",
+        "multiplier": 1,
+        "volume": 1133.3855203587118,
+        "exterior_wall_area": 169.19041208,
+        "space_type_name": "Space Function Dining area - family dining",
+        "thermal_zone": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+        "breathing_zone_outdoor_airflow_vbz": 1.3314,
+        "infiltration_method": "Flow/ExteriorArea",
+        "infiltration_flow_per_m2": 0.00025,
+        "occupancy_schedule": "NECB-B-Occupancy",
+        "occ_per_m2": 0.1,
+        "lighting_w_per_m2": 9.603,
+        "electric_w_per_m2": 1.0,
+        "shw_m3_per_s": 0.0,
+        "waterUseEquipment": [
+          {
+            "peak_flow_rate": 2.36932898320809e-05,
+            "peak_flow_rate_per_area": 6.373480227379807e-08,
+            "shw_watts_per_person": -11.856967675808296
+          }
+        ]
+      },
+      {
+        "name": "Kitchen",
+        "multiplier": 1,
+        "volume": 425.01870851696,
+        "exterior_wall_area": 106.52720615999999,
+        "space_type_name": "Space Function Food preparation area",
+        "thermal_zone": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+        "breathing_zone_outdoor_airflow_vbz": 0.1912,
+        "infiltration_method": "Flow/ExteriorArea",
+        "infiltration_flow_per_m2": 0.00025,
+        "occupancy_schedule": "NECB-B-Occupancy",
+        "occ_per_m2": 0.05,
+        "lighting_w_per_m2": 13.105,
+        "electric_w_per_m2": 10.004,
+        "shw_m3_per_s": 0.0,
+        "waterUseEquipment": [
+          {
+            "peak_flow_rate": 4.44248204859448e-06,
+            "peak_flow_rate_per_area": 3.1867395477755494e-08,
+            "shw_watts_per_person": -5.928482785099721
+          }
+        ]
+      }
+    ]
+  },
+  "spaces": [
+    {
+      "name": "attic",
+      "multiplier": 1,
+      "volume": 825.7024617851778,
+      "exterior_wall_area": 0.0,
+      "space_type_name": "Space Function - undefined -",
+      "thermal_zone": "ALL_ST=- undefined -_FL=Building Story 2_SCH=A",
+      "breathing_zone_outdoor_airflow_vbz": -1,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00025,
+      "occupancy_schedule": null,
+      "waterUseEquipment": [
+
+      ]
+    },
+    {
+      "name": "Dining",
+      "multiplier": 1,
+      "volume": 1133.3855203587118,
+      "exterior_wall_area": 169.19041208,
+      "space_type_name": "Space Function Dining area - family dining",
+      "thermal_zone": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+      "breathing_zone_outdoor_airflow_vbz": 1.3314,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00025,
+      "occupancy_schedule": "NECB-B-Occupancy",
+      "occ_per_m2": 0.1,
+      "lighting_w_per_m2": 9.603,
+      "electric_w_per_m2": 1.0,
+      "shw_m3_per_s": 0.0,
+      "waterUseEquipment": [
+        {
+          "peak_flow_rate": 2.36932898320809e-05,
+          "peak_flow_rate_per_area": 6.373480227379807e-08,
+          "shw_watts_per_person": -11.856967675808296
+        }
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "multiplier": 1,
+      "volume": 425.01870851696,
+      "exterior_wall_area": 106.52720615999999,
+      "space_type_name": "Space Function Food preparation area",
+      "thermal_zone": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+      "breathing_zone_outdoor_airflow_vbz": 0.1912,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00025,
+      "occupancy_schedule": "NECB-B-Occupancy",
+      "occ_per_m2": 0.05,
+      "lighting_w_per_m2": 13.105,
+      "electric_w_per_m2": 10.004,
+      "shw_m3_per_s": 0.0,
+      "waterUseEquipment": [
+        {
+          "peak_flow_rate": 4.44248204859448e-06,
+          "peak_flow_rate_per_area": 3.1867395477755494e-08,
+          "shw_watts_per_person": -5.928482785099721
+        }
+      ]
+    }
+  ],
+  "thermal_zones": [
+    {
+      "name": "ALL_ST=- undefined -_FL=Building Story 2_SCH=A",
+      "floor_area": 511.15331569,
+      "multiplier": 1,
+      "is_conditioned": "No",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": -1.0,
+      "cooling_sizing_factor": -1.0,
+      "zone_heating_design_supply_air_temperature": 40.0,
+      "zone_cooling_design_supply_air_temperature": 14.0,
+      "spaces": [
+        {
+          "name": "attic",
+          "type": "Space Function - undefined -"
+        }
+      ],
+      "equipment": [
+
+      ]
+    },
+    {
+      "name": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+      "floor_area": 371.74807149,
+      "multiplier": 1,
+      "is_conditioned": "Yes",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": 1.3,
+      "cooling_sizing_factor": 1.1,
+      "zone_heating_design_supply_air_temperature": 43.0,
+      "zone_cooling_design_supply_air_temperature": 13.0,
+      "spaces": [
+        {
+          "name": "Dining",
+          "type": "Space Function Dining area - family dining"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Air Terminal Single Duct Constant Volume No Reheat 1",
+          "type": "StraightComponent"
+        },
+        {
+          "name": "Zone HVAC Baseboard Convective Water 1",
+          "type": "ZoneHVACComponent"
+        }
+      ]
+    },
+    {
+      "name": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+      "floor_area": 139.4052442,
+      "multiplier": 1,
+      "is_conditioned": "Yes",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": 1.3,
+      "cooling_sizing_factor": 1.1,
+      "zone_heating_design_supply_air_temperature": 43.0,
+      "zone_cooling_design_supply_air_temperature": 13.0,
+      "spaces": [
+        {
+          "name": "Kitchen",
+          "type": "Space Function Food preparation area"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Air Terminal Single Duct Constant Volume No Reheat 2",
+          "type": "StraightComponent"
+        },
+        {
+          "name": "Zone HVAC Baseboard Convective Water 2",
+          "type": "ZoneHVACComponent"
+        }
+      ]
+    }
+  ],
+  "air_loops": [
+    {
+      "name": "Sys_3_PSZ ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+      "thermal_zones": [
+        "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B"
+      ],
+      "total_floor_area_served": 371.74807149,
+      "total_breathing_zone_outdoor_airflow_vbz": 1.3314,
+      "area_outdoor_air_rate_m3_per_s_m2": 0.003581,
+      "outdoor_air_L_per_s": 1331.22984400569,
+      "supply_fan": {
+        "type": "CV",
+        "name": "Fan Constant Volume 1",
+        "fan_efficiency": 0.39975,
+        "motor_efficiency": 0.615,
+        "pressure_rise": 640.0,
+        "max_air_flow_rate_m3_per_s": 1.33,
+        "rated_electric_power_w": 2131.54
+      },
+      "economizer": {
+        "name": "Controller Outdoor Air 1",
+        "control_type": "DifferentialEnthalpy"
+      },
+      "cooling_coils": {
+        "dx_single_speed": [
+          {
+            "name": "Coil Cooling DX Single Speed 1 75kBtu/hr 9.26EER",
+            "cop": 3.21949497909064,
+            "nominal_total_capacity_w": 22039.04
+          }
+        ],
+        "dx_two_speed": [
+
+        ],
+        "coil_cooling_water": [
+
+        ]
+      },
+      "heating_coils": {
+        "coil_heating_gas": [
+          {
+            "name": "Coil Heating Gas 1",
+            "type": "Gas",
+            "efficency": 0.81,
+            "nominal_capacity": 101142.98
+          }
+        ],
+        "coil_heating_electric": [
+
+        ],
+        "coil_heating_water": [
+
+        ]
+      },
+      "heat_exchanger": {
+      }
+    },
+    {
+      "name": "Sys_3_PSZ ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+      "thermal_zones": [
+        "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B"
+      ],
+      "total_floor_area_served": 139.4052442,
+      "total_breathing_zone_outdoor_airflow_vbz": 0.1912,
+      "area_outdoor_air_rate_m3_per_s_m2": 0.001372,
+      "outdoor_air_L_per_s": 191.26399504239998,
+      "supply_fan": {
+        "type": "CV",
+        "name": "Fan Constant Volume 2",
+        "fan_efficiency": 0.39975,
+        "motor_efficiency": 0.615,
+        "pressure_rise": 640.0,
+        "max_air_flow_rate_m3_per_s": 0.53,
+        "rated_electric_power_w": 849.91
+      },
+      "economizer": {
+        "name": "Controller Outdoor Air 2",
+        "control_type": "NoEconomizer"
+      },
+      "cooling_coils": {
+        "dx_single_speed": [
+          {
+            "name": "Coil Cooling DX Single Speed 2 30kBtu/hr 14.0SEER",
+            "cop": 4.11713235489972,
+            "nominal_total_capacity_w": 8787.67
+          }
+        ],
+        "dx_two_speed": [
+
+        ],
+        "coil_cooling_water": [
+
+        ]
+      },
+      "heating_coils": {
+        "coil_heating_gas": [
+          {
+            "name": "Coil Heating Gas 2",
+            "type": "Gas",
+            "efficency": 0.924,
+            "nominal_capacity": 22141.97
+          }
+        ],
+        "coil_heating_electric": [
+
+        ],
+        "coil_heating_water": [
+
+        ]
+      },
+      "heat_exchanger": {
+      }
+    }
+  ],
+  "plant_loops": [
+    {
+      "name": "Hot Water Loop",
+      "design_loop_exit_temperature": 82.0,
+      "loop_design_temperature_difference": 16.0,
+      "pumps": [
+        {
+          "name": "Pump Constant Speed 1",
+          "type": "Pump:ConstantSpeed",
+          "head_pa": 179352.0,
+          "water_flow_m3_per_s": 0.000344,
+          "electric_power_w": 103.4,
+          "motor_efficency": 0.855
+        }
+      ],
+      "boilers": [
+        {
+          "name": "Primary Boiler 77kBtu/hr 0.85 AFUE",
+          "type": "Boiler:HotWater",
+          "fueltype": "NaturalGas",
+          "nominal_capacity": 22619.8474205761
+        },
+        {
+          "name": "Secondary Boiler 0kBtu/hr 0.85 AFUE",
+          "type": "Boiler:HotWater",
+          "fueltype": "NaturalGas",
+          "nominal_capacity": 0.001
+        }
+      ],
+      "chiller_electric_eir": [
+
+      ],
+      "cooling_tower_single_speed": [
+
+      ],
+      "water_heater_mixed": [
+
+      ]
+    },
+    {
+      "name": "Main Service Water Loop",
+      "design_loop_exit_temperature": 60.0,
+      "loop_design_temperature_difference": 5.0,
+      "pumps": [
+        {
+          "name": "Main Service Water Loop Circulator Pump",
+          "type": "Pump:ConstantSpeed",
+          "head_pa": 226.45,
+          "water_flow_m3_per_s": 2.8e-05,
+          "electric_power_w": 0.01,
+          "motor_efficency": 0.7
+        }
+      ],
+      "boilers": [
+
+      ],
+      "chiller_electric_eir": [
+
+      ],
+      "cooling_tower_single_speed": [
+
+      ],
+      "water_heater_mixed": [
+        {
+          "name": "48gal NaturalGas Water Heater - 33kBtu/hr 0.82 Therm Eff",
+          "type": "WaterHeater:Mixed",
+          "heater_thermal_efficiency": 0.82,
+          "heater_fuel_type": "NaturalGas"
+        }
+      ]
+    }
+  ],
+  "eplusout_err": {
+    "warnings": [
+      "ProcessScheduleInput: Schedule:Day:Interval=\"ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 1\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 10\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 11\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 12\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 13\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 14\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 2\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 5\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 6\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 7\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 8\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 9\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"ECONOMIZER MAX OA FRACTION 100 PCT\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 3\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 4\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 5\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 6\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 7\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 8\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "CheckUsedConstructions: There are 29 nominally unused constructions in input.  For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;",
+      "GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION DINING AREA - FAMILY DINING PEOPLE\".  ZoneList/Zone Name=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B\".  Item length=[109] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B SPACE FUNCTION DINING AREA - FAMILY DINING PEOPLE\".",
+      "GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION DINING AREA - FAMILY DINING LIGHTS\".  ZoneList/Zone Name=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B\".  Item length=[109] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B SPACE FUNCTION DINING AREA - FAMILY DINING LIGHTS\".",
+      "GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION DINING AREA - FAMILY DINING ELEC EQUIP\".  ZoneList/Zone Name=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B\".  Item length=[113] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [14] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"ALL_ST=DINING AREA - FAMILY DINING_FL=BUILDING STORY 1_SCH=B SPACE FUNCTION DINING AREA - FAMILY DINING ELEC EQUIP\".",
+      "GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP\".  ZoneList/Zone Name=\"ALL_ST=FOOD PREPARATION AREA_FL=BUILDING STORY 1_SCH=B\".  Item length=[101] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [2] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"ALL_ST=FOOD PREPARATION AREA_FL=BUILDING STORY 1_SCH=B SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP\".",
+      "GetDXCoils: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 75KBTU/HR 9.26EER\", invalid  ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.  ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015  ...Setting curve maximum to 1.0 and simulation continues.",
+      "The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 75KBTU/HR 9.26EER but not at the AHRI test condition due to curve out of bound.   Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.",
+      "The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 30KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.   Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.",
+      "Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.",
+      "Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.",
+      "Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr",
+      "Processing Monthly Tabular Reports: Variable names not valid for this simulation  ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2 30KBTU/HR 14.0SEER\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -2.98   ... Occurrence info = RUN PERIOD 1, 01/02 00:02 - 00:04  ... Operation at low ambient temperatures may require special performance curves.",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2 30KBTU/HR 14.0SEER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.26 C.   ...Occurrence info = RUN PERIOD 1, 01/02 00:02 - 00:04  ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil     1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.946 C.     2) may have a low air flow rate per watt of cooling capacity. Check inputs.     3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1 75KBTU/HR 9.26EER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.21 C.   ...Occurrence info = RUN PERIOD 1, 04/25 09:18 - 09:20  ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil     1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.500 C.     2) may have a low air flow rate per watt of cooling capacity. Check inputs.     3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.",
+      "The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost.   ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.",
+      "The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost.   ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.",
+      "The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost.   ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.",
+      "The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost.   ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.",
+      "The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost.   ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.",
+      "Plant loop falling below lower temperature limit, PlantLoop=\"MAIN SERVICE WATER LOOP\"",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 30KBTU/HR 14.0SEER\" - Low condenser dry-bulb temperature error continues...",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 30KBTU/HR 14.0SEER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 75KBTU/HR 9.26EER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:"
+    ],
+    "fatal": [
+
+    ],
+    "severe": [
+
+    ]
+  },
+  "ruby_warnings": [
+    "space.spaceType.get.defaultScheduleSet.get.numberofPeopleSchedule is empty for attic",
+    "space.spaceType.get.lights[0] is nil for Space:[attic] Space Type:[Space Function - undefined -]",
+    "zone.sizingZone.zoneHeatingSizingFactor is empty for ALL_ST=- undefined -_FL=Building Story 2_SCH=A",
+    "zone.sizingZone.zoneCoolingSizingFactor is empty for ALL_ST=- undefined -_FL=Building Story 2_SCH=A"
+  ],
+  "code_metrics": {
+    "heating_gj": 537.11,
+    "cooling_gj": 12.69,
+    "ep_conditioned_floor_area_m2": 511.15331569,
+    "os_conditioned_floor_area_m2": 1022.30663138,
+    "building_tedi_gj_per_m2": 1.075606834825734,
+    "building_medi_gj_per_m2": 0.12254640257090572
+  },
+  "costing_information": {
+    "rs_means_city": "CALGARY",
+    "rs_means_prov": "ALBERTA",
+    "envelope": {
+      "exterior_wall_cost": 9272.65,
+      "exterior_wall_area_m2": 183.92,
+      "exterior_wall_cost_per_m2": 50.42,
+      "exterior_roof_cost": 56655.08,
+      "exterior_roof_area_m2": 569.52,
+      "exterior_roof_cost_per_m2": 99.48,
+      "exterior_floor_cost": 0.0,
+      "exterior_floor_area_m2": 0.0,
+      "exterior_floor_cost_per_m2": 0.0,
+      "exterior_fixed_window_cost": 5704.4,
+      "exterior_fixed_window_area_m2": 91.8,
+      "exterior_fixed_window_cost_per_m2": 62.14,
+      "exterior_operable_window_cost": 0.0,
+      "exterior_operable_window_area_m2": 0.0,
+      "exterior_operable_window_cost_per_m2": 0.0,
+      "exterior_skylight_cost": 0.0,
+      "exterior_skylight_area_m2": 0.0,
+      "exterior_skylight_cost_per_m2": 0.0,
+      "exterior_tubular_daylight_diffuser_cost": 0.0,
+      "exterior_tubular_daylight_diffuser_area_m2": 0.0,
+      "exterior_tubular_daylight_diffuser_cost_per_m2": 0.0,
+      "exterior_tubular_daylight_dome_cost": 0.0,
+      "exterior_tubular_daylight_dome_area_m2": 0.0,
+      "exterior_tubular_daylight_dome_cost_per_m2": 0.0,
+      "exterior_door_cost": 0.0,
+      "exterior_door_area_m2": 0.0,
+      "exterior_door_cost_per_m2": 0.0,
+      "exterior_glass_door_cost": 0.0,
+      "exterior_glass_door_area_m2": 0.0,
+      "exterior_glass_door_cost_per_m2": 0.0,
+      "exterior_overhead_door_cost": 0.0,
+      "exterior_overhead_door_area_m2": 0.0,
+      "exterior_overhead_door_cost_per_m2": 0.0,
+      "ground_contact_wall_cost": 0.0,
+      "ground_contact_wall_area_m2": 0.0,
+      "ground_contact_wall_cost_per_m2": 0.0,
+      "ground_contact_roof_cost": 0.0,
+      "ground_contact_roof_area_m2": 0.0,
+      "ground_contact_roof_cost_per_m2": 0.0,
+      "ground_contact_floor_cost": 42339.32,
+      "ground_contact_floor_area_m2": 511.16,
+      "ground_contact_floor_cost_per_m2": 82.83,
+      "construction_costs": [
+        {
+          "name": "BTAP-ExteriorRoof-IEAD-4",
+          "conductance": 0.162,
+          "area": 569.52,
+          "cost": 56655.08,
+          "cost_per_area": 99.48,
+          "note": "Surf #1: OK / 2: OK / 3: OK / 4: OK"
+        },
+        {
+          "name": "BTAP-ExteriorWall-SteelFramed-1",
+          "conductance": 0.21,
+          "area": 112.86,
+          "cost": 5033.37,
+          "cost_per_area": 44.6,
+          "note": "Surf #1: OK / 2: OK / 3: OK"
+        },
+        {
+          "name": "BTAP-ExteriorWindow-FixedWindow-6",
+          "conductance": 2.2,
+          "area": 91.8,
+          "cost": 5704.4,
+          "cost_per_area": 62.14,
+          "note": "Surf #1: OK / 2: OK / 3: OK / 1: OK / 2: OK / 3: OK"
+        },
+        {
+          "name": "BTAP-GroundContactFloor-Unheated-1",
+          "conductance": 0.757,
+          "area": 511.16,
+          "cost": 42339.32,
+          "cost_per_area": 82.83,
+          "note": "Surf #1: OK / 1: OK"
+        },
+        {
+          "name": "BTAP-ExteriorWall-Mass-2",
+          "conductance": 0.21,
+          "area": 71.06,
+          "cost": 4239.28,
+          "cost_per_area": 59.66,
+          "note": "Surf #1: OK / 2: OK / 3: OK"
+        }
+      ],
+      "total_envelope_cost": 113971.43
+    },
+    "lighting": {
+      "fixture_report": [
+        {
+          "fixture_type": "Nil",
+          "fixture_description": "",
+          "floor_area_ft2": 5502.0,
+          "cost": 0.0,
+          "cost_per_ft2": 0.0,
+          "spaces": [
+            "attic"
+          ],
+          "number_of_spaces": 1
+        },
+        {
+          "fixture_type": "7",
+          "fixture_description": "High Bay (10 ft above work plane) Fluorescent Lighting 1.5 W/ft2 (16 W/m2), 103FC, 7 Fixtures per 1000 ft2",
+          "floor_area_ft2": 5502.0,
+          "cost": 32856.13,
+          "cost_per_ft2": 5.97,
+          "spaces": [
+            "Dining",
+            "Kitchen"
+          ],
+          "number_of_spaces": 2
+        }
+      ],
+      "space_report": [
+        {
+          "space": "attic",
+          "zone": "ALL_ST=- undefined -_FL=Building Story 2_SCH=A",
+          "building_type": "Space Function",
+          "space_type": "- undefined -",
+          "zone_multiplier": 1,
+          "fixture_type": "Nil",
+          "fixture_desciption": "",
+          "height_avg_ft": 5.3,
+          "floor_area_ft2": 5502.0,
+          "cost": 0.0,
+          "cost_per_ft2": 0.0,
+          "note": ""
+        },
+        {
+          "space": "Dining",
+          "zone": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+          "building_type": "Space Function",
+          "space_type": "Dining area - family dining",
+          "zone_multiplier": 1,
+          "fixture_type": "7",
+          "fixture_desciption": "High Bay (10 ft above work plane) Fluorescent Lighting 1.5 W/ft2 (16 W/m2), 103FC, 7 Fixtures per 1000 ft2",
+          "height_avg_ft": 10.0,
+          "floor_area_ft2": 4001.5,
+          "cost": 23895.38,
+          "cost_per_ft2": 5.97,
+          "note": ""
+        },
+        {
+          "space": "Kitchen",
+          "zone": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+          "building_type": "Space Function",
+          "space_type": "Food preparation area",
+          "zone_multiplier": 1,
+          "fixture_type": "7",
+          "fixture_desciption": "High Bay (10 ft above work plane) Fluorescent Lighting 1.5 W/ft2 (16 W/m2), 103FC, 7 Fixtures per 1000 ft2",
+          "height_avg_ft": 10.0,
+          "floor_area_ft2": 1500.5,
+          "cost": 8960.75,
+          "cost_per_ft2": 5.97,
+          "note": ""
+        }
+      ],
+      "total_lighting_cost": 32856.13
+    },
+    "heating_and_cooling": {
+      "plant_equipment": [
+        {
+          "type": "boilers",
+          "nom_flr2flr_hght_ft": 15.3,
+          "ht_roof_ft": 15.3,
+          "longest_distance_to_ext_ft": 52.5,
+          "wiring_and_gas_connections_distance_ft": 52.5,
+          "equipment_cost": 7138.75,
+          "flue_cost": 1810.07,
+          "wiring_and_gas_connections_cost": 1577.31,
+          "pump_cost": 9927.3,
+          "piping_to_pump_cost": 1806.97,
+          "header_distribution_cost": 1447.93,
+          "total_cost": 23708.32
+        },
+        {
+          "type": "chillers",
+          "nom_flr2flr_hght_ft": 15.3,
+          "ht_roof_ft": 15.3,
+          "longest_distance_to_ext_ft": 52.5,
+          "wiring_and_gas_connections_distance_ft": 52.5,
+          "equipment_cost": 0.0,
+          "flue_cost": 0.0,
+          "wiring_and_gas_connections_cost": 0.0,
+          "pump_cost": 0.0,
+          "piping_to_pump_cost": 0.0,
+          "header_distribution_cost": 0.0,
+          "total_cost": 0.0
+        },
+        {
+          "type": "cooling_towers",
+          "nom_flr2flr_hght_ft": 15.3,
+          "ht_roof_ft": 15.3,
+          "longest_distance_to_ext_ft": 52.5,
+          "wiring_and_gas_connections_distance_ft": 52.5,
+          "equipment_cost": 0.0,
+          "wiring_and_gas_connections_cost": 0.0,
+          "pump_cost": 0.0,
+          "piping_cost": 0.0,
+          "total_cost": 0.0
+        }
+      ],
+      "zonal_systems": [
+        {
+          "systype": "HW",
+          "zone_number": 2,
+          "zone_name": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+          "zone_multiple": 1,
+          "heat_capacity(kW)": 15.4,
+          "cool_capacity(kW)": 0.0,
+          "heat_cost": 4065.03,
+          "cool_cost": 0.0,
+          "heatcool_cost": 0.0,
+          "piping_cost": 2641.1,
+          "wiring_cost": 0.0,
+          "num_units": 5,
+          "cummultive_zonal_cost": 6706.13
+        },
+        {
+          "systype": "HW",
+          "zone_number": 3,
+          "zone_name": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+          "zone_multiple": 1,
+          "heat_capacity(kW)": 7.2,
+          "cool_capacity(kW)": 0.0,
+          "heat_cost": 2205.77,
+          "cool_cost": 0.0,
+          "heatcool_cost": 0.0,
+          "piping_cost": 1662.92,
+          "wiring_cost": 0.0,
+          "num_units": 3,
+          "cummultive_zonal_cost": 10574.83
+        }
+      ]
+    },
+    "shw": {
+      "shw_nom_flr2flr_hght_ft": 15.3,
+      "shw_ht_roof": 15.3,
+      "shw_longest_distance_to_ext_ft": 52.5,
+      "shw_utility_distance_ft": 52.5,
+      "shw_tanks": 5121.0,
+      "shw_num_of_tanks": 1,
+      "shw_flues": 546.07,
+      "shw_utilties": 1523.78,
+      "shw_pumps": 4963.65,
+      "shw_num_of_pumps": 1,
+      "shw_piping": 451.74,
+      "shw_total": 12606.24
+    },
+    "ventilation": {
+      "system_1": [
+
+      ],
+      "system_2": [
+
+      ],
+      "system_3": [
+        {
+          "sys_type": 3,
+          "name": "Sys_3_PSZ ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+          "airloop_flow_m3_per_s": 1.3313785791397095,
+          "num_rooftop_units": 1,
+          "ahu_counter": 1,
+          "ahu_l_per_s": 1500,
+          "base_ahu_cost": 35692.08,
+          "revised_base_ahu_cost": 31679.78,
+          "hrv": {
+          },
+          "equipment_info": [
+            {
+              "eq_category": "Coil_Cooling_DX_SingleSpeed",
+              "heating_fuel": "none",
+              "cooling_type": "DX",
+              "capacity_kw": 22.039,
+              "cost": 13884.78
+            },
+            {
+              "eq_category": "Coil_Heating_Gas",
+              "heating_fuel": "Gas",
+              "cooling_type": "none",
+              "capacity_kw": 101.143,
+              "cost": 5892.25
+            }
+          ],
+          "reheat_recool": [
+
+          ]
+        },
+        {
+          "sys_type": 3,
+          "name": "Sys_3_PSZ ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+          "airloop_flow_m3_per_s": 0.530863344669342,
+          "num_rooftop_units": 1,
+          "ahu_counter": 1,
+          "ahu_l_per_s": 1000,
+          "base_ahu_cost": 30140.08,
+          "revised_base_ahu_cost": 16000.27,
+          "hrv": {
+          },
+          "equipment_info": [
+            {
+              "eq_category": "Coil_Cooling_DX_SingleSpeed",
+              "heating_fuel": "none",
+              "cooling_type": "DX",
+              "capacity_kw": 8.788,
+              "cost": 6658.28
+            },
+            {
+              "eq_category": "Coil_Heating_Gas",
+              "heating_fuel": "Gas",
+              "cooling_type": "none",
+              "capacity_kw": 22.142,
+              "cost": 1089.8
+            }
+          ],
+          "reheat_recool": [
+
+          ]
+        }
+      ],
+      "system_4": [
+
+      ],
+      "system_5": [
+
+      ],
+      "system_6": [
+
+      ],
+      "system_7": [
+
+      ],
+      "mech_to_roof": {
+        "Gas_Line_m": 0.0,
+        "HW_Line_m": 0.0,
+        "CHW_Line_m": 0.0,
+        "Elec_Line_m": 91.5,
+        "Total_cost": 2655.75
+      },
+      "trunk_duct": [
+        {
+          "DuctSize_in": 16.0,
+          "DuctLength_m": 1.8,
+          "NumberRuns": 2,
+          "DuctCost": 368.8
+        }
+      ],
+      "floor_trunk_ducts": [
+        [
+          {
+            "Floor": "Building Story 1",
+            "Predominant_space_type": "Dining area - family dining",
+            "SupplyDuctSize_in": 22.73,
+            "SupplyDuctLength_m": 28.0,
+            "ReturnDuctSize_in": 22.73,
+            "ReturnDuctLength_m": 28.0,
+            "TotalDuctCost": 10249.39,
+            "Multiplier": 1.0
+          }
+        ]
+      ],
+      "tz_distribution": [
+        [
+          {
+            "Story": "Building Story 1",
+            "thermal_zones": [
+              {
+                "ThermalZone": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+                "ducting_direction": "Supply",
+                "tz_mult": 1.0,
+                "airflow_m3ps": 1.331,
+                "num_diff": 11,
+                "ducting_lbs": 440,
+                "duct_insulation_ft2": 275,
+                "flex_duct_sz_in": 12,
+                "flex_duct_length_ft": 110,
+                "cost": 6659.03
+              },
+              {
+                "ThermalZone": "ALL_ST=Dining area - family dining_FL=Building Story 1_SCH=B",
+                "ducting_direction": "Return",
+                "tz_mult": 1.0,
+                "airflow_m3ps": 1.331,
+                "num_diff": 11,
+                "ducting_lbs": 440,
+                "duct_insulation_ft2": 275,
+                "flex_duct_sz_in": 12,
+                "flex_duct_length_ft": 110,
+                "cost": 6659.03
+              },
+              {
+                "ThermalZone": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+                "ducting_direction": "Supply",
+                "tz_mult": 1.0,
+                "airflow_m3ps": 0.531,
+                "num_diff": 6,
+                "ducting_lbs": 395,
+                "duct_insulation_ft2": 306,
+                "flex_duct_sz_in": 10,
+                "flex_duct_length_ft": 48,
+                "cost": 4764.34
+              },
+              {
+                "ThermalZone": "ALL_ST=Food preparation area_FL=Building Story 1_SCH=B",
+                "ducting_direction": "Return",
+                "tz_mult": 1.0,
+                "airflow_m3ps": 0.531,
+                "num_diff": 6,
+                "ducting_lbs": 395,
+                "duct_insulation_ft2": 306,
+                "flex_duct_sz_in": 10,
+                "flex_duct_length_ft": 48,
+                "cost": 4764.34
+              }
+            ]
+          }
+        ]
+      ],
+      "hrv_return_ducting": [
+        {
+          "floor": "Building Story 1",
+          "air_systems": [
+
+          ]
+        }
+      ],
+      "hrv_total_cost": 0
+    },
+    "totals": {
+      "envelope": 113971.43,
+      "lighting": 32856.13,
+      "heating_and_cooling": 34283.15,
+      "shw": 12606.24,
+      "ventilation": 111325.84,
+      "grand_total": 305042.79
+    }
+  },
+  "measure_data_table": [
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "building_type",
+      "value": "FullServiceRestaurant",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "relative_building_rotation",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "x_scale",
+      "value": 1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "y_scale",
+      "value": 1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "z_scale",
+      "value": 1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "orientation_initial",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_building_type_geometry",
+      "arg_name": "orientation_final",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_weather",
+      "arg_name": "epw_file",
+      "value": "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_loads",
+      "arg_name": "template",
+      "value": "NECB2015",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "outdoors_wall_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "outdoors_roofceiling_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "outdoors_floor_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "ground_wall_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "ground_roofceiling_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "ground_floor_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "outdoors_fixedwindow_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "outdoors_skylight_conductance",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "infiltration_flow_per_area",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_envelope",
+      "arg_name": "infiltration_mode",
+      "value": "ExteriorWallArea",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_fdwr_srr",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_fdwr_srr",
+      "arg_name": "fdwr",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_fdwr_srr",
+      "arg_name": "srr",
+      "value": -1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "btap_standard_auto_zone",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_systems",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_systems",
+      "arg_name": "primary_heating_fuel",
+      "value": "DefaultFuel",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_efficiencies",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "btap_standard_pump_power_sizing",
+      "arg_name": "template",
+      "value": "ModelDefault",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "units",
+      "value": "SI",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "building_summary_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "annual_overview_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "monthly_overview_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "utility_bills_rates_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "envelope_section_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "space_type_breakdown_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "space_type_details_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "interior_lighting_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "plug_loads_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "exterior_light_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_use_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "hvac_load_profile",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "zone_condition_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "zone_summary_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "zone_equipment_detail_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "air_loops_detail_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "plant_loops_detail_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "outdoor_air_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "cost_summary_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "source_energy_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "schedules_overview_section",
+      "value": true,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "reg_monthly_details",
+      "value": false,
+      "units": null,
+      "type": 0
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "standards_gem_version",
+      "value": "0.2.9",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "workflow_gem_version",
+      "value": "1.3.4",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "building_name",
+      "value": "n/a",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "total_site_energy",
+      "value": 237961.1111111111,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "net_site_energy",
+      "value": 237961.1111111111,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "total_building_area",
+      "value": 511.15,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "total_site_eui",
+      "value": 465.5406653841556,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "eui",
+      "value": 465.5406653841556,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_during_heating",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_during_cooling",
+      "value": 15.17,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_during_occupied_heating",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_during_occupied_cooling",
+      "value": 13.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_tolerance_heating",
+      "value": 1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "unmet_hours_tolerance_cooling",
+      "value": 1.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_heating",
+      "value": 149197.22222222222,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_cooling",
+      "value": 3525.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_interior_lighting",
+      "value": 29147.222222222226,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_exterior_lighting",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_interior_equipment",
+      "value": 9538.88888888889,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_exterior_equipment",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_fans",
+      "value": 17316.666666666668,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_pumps",
+      "value": 83.33333333333333,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_heat_rejection",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_humidification",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_heat_recovery",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_water_systems",
+      "value": 29150.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_refrigeration",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_generators",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_electricity",
+      "value": 203401.55401923787,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_natural_gas",
+      "value": 608545.9820971653,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_additional_fuel",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_district_cooling",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_district_heating",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_heating",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_cooling",
+      "value": 3525.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_interior_lighting",
+      "value": 29147.222222222226,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_exterior_lighting",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_interior_equipment",
+      "value": 9538.88888888889,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_exterior_equipment",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_fans",
+      "value": 17316.666666666668,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_pumps",
+      "value": 83.33333333333333,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_heat_rejection",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_humidification",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_heat_recovery",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_water_systems",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_refrigeration",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_electricity_generators",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_heating",
+      "value": 149197.22222222222,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_cooling",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_interior_lighting",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_exterior_lighting",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_interior_equipment",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_exterior_equipment",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_fans",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_pumps",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_heat_rejection",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_humidification",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_heat_recovery",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_water_systems",
+      "value": 29150.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_refrigeration",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "end_use_natural_gas_generators",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_cooling_ip",
+      "value": 3524.771084416667,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_interior_lighting_ip",
+      "value": 29147.850000000002,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_interior_equipment_ip",
+      "value": 9540.194444444443,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_fans_ip",
+      "value": 17316.197222222225,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_pumps_ip",
+      "value": 83.43871869444443,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "electricity_ip",
+      "value": 59612.45146977777,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_heating_ip",
+      "value": 149196.75555555554,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_water_systems_ip",
+      "value": 29151.091666666667,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "natural_gas_ip",
+      "value": 178347.84722222222,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "additional_fuel_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "district_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "water_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_1_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "fuel_oil_2_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "propane_gas_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "coal_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "diesel_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gasoline_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_1_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_heating_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_cooling_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_interior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_exterior_lighting_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_interior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_exterior_equipment_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_fans_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_pumps_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_heat_rejection_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_humidification_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_heat_recovery_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_water_systems_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_refrigeration_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_generators_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "other_fuel_2_ip",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "btap_ext_roof_metal_u_0_162",
+      "value": 569.5057109353421,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "btap_ext_wall_mass_u_0_21",
+      "value": 183.90365136608,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "btap_ext_fixed_window_u_0_220_shgc_0_600",
+      "value": 91.81396687391997,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gross_window_wall_ratio",
+      "value": 33.3,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "gross_window_wall_ratio_conditioned",
+      "value": 33.3,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "skylight_roof_ratio",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "space_type_space_function_undefined",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "space_type_space_function_dining_area_family_dining",
+      "value": 371.74807149,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "space_type_space_function_food_preparation_area",
+      "value": 139.4052442,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "dining_service_water_use_0_38_gal_min",
+      "value": 0.08529584339549125,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "kitchen_service_water_use_0_07_gal_min",
+      "value": 0.015992935374940127,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "inflation_approach",
+      "value": "Constant Dollar",
+      "units": null,
+      "type": 3
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "analysis_length",
+      "value": 25.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "annual_peak_electric_demand",
+      "value": 18.04663,
+      "units": null,
+      "type": 1
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "first_year_capital_cost",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "annual_utility_cost",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    },
+    {
+      "measure_name": "openstudio_results",
+      "arg_name": "total_lifecycle_cost",
+      "value": 0.0,
+      "units": null,
+      "type": 2
+    }
+  ],
+  "analysis_id": "98f1faae-d52a-4390-8ed7-1f9f9aaa60f2",
+  "analysis_name": "vintage_init_test_1_2020-02-07",
+  "run_uuid": "04433e96-e473-4995-804f-f8173e3577cc",
+  "building_type": "FullServiceRestaurant",
+  "template": "NECB2015"
+}
