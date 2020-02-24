@@ -5,9 +5,9 @@ require 'roo'
 pre_vint_file = './previntage.json'
 post_vint_file = './postvintage_1.json'
 sample_pre_vint_out_file = './sample_prevint_out.json'
-sample_post_vint_out_file = './sample_postvint_out.json'
+sample_post_vint_out_file = './sample_postvint_out1.json'
 
-pre_vint = JSON.parse(File.read(pre_vint_file))
+#pre_vint = JSON.parse(File.read(pre_vint_file))
 post_vint = JSON.parse(File.read(post_vint_file))
 
 pre_index_array = []
@@ -59,9 +59,9 @@ end
 sample_pre = pre_vint_mod[395]
 sample_post = post_vint_mod[694]
 =end
-sample_pre_vint_out = pre_vint[293]
+#sample_pre_vint_out = pre_vint[293]
 sample_post_vint_out = post_vint[694]
 
-File.write(sample_pre_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
-File.write(sample_post_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
+#File.write(sample_pre_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
+File.write(sample_post_vint_out_file, JSON.pretty_generate(sample_post_vint_out))
 #puts 'hello'
