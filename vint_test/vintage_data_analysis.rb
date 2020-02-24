@@ -1,9 +1,11 @@
 require 'fileutils'
 require 'json'
+require 'roo'
 
-pre_vint_file = './simulations_previntage.json'
-post_vint_file = './simulations_postvintage.json'
-sample_pre_vint_out_file = './sample_pre_vint_out.json'
+pre_vint_file = './previntage.json'
+post_vint_file = './postvintage_1.json'
+sample_pre_vint_out_file = './sample_prevint_out.json'
+sample_post_vint_out_file = './sample_postvint_out.json'
 
 pre_vint = JSON.parse(File.read(pre_vint_file))
 post_vint = JSON.parse(File.read(post_vint_file))
@@ -12,6 +14,7 @@ pre_index_array = []
 pre_vint_mod = []
 post_vint_mod = []
 
+=begin
 pre_vint.each_with_index do |vint_rec, index|
   pre_vint_mod << {
       index: index,
@@ -34,6 +37,8 @@ post_vint.each_with_index do |vint_rec, index|
   }
 end
 
+diff_files = []
+
 puts 'start check'
 pre_vint_mod.each do |vint_rec|
   next unless pre_index_array.select {|ind_sel| ind_sel == vint_rec[:index]}.empty?
@@ -49,13 +54,14 @@ pre_vint_mod.each do |vint_rec|
     (vint_sel[:building_type] == vint_rec[:building_type]) && (vint_sel[:city] == vint_rec[:city]) && (vint_sel[:heat_fuel] == vint_rec[:heat_fuel])
   }
   sim_post_vint.sort_by! { |post_vint_hash| post_vint_hash[:template]}
-  puts 'hello'
 end
 
 sample_pre = pre_vint_mod[395]
 sample_post = post_vint_mod[694]
-
+=end
 sample_pre_vint_out = pre_vint[293]
+sample_post_vint_out = post_vint[694]
 
-#File.write(sample_pre_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
-puts 'hello'
+File.write(sample_pre_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
+File.write(sample_post_vint_out_file, JSON.pretty_generate(sample_pre_vint_out))
+#puts 'hello'
