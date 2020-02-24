@@ -1,7 +1,6 @@
 require 'fileutils'
 require 'json'
 require 'roo'
-require 'hashdiff'
 
 pre_vint_file = './postvintage_1.json'
 post_vint_file = './postvintage_2.json'
