@@ -2,6 +2,15 @@ require 'fileutils'
 require 'json'
 require 'roo'
 
+def diff(one, other)
+  (one.keys + other.keys).uniq.inject({}) do |memo, key|
+    unless one.key?(key) && other.key?(key) && one[key] == other[key]
+      memo[key] = [one.key?(key) ? one[key] : :_no_key, other.key?(key) ? other[key] : :_no_key]
+    end
+    memo
+  end
+end
+
 pre_vint_file = './postvintage_1.json'
 post_vint_file = './postvintage_2.json'
 #sample_pre_vint_out_file = './sample_prevint_out.json'
@@ -55,8 +64,32 @@ pre_vint_mod.each do |vint_rec|
     (vint_sel[:building_type] == vint_rec[:building_type]) && (vint_sel[:city] == vint_rec[:city]) && (vint_sel[:heat_fuel] == vint_rec[:heat_fuel])
   }
   sim_post_vint.sort_by! { |post_vint_hash| post_vint_hash[:template]}
+
   other_pre_vint.each_with_index do |pre_vint, index|
-    unless pre_vint[:rec]["sql_data"].to_a == sim_post_vint[index][:rec]["sql_data"].to_a
+    pre_vint_hash = {
+        sql_data: pre_vint[:rec]["sql_data"],
+        cost_info: pre_vint[:rec]["costing_information"]
+    }
+    post_vint_hash = {
+        sql_data: sim_post_vint[index][:rec]["sql_data"],
+        cost_info: sim_post_vint[index][:rec]["costing_information"]
+    }
+=begin
+    pre_vint_hash = pre_vint[:rec].clone
+    pre_vint_hash["measure_data_table"] = []
+    pre_vint_hash["analysis_id"] = ""
+    pre_vint_hash["analysis_name"] = ""
+    pre_vint_hash["run_uuid"] = ""
+    pre_vint_hash["os_standards_revision"] = ""
+    post_vint_hash = sim_post_vint[index+2][:rec].clone
+    post_vint_hash["measure_data_table"] = []
+    post_vint_hash["analysis_id"] = ""
+    post_vint_hash["analysis_name"] = ""
+    post_vint_hash["run_uuid"] = ""
+    post_vint_hash["os_standards_revision"] = ""
+=end
+    hash_diff = diff(pre_vint_hash, post_vint_hash)
+    unless hash_diff.empty?
       diff_info << {
           index_pre: pre_vint[:index],
           index_post: sim_post_vint[index][:index],
@@ -64,14 +97,12 @@ pre_vint_mod.each do |vint_rec|
           template: pre_vint[:template],
           city: pre_vint[:city],
           heat_fuel: pre_vint[:heat_fuel],
-          diff: pre_vint[:rec]["sql_data"].to_a - sim_post_vint[index][:rec]["sql_data"].to_a,
-          pre_sql: pre_vint[:rec]["sql_data"],
-          post_sql: sim_post_vint[index][:rec]["sql_data"]
+          diff: hash_diff
       }
-      pre_out_diff_name = "./pre_out_sql_" + diff_index.to_s + ".json"
-      File.write(pre_out_diff_name, JSON.pretty_generate(pre_vint[:rec]["sql_data"]))
-      post_out_diff_name = "./post_out_sql_" + diff_index.to_s + ".json"
-      File.write(post_out_diff_name, JSON.pretty_generate(sim_post_vint[index][:rec]["sql_data"]))
+      pre_out_name = "./pre_out_res_" + diff_index.to_s + ".json"
+      post_out_name = "./post_out_res_" + diff_index.to_s + ".json"
+      File.write(pre_out_name, JSON.pretty_generate(pre_vint[:rec]))
+      File.write(post_out_name, JSON.pretty_generate(sim_post_vint[index][:rec]))
       diff_index += 1
     end
   end
