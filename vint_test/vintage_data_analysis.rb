@@ -10,12 +10,23 @@ post_vint = JSON.parse(File.read(post_vint_file))
 templates = []
 code_ver_pre = post_vint.uniq{|ind_res| ind_res["template"]}
 code_ver_pre.each {|code_ver_ind| templates << code_ver_ind["template"]}
+templates.sort!
+# Switch the locations of BTAPPRE1980 and BTAP1980TO2010 buildings for easier comparison later
+if templates.include?("BTAPPRE1980") && templates.include?("BTAP1980TO2010")
+  pre_index = templates.index("BTAPPRE1980")
+  post_index = templates.index("BTAP1980TO2010")
+  templates[pre_index] = "BTAP1980TO2010"
+  templates[post_index] = "BTAPPRE1980"
+end
+
 weather_cities = []
 weather_city_pre = post_vint.uniq{|ind_res| ind_res["geography"]["city"]}
 weather_city_pre.each {|weather_ind| weather_cities << weather_ind["geography"]["city"]}
+
 fuel_types = []
 fuel_type_pre = post_vint.uniq{|ind_res| ind_res["building"]["principal_heating_source"]}
 fuel_type_pre.each {|fuel_ind| fuel_types << fuel_ind["building"]["principal_heating_source"]}
+
 building_types = []
 building_type_pre = post_vint.uniq{|ind_res| ind_res["building_type"]}
 building_type_pre.each {|building_ind| building_types << building_ind["building_type"]}
@@ -28,7 +39,7 @@ building_types.sort.each do |building_type|
     sort_weather_loc = sort_building_type.select{|ind_rec| ind_rec["geography"]["city"] == weather_city}
     fuel_types.sort.each do |fuel_type|
       sort_fuel_types = sort_weather_loc.select{|ind_rec| ind_rec["building"]["principal_heating_source"] == fuel_type}
-      templates.sort.each do |template|
+      templates.each do |template|
         sort_vint << sort_fuel_types.select{|ind_rec| ind_rec["template"] == template}[0]
       end
     end
@@ -81,7 +92,7 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << vint_rec["sql_data"][0]["table"][4]["electricity_GJ"] #fans
     if vint_rec["sql_data"][0]["table"][5]["name"] == "Pumps" #Some buildings do not have pump energy so check if is included to ensure indices for later items match
       csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #pumps
-      csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #water
+      vint_rec["sql_data"][0]["table"][6]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #water
       vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"] #water
       vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #water
       vint_rec["sql_data"][0]["table"][7]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["electricity_GJ"] #end uses
@@ -89,7 +100,7 @@ CSV.open(res_csv_name, "w") do |csv|
       vint_rec["sql_data"][0]["table"][7]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["water_m3"] #end uses
     else
       csv_out << 0 #pumps
-      csv_out << vint_rec["sql_data"][0]["table"][5]["water_m3"] #water
+      vint_rec["sql_data"][0]["table"][5]["water_m3"].nil? ? csv_out<< 0: csv_out << vint_rec["sql_data"][0]["table"][5]["water_m3"] #water
       vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"] #water
       vint_rec["sql_data"][0]["table"][5]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #water
       vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #end uses
