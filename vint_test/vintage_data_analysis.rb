@@ -2,19 +2,11 @@ require 'fileutils'
 require 'json'
 require 'csv'
 
-def diff(one, other)
-  (one.keys + other.keys).uniq.inject({}) do |memo, key|
-    unless one.key?(key) && other.key?(key) && one[key] == other[key]
-      memo[key] = [one.key?(key) ? one[key] : :_no_key, other.key?(key) ? other[key] : :_no_key]
-    end
-    memo
-  end
-end
-
+# Put json output into array of hashes
 post_vint_file = './btap_postvint_2.json'
-
 post_vint = JSON.parse(File.read(post_vint_file))
 
+#Get unique templates, weather cities, heating types, and building types from json
 templates = []
 code_ver_pre = post_vint.uniq{|ind_res| ind_res["template"]}
 code_ver_pre.each {|code_ver_ind| templates << code_ver_ind["template"]}
@@ -28,16 +20,13 @@ building_types = []
 building_type_pre = post_vint.uniq{|ind_res| ind_res["building_type"]}
 building_type_pre.each {|building_ind| building_types << building_ind["building_type"]}
 
-post_index_array = []
-post_vint_mod = []
-
+# Sort json output by building type, then weather city, then fuel type, and finally vintage
 sort_vint = []
-
-building_types.each do |building_type|
+building_types.sort.each do |building_type|
   sort_building_type = post_vint.select{|ind_rec| ind_rec["building_type"] == building_type}
-  weather_cities.each do |weather_city|
+  weather_cities.sort.each do |weather_city|
     sort_weather_loc = sort_building_type.select{|ind_rec| ind_rec["geography"]["city"] == weather_city}
-    fuel_types.each do |fuel_type|
+    fuel_types.sort.each do |fuel_type|
       sort_fuel_types = sort_weather_loc.select{|ind_rec| ind_rec["building"]["principal_heating_source"] == fuel_type}
       templates.sort.each do |template|
         sort_vint << sort_fuel_types.select{|ind_rec| ind_rec["template"] == template}[0]
@@ -46,8 +35,8 @@ building_types.each do |building_type|
   end
 end
 
-test_out = sort_vint[241]
-
+# Put building type, weather city, heating fuel type, template, sql data, anaylis name, analysis id, and data point id
+# into a csv file
 res_csv_name = "./post_2_results.csv"
 CSV.open(res_csv_name, "w") do |csv|
   csv << [
