@@ -7,16 +7,18 @@ post_vint_file = './btap_postvint_2.json'
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
+pre_present = false
 templates = []
 code_ver_pre = post_vint.uniq{|ind_res| ind_res["template"]}
 code_ver_pre.each {|code_ver_ind| templates << code_ver_ind["template"]}
 templates.sort!
 # Switch the locations of BTAPPRE1980 and BTAP1980TO2010 buildings for easier comparison later
-if templates.include?("BTAPPRE1980") && templates.include?("BTAP1980TO2010")
+if (templates.include?("BTAPPRE1980") && templates.include?("BTAP1980TO2010"))
   pre_index = templates.index("BTAPPRE1980")
   post_index = templates.index("BTAP1980TO2010")
   templates[pre_index] = "BTAP1980TO2010"
   templates[post_index] = "BTAPPRE1980"
+  pre_present = true
 end
 
 weather_cities = []
@@ -77,15 +79,17 @@ CSV.open(res_csv_name, "w") do |csv|
       "Analysis_ID",
       "Data_Point_ID"
   ]
-  sort_vint.each do |vint_rec|
+  sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
         vint_rec["building_type"],
         vint_rec["geography"]["city"],
         vint_rec["building"]["principal_heating_source"],
         vint_rec["template"]
     ]
-    vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"] #heating
-    vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
+    vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"].nil? ? heat_gas = 0: heat_gas = vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"] #heating
+    csv_out << heat_gas
+    vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? heat_elec = 0: heat_elec = vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
+    csv_out << heat_elec
     csv_out << vint_rec["sql_data"][0]["table"][1]["electricity_GJ"] #cooling
     csv_out << vint_rec["sql_data"][0]["table"][2]["electricity_GJ"] #lighting
     csv_out << vint_rec["sql_data"][0]["table"][3]["electricity_GJ"] #equip
@@ -116,6 +120,20 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << vint_rec["analysis_name"]
     csv_out << vint_rec["analysis_id"]
     csv_out << vint_rec["run_uuid"]
+    # Include to highlight when NECB2011 uses more energy than BTAP1980TO2010
+    if (pre_present && ((vint_rec["template"] == "BTAP1980TO2010") || (vint_rec["template"] == "NECB2011")))
+      sort_vint[index-1]["sql_data"][0]["table"][0]["natural_gas_GJ"].nil? ? old_heat_gas = 0: old_heat_gas = sort_vint[index-1]["sql_data"][0]["table"][0]["natural_gas_GJ"]
+      sort_vint[index-1]["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? old_heat_elec = 0: old_heat_elec = sort_vint[index-1]["sql_data"][0]["table"][0]["electricity_GJ"]
+      gas_heat_diff = old_heat_gas - heat_gas
+      csv_out << gas_heat_diff
+      elec_heat_diff = old_heat_elec - heat_elec
+      csv_out << elec_heat_diff
+      if vint_rec["template"] == "NECB2011"
+        if (gas_heat_diff < 0 || elec_heat_diff < 0)
+          csv_out << vint_rec["building_type"]
+        end
+      end
+    end
     csv << csv_out
   end
 end
