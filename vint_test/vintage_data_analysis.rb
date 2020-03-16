@@ -3,7 +3,9 @@ require 'json'
 require 'csv'
 
 # Put json output into array of hashes
-post_vint_file = './btap_postvint_2.json'
+post_vint_file = './simulations_vintage_test_ASHRAE_2020-03-06.json'
+#res_csv_name = "./post_2_results.csv"
+res_csv_name = post_vint_file[0..-5] + "csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
@@ -50,7 +52,6 @@ end
 
 # Put building type, weather city, heating fuel type, template, sql data, anaylis name, analysis id, and data point id
 # into a csv file
-res_csv_name = "./post_2_results.csv"
 CSV.open(res_csv_name, "w") do |csv|
   csv << [
       "Building_Type",
@@ -77,7 +78,9 @@ CSV.open(res_csv_name, "w") do |csv|
       "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",
       "Analysis_Name",
       "Analysis_ID",
-      "Data_Point_ID"
+      "Data_Point_ID",
+      "Gas_Diff_GJ",
+      "Electric_Diff_GJ"
   ]
   sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
