@@ -6,7 +6,7 @@ require 'csv'
 post_vint_file = './simulations_revised_BTAP_vintage_analysis_2020-03-16.json'
 #res_csv_name = "./post_2_results.csv"
 res_csv_name = post_vint_file[0..-5] + "csv"
-res_avg_csv_name = post_vint_file[0..-6] + "_avg.csv"
+res_avg_csv_name = post_vint_file[0..-6] + "_mod_avg.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
@@ -52,7 +52,7 @@ building_types.sort.each do |building_type|
 end
 
 res_array = []
-# Put building type, weather city, heating fuel type, template, sql data, anaylis name, analysis id, and data point id
+# Put building type, weather city, heating fuel type, template, sql data, analysis name, analysis id, and data point id
 # into a csv file
 CSV.open(res_csv_name, "w") do |csv|
   csv << [
@@ -159,7 +159,7 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..22
+      for i in 4..23
         building_type_avg << col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size
       end
       building_avg << building_type_avg
@@ -180,7 +180,7 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..22
+      for i in 4..23
         weather_city_avg << col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size
       end
       weather_avg << weather_city_avg
