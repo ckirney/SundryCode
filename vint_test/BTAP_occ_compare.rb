@@ -9,7 +9,7 @@ res_files = [
     './simulations_ashrae_occ_2020-03-11.json'
 ]
 
-res_csv_name = "./occ_test_results.csv"
+res_csv_name = "./NECB2011_occ_test_results.csv"
 
 occ_info = [
     'a_orig_occ',
@@ -23,11 +23,17 @@ res_files.each_with_index do |res_file, index|
   ind_analysis = nil
   ind_analysis = JSON.parse(File.read(res_file))
   ind_analysis.each do |ind_datapoint|
-    if (ind_datapoint["template"].to_s.include?("BTAPPRE1980") || ind_datapoint["template"].to_s.include?("BTAP1980TO2010") || ind_datapoint["building_type"].to_s.include?("Hospital") || ind_datapoint["building_type"].to_s.include?("Outpatient"))
+    #if (ind_datapoint["template"].to_s.include?("BTAPPRE1980") || ind_datapoint["template"].to_s.include?("BTAP1980TO2010") || ind_datapoint["building_type"].to_s.include?("Hospital") || ind_datapoint["building_type"].to_s.include?("Outpatient"))
+    if ind_datapoint["template"].to_s.include?("NECB2011")
+      unless ind_datapoint["building_type"].to_s.include?("Hospital") || ind_datapoint["building_type"].to_s.include?("Outpatient")
+        ind_datapoint["new_template"] = ind_datapoint["template"] + "_" + occ_info[index]
+        all_res << ind_datapoint
+      end
       next
     else
-      ind_datapoint["new_template"] = ind_datapoint["template"] + "_" + occ_info[index]
-      all_res << ind_datapoint
+      next
+      #ind_datapoint["new_template"] = ind_datapoint["template"] + "_" + occ_info[index]
+      #all_res << ind_datapoint
     end
   end
 end
@@ -76,6 +82,7 @@ CSV.open(res_csv_name, "w") do |csv|
       "Template",
       "Heating_Gas_GJ",
       "Heating_Elec_GJ",
+      "Total_Heating_GJ",
       "Cooling_Elec_GJ",
       "Interior_Lighting_Elec_GJ",
       "Interior_Equipment_Elec_GJ",
@@ -107,6 +114,7 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << heat_gas
     vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? heat_elec = 0: heat_elec = vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
     csv_out << heat_elec
+    csv_out << (heat_gas + heat_elec)
     csv_out << vint_rec["sql_data"][0]["table"][1]["electricity_GJ"] #cooling
     csv_out << vint_rec["sql_data"][0]["table"][2]["electricity_GJ"] #lighting
     csv_out << vint_rec["sql_data"][0]["table"][3]["electricity_GJ"] #equip

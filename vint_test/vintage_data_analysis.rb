@@ -3,7 +3,7 @@ require 'json'
 require 'csv'
 
 # Put json output into array of hashes
-post_vint_file = './simulations_vintage_test_ASHRAE_2020-03-06.json'
+post_vint_file = './simulations_revised_BTAP_vintage_analysis_2020-03-16.json'
 #res_csv_name = "./post_2_results.csv"
 res_csv_name = post_vint_file[0..-5] + "csv"
 post_vint = JSON.parse(File.read(post_vint_file))
@@ -60,6 +60,7 @@ CSV.open(res_csv_name, "w") do |csv|
       "Template",
       "Heating_Gas_GJ",
       "Heating_Elec_GJ",
+      "Total_Heating_GJ",
       "Cooling_Elec_GJ",
       "Interior_Lighting_Elec_GJ",
       "Interior_Equipment_Elec_GJ",
@@ -93,6 +94,7 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << heat_gas
     vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? heat_elec = 0: heat_elec = vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
     csv_out << heat_elec
+    csv_out << (heat_gas + heat_elec)
     csv_out << vint_rec["sql_data"][0]["table"][1]["electricity_GJ"] #cooling
     csv_out << vint_rec["sql_data"][0]["table"][2]["electricity_GJ"] #lighting
     csv_out << vint_rec["sql_data"][0]["table"][3]["electricity_GJ"] #equip
