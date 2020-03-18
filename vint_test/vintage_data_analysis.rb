@@ -64,10 +64,14 @@ CSV.open(res_csv_name, "w") do |csv|
       "Cooling_Elec_GJ",
       "Interior_Lighting_Elec_GJ",
       "Interior_Equipment_Elec_GJ",
-      "Fans_Elec_GJ", "Pumps_Elec_GJ",
-      "Water_Systems_m3",
+      "Fans_Elec_GJ",
+      "Pumps_Elec_GJ",
+      "Heat_Rejection_GJ",
+      "Heat_Recovery_GJ",
       "Water_Systems_Gas_GJ",
       "Water_Systems_Elec_GJ",
+      "Water_Systems_Tot_GJ",
+      "Water_Systems_m3",
       "Total_End_Uses_Elec_GJ",
       "Total_End_Uses_Gas_GJ",
       "Total_End_Uses_Water_m3",
@@ -90,38 +94,37 @@ CSV.open(res_csv_name, "w") do |csv|
         vint_rec["building"]["principal_heating_source"],
         vint_rec["template"]
     ]
-    vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"].nil? ? heat_gas = 0: heat_gas = vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"] #heating
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["natural_gas_GJ"].nil? ? heat_gas = 0 : heat_gas = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["natural_gas_GJ"] #heating
     csv_out << heat_gas
-    vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? heat_elec = 0: heat_elec = vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["electricity_GJ"].nil? ? heat_elec = 0 : heat_elec = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["electricity_GJ"] #heating
     csv_out << heat_elec
     csv_out << (heat_gas + heat_elec)
-    csv_out << vint_rec["sql_data"][0]["table"][1]["electricity_GJ"] #cooling
-    csv_out << vint_rec["sql_data"][0]["table"][2]["electricity_GJ"] #lighting
-    csv_out << vint_rec["sql_data"][0]["table"][3]["electricity_GJ"] #equip
-    csv_out << vint_rec["sql_data"][0]["table"][4]["electricity_GJ"] #fans
-    if vint_rec["sql_data"][0]["table"][5]["name"] == "Pumps" #Some buildings do not have pump energy so check if is included to ensure indices for later items match
-      csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #pumps
-      vint_rec["sql_data"][0]["table"][6]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #water
-      vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"] #water
-      vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #water
-      vint_rec["sql_data"][0]["table"][7]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["electricity_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][7]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["natural_gas_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][7]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["water_m3"] #end uses
-    else
-      csv_out << 0 #pumps
-      vint_rec["sql_data"][0]["table"][5]["water_m3"].nil? ? csv_out<< 0: csv_out << vint_rec["sql_data"][0]["table"][5]["water_m3"] #water
-      vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"] #water
-      vint_rec["sql_data"][0]["table"][5]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #water
-      vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][6]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #end uses
-    end
-    csv_out << vint_rec["sql_data"][1]["table"][0]["total_energy_GJ"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][0]["energy_per_total_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][0]["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["total_energy_GJ"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["energy_per_total_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"] #cooling
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"] #lighting
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"] #equip
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"] #fans
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}[0]["electricity_GJ"] #pumps
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}[0]["electricity_GJ"] #heat rejection
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}[0]["electricity_GJ"] #heat recovery
+    water_systems = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Water Systems"}[0] #water systems
+    water_systems["natural_gas_GJ"].nil? ? water_gas = 0 : water_gas = water_systems["natural_gas_GJ"] #gas water systems
+    csv_out << water_gas
+    water_systems["electricity_GJ"].nil? ? water_elec = 0 : water_elec = water_systems["electricity_GJ"] #electricity water systems
+    csv_out << water_elec
+    csv_out << (water_gas + water_elec)
+    csv_out << water_systems["water_m3"]
+    tot_end_uses = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Total End Uses"}[0] #total end uses
+    tot_end_uses["natural_gas_GJ"].nil? ? csv_out << 0 : csv_out << tot_end_uses["natural_gas_GJ"] #total end uses gas
+    tot_end_uses["electricity_GJ"].nil? ? csv_out << 0 : csv_out << tot_end_uses["electricity_GJ"] #total end uses electricity
+    csv_out << tot_end_uses["water_m3"] #total end uses water
+    total_site = vint_rec["sql_data"][1]["table"].select{|data| data["name"] == "Total Site Energy"}[0] #Site Energy
+    csv_out << total_site["total_energy_GJ"] #Site Energy
+    csv_out << total_site["energy_per_total_building_area_MJ/m2"] #Site Energy
+    csv_out << total_site["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
+    total_source = vint_rec["sql_data"][1]["table"].select{|data| data["name"] == "Total Source Energy"}[0] #Source Energy
+    csv_out << total_source["total_energy_GJ"] #Source Energy
+    csv_out << total_source["energy_per_total_building_area_MJ/m2"] #Source Energy
+    csv_out << total_source["energy_per_conditioned_building_area_MJ/m2"] #Source Energy
     csv_out << vint_rec["analysis_name"]
     csv_out << vint_rec["analysis_id"]
     csv_out << vint_rec["run_uuid"]
