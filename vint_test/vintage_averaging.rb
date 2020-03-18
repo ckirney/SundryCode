@@ -66,24 +66,25 @@ CSV.open(res_csv_name, "w") do |csv|
       "Cooling_Elec_GJ",                                    #7
       "Interior_Lighting_Elec_GJ",                          #8
       "Interior_Equipment_Elec_GJ",                         #9
-      "Fans_Elec_GJ", "Pumps_Elec_GJ",                      #10
-      "Water_Systems_m3",                                   #11
-      "Water_Systems_Gas_GJ",                               #12
-      "Water_Systems_Elec_GJ",                              #13
-      "Total_End_Uses_Elec_GJ",                             #14
-      "Total_End_Uses_Gas_GJ",                              #15
-      "Total_End_Uses_Water_m3",                            #16
-      "Total_Site_Energy_GJ",                               #17
-      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #18
-      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #19
-      "Total_Source_Energy_GJ",                             #20
-      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #21
-      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #22
-      "Analysis_Name",                                      #23
-      "Analysis_ID",                                        #24
-      "Data_Point_ID",                                      #25
-      "Gas_Diff_GJ",                                        #26
-      "Electric_Diff_GJ"                                    #27
+      "Fans_Elec_GJ",                                       #10
+      "Pumps_Elec_GJ",                                      #11
+      "Water_Systems_m3",                                   #12
+      "Water_Systems_Gas_GJ",                               #13
+      "Water_Systems_Elec_GJ",                              #14
+      "Total_End_Uses_Elec_GJ",                             #15
+      "Total_End_Uses_Gas_GJ",                              #16
+      "Total_End_Uses_Water_m3",                            #17
+      "Total_Site_Energy_GJ",                               #18
+      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #19
+      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #20
+      "Total_Source_Energy_GJ",                             #21
+      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #22
+      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #23
+      "Analysis_Name",                                      #24
+      "Analysis_ID",                                        #25
+      "Data_Point_ID",                                      #26
+      "Gas_Diff_GJ",                                        #27
+      "Electric_Diff_GJ"                                    #28
   ]
   sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
@@ -200,19 +201,20 @@ CSV.open(res_avg_csv_name, "w") do |csv|
       "Cooling_Elec_GJ",                                    #7
       "Interior_Lighting_Elec_GJ",                          #8
       "Interior_Equipment_Elec_GJ",                         #9
-      "Fans_Elec_GJ", "Pumps_Elec_GJ",                      #10
-      "Water_Systems_m3",                                   #11
-      "Water_Systems_Gas_GJ",                               #12
-      "Water_Systems_Elec_GJ",                              #13
-      "Total_End_Uses_Elec_GJ",                             #14
-      "Total_End_Uses_Gas_GJ",                              #15
-      "Total_End_Uses_Water_m3",                            #16
-      "Total_Site_Energy_GJ",                               #17
-      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #18
-      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #19
-      "Total_Source_Energy_GJ",                             #20
-      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #21
-      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #22
+      "Fans_Elec_GJ",                                       #10
+      "Pumps_Elec_GJ",                                      #11
+      "Water_Systems_m3",                                   #12
+      "Water_Systems_Gas_GJ",                               #13
+      "Water_Systems_Elec_GJ",                              #14
+      "Total_End_Uses_Elec_GJ",                             #15
+      "Total_End_Uses_Gas_GJ",                              #16
+      "Total_End_Uses_Water_m3",                            #17
+      "Total_Site_Energy_GJ",                               #18
+      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #19
+      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #20
+      "Total_Source_Energy_GJ",                             #21
+      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #22
+      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #23
   ]
   building_avg.each do |build_avg|
     csv << build_avg
