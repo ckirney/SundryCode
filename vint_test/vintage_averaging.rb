@@ -56,35 +56,38 @@ res_array = []
 # into a csv file
 CSV.open(res_csv_name, "w") do |csv|
   csv << [
-      "Building_Type",                                      #0
-      "Weather_City",                                       #1
-      "Fuel_Type",                                          #2
-      "Template",                                           #3
-      "Heating_Gas_GJ",                                     #4
-      "Heating_Elec_GJ",                                    #5
-      "Total_Heating_GJ",                                   #6
-      "Cooling_Elec_GJ",                                    #7
-      "Interior_Lighting_Elec_GJ",                          #8
-      "Interior_Equipment_Elec_GJ",                         #9
-      "Fans_Elec_GJ",                                       #10
-      "Pumps_Elec_GJ",                                      #11
-      "Water_Systems_m3",                                   #12
-      "Water_Systems_Gas_GJ",                               #13
-      "Water_Systems_Elec_GJ",                              #14
-      "Total_End_Uses_Elec_GJ",                             #15
-      "Total_End_Uses_Gas_GJ",                              #16
-      "Total_End_Uses_Water_m3",                            #17
-      "Total_Site_Energy_GJ",                               #18
-      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #19
-      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #20
-      "Total_Source_Energy_GJ",                             #21
-      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #22
-      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #23
-      "Analysis_Name",                                      #24
-      "Analysis_ID",                                        #25
-      "Data_Point_ID",                                      #26
-      "Gas_Diff_GJ",                                        #27
-      "Electric_Diff_GJ"                                    #28
+      "Building_Type",                                        #0
+      "Weather_City",                                         #1
+      "Fuel_Type",                                            #2
+      "Template",                                             #3
+      "Heating_Gas_GJ",                                       #4
+      "Heating_Elec_GJ",                                      #5
+      "Total_Heating_GJ",                                     #6
+      "Cooling_Elec_GJ",                                      #7
+      "Interior_Lighting_Elec_GJ",                            #8
+      "Interior_Equipment_Elec_GJ",                           #9
+      "Fans_Elec_GJ",                                         #10
+      "Pumps_Elec_GJ",                                        #11
+      "Heat_Rejection_GJ",                                    #12
+      "Heat_Recovery_GJ",                                     #13
+      "Water_Systems_Gas_GJ",                                 #14
+      "Water_Systems_Elec_GJ",                                #15
+      "Water_Systems_Tot_GJ",                                 #16
+      "Water_Systems_m3",                                     #17
+      "Total_End_Uses_Elec_GJ",                               #18
+      "Total_End_Uses_Gas_GJ",                                #19
+      "Total_End_Uses_Water_m3",                              #20
+      "Total_Site_Energy_GJ",                                 #21
+      "Site_Energy_Per_Total_Building_Area_MJ/m2",            #22
+      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",      #23
+      "Total_Source_Energy_GJ",                               #24
+      "Source_Energy_Per_Total_Building_Area_MJ/m2",          #25
+      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
+      "Analysis_Name",                                        #27
+      "Analysis_ID",                                          #28
+      "Data_Point_ID",                                        #29
+      "Gas_Diff_GJ",                                          #30
+      "Electric_Diff_GJ"                                      #31
   ]
   sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
@@ -93,38 +96,37 @@ CSV.open(res_csv_name, "w") do |csv|
         vint_rec["building"]["principal_heating_source"],
         vint_rec["template"]
     ]
-    vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"].nil? ? heat_gas = 0: heat_gas = vint_rec["sql_data"][0]["table"][0]["natural_gas_GJ"] #heating
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["natural_gas_GJ"].nil? ? heat_gas = 0 : heat_gas = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["natural_gas_GJ"] #heating
     csv_out << heat_gas
-    vint_rec["sql_data"][0]["table"][0]["electricity_GJ"].nil? ? heat_elec = 0: heat_elec = vint_rec["sql_data"][0]["table"][0]["electricity_GJ"] #heating
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["electricity_GJ"].nil? ? heat_elec = 0 : heat_elec = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heating"}[0]["electricity_GJ"] #heating
     csv_out << heat_elec
     csv_out << (heat_gas + heat_elec)
-    csv_out << vint_rec["sql_data"][0]["table"][1]["electricity_GJ"] #cooling
-    csv_out << vint_rec["sql_data"][0]["table"][2]["electricity_GJ"] #lighting
-    csv_out << vint_rec["sql_data"][0]["table"][3]["electricity_GJ"] #equip
-    csv_out << vint_rec["sql_data"][0]["table"][4]["electricity_GJ"] #fans
-    if vint_rec["sql_data"][0]["table"][5]["name"] == "Pumps" #Some buildings do not have pump energy so check if is included to ensure indices for later items match
-      csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #pumps
-      vint_rec["sql_data"][0]["table"][6]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #water
-      vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"] #water
-      vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #water
-      vint_rec["sql_data"][0]["table"][7]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["electricity_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][7]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["natural_gas_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][7]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][7]["water_m3"] #end uses
-    else
-      csv_out << 0 #pumps
-      vint_rec["sql_data"][0]["table"][5]["water_m3"].nil? ? csv_out<< 0: csv_out << vint_rec["sql_data"][0]["table"][5]["water_m3"] #water
-      vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["natural_gas_GJ"] #water
-      vint_rec["sql_data"][0]["table"][5]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][5]["electricity_GJ"] #water
-      vint_rec["sql_data"][0]["table"][6]["electricity_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["electricity_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["natural_gas_GJ"] #end uses
-      vint_rec["sql_data"][0]["table"][6]["water_m3"].nil? ? csv_out << 0: csv_out << vint_rec["sql_data"][0]["table"][6]["water_m3"] #end uses
-    end
-    csv_out << vint_rec["sql_data"][1]["table"][0]["total_energy_GJ"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][0]["energy_per_total_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][0]["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["total_energy_GJ"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["energy_per_total_building_area_MJ/m2"] #Site Energy
-    csv_out << vint_rec["sql_data"][1]["table"][2]["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"] #cooling
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"] #lighting
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"] #equip
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"] #fans
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}[0]["electricity_GJ"] #pumps
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}[0]["electricity_GJ"] #heat rejection
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}[0]["electricity_GJ"] #heat recovery
+    water_systems = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Water Systems"}[0] #water systems
+    water_systems["natural_gas_GJ"].nil? ? water_gas = 0 : water_gas = water_systems["natural_gas_GJ"] #gas water systems
+    csv_out << water_gas
+    water_systems["electricity_GJ"].nil? ? water_elec = 0 : water_elec = water_systems["electricity_GJ"] #electricity water systems
+    csv_out << water_elec
+    csv_out << (water_gas + water_elec)
+    csv_out << water_systems["water_m3"]
+    tot_end_uses = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Total End Uses"}[0] #total end uses
+    tot_end_uses["natural_gas_GJ"].nil? ? csv_out << 0 : csv_out << tot_end_uses["natural_gas_GJ"] #total end uses gas
+    tot_end_uses["electricity_GJ"].nil? ? csv_out << 0 : csv_out << tot_end_uses["electricity_GJ"] #total end uses electricity
+    csv_out << tot_end_uses["water_m3"] #total end uses water
+    total_site = vint_rec["sql_data"][1]["table"].select{|data| data["name"] == "Total Site Energy"}[0] #Site Energy
+    csv_out << total_site["total_energy_GJ"] #Site Energy
+    csv_out << total_site["energy_per_total_building_area_MJ/m2"] #Site Energy
+    csv_out << total_site["energy_per_conditioned_building_area_MJ/m2"] #Site Energy
+    total_source = vint_rec["sql_data"][1]["table"].select{|data| data["name"] == "Total Source Energy"}[0] #Source Energy
+    csv_out << total_source["total_energy_GJ"] #Source Energy
+    csv_out << total_source["energy_per_total_building_area_MJ/m2"] #Source Energy
+    csv_out << total_source["energy_per_conditioned_building_area_MJ/m2"] #Source Energy
     csv_out << vint_rec["analysis_name"]
     csv_out << vint_rec["analysis_id"]
     csv_out << vint_rec["run_uuid"]
@@ -160,8 +162,8 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..23
-        building_type_avg << col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size
+      for i in 4..26
+        building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
       end
       building_avg << building_type_avg
     end
@@ -181,8 +183,8 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..23
-        weather_city_avg << col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size
+      for i in 4..26
+        weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
       end
       weather_avg << weather_city_avg
     end
@@ -191,30 +193,33 @@ end
 
 CSV.open(res_avg_csv_name, "w") do |csv|
   csv << [
-      "Building_Type",                                      #0
-      "Weather_City",                                       #1
-      "Fuel_Type",                                          #2
-      "Template",                                           #3
-      "Heating_Gas_GJ",                                     #4
-      "Heating_Elec_GJ",                                    #5
-      "Total_Heating_GJ",                                   #6
-      "Cooling_Elec_GJ",                                    #7
-      "Interior_Lighting_Elec_GJ",                          #8
-      "Interior_Equipment_Elec_GJ",                         #9
-      "Fans_Elec_GJ",                                       #10
-      "Pumps_Elec_GJ",                                      #11
-      "Water_Systems_m3",                                   #12
-      "Water_Systems_Gas_GJ",                               #13
-      "Water_Systems_Elec_GJ",                              #14
-      "Total_End_Uses_Elec_GJ",                             #15
-      "Total_End_Uses_Gas_GJ",                              #16
-      "Total_End_Uses_Water_m3",                            #17
-      "Total_Site_Energy_GJ",                               #18
-      "Site_Energy_Per_Total_Building_Area_MJ/m2",          #19
-      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",    #20
-      "Total_Source_Energy_GJ",                             #21
-      "Source_Energy_Per_Total_Building_Area_MJ/m2",        #22
-      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",  #23
+      "Building_Type",                                        #0
+      "Weather_City",                                         #1
+      "Fuel_Type",                                            #2
+      "Template",                                             #3
+      "Heating_Gas_GJ",                                       #4
+      "Heating_Elec_GJ",                                      #5
+      "Total_Heating_GJ",                                     #6
+      "Cooling_Elec_GJ",                                      #7
+      "Interior_Lighting_Elec_GJ",                            #8
+      "Interior_Equipment_Elec_GJ",                           #9
+      "Fans_Elec_GJ",                                         #10
+      "Pumps_Elec_GJ",                                        #11
+      "Heat_Rejection_GJ",                                    #12
+      "Heat_Recovery_GJ",                                     #13
+      "Water_Systems_Gas_GJ",                                 #14
+      "Water_Systems_Elec_GJ",                                #15
+      "Water_Systems_Tot_GJ",                                 #16
+      "Water_Systems_m3",                                     #17
+      "Total_End_Uses_Elec_GJ",                               #18
+      "Total_End_Uses_Gas_GJ",                                #19
+      "Total_End_Uses_Water_m3",                              #20
+      "Total_Site_Energy_GJ",                                 #21
+      "Site_Energy_Per_Total_Building_Area_MJ/m2",            #22
+      "Site_Energy_Per_Conditioned_Building_Area_MJ/m2",      #23
+      "Total_Source_Energy_GJ",                               #24
+      "Source_Energy_Per_Total_Building_Area_MJ/m2",          #25
+      "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
   ]
   building_avg.each do |build_avg|
     csv << build_avg
