@@ -3,7 +3,7 @@ require 'json'
 require 'csv'
 
 # Put json output into array of hashes
-post_vint_file = './simulations_revised_BTAP_vintage_analysis_2020-03-16.json'
+post_vint_file = './simulations_BTAP_vintage_analysis_2020-03-20.json'
 #res_csv_name = "./post_2_results.csv"
 res_csv_name = post_vint_file[0..-5] + "csv"
 res_avg_csv_name = post_vint_file[0..-6] + "_avg.csv"
