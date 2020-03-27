@@ -5,8 +5,8 @@ require 'csv'
 # Put json output into array of hashes
 post_vint_file = './simulations_BTAP_vintage_analysis_2020-03-20.json'
 #res_csv_name = "./post_2_results.csv"
-res_csv_name = post_vint_file[0..-6] + "_rev.csv"
-res_avg_csv_name = post_vint_file[0..-6] + "_rev_avg.csv"
+res_csv_name = post_vint_file[0..-6] + ".csv"
+res_avg_csv_name = post_vint_file[0..-6] + "_avg.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
