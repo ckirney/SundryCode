@@ -70,9 +70,9 @@ CSV.open(res_csv_name, "w") do |csv|
       "Pumps_Elec_GJ",                                        #11
       "Heat_Rejection_GJ",                                    #12
       "Heat_Recovery_GJ",                                     #13
-      "Water_Systems_Gas_GJ",                                 #14
-      "Water_Systems_Elec_GJ",                                #15
-      "Water_Systems_Tot_GJ",                                 #16
+      "Water_Systems_Tot_GJ",                                 #14
+      "Water_Systems_Gas_GJ",                                 #15
+      "Water_Systems_Elec_GJ",                                #16
       "Water_Systems_m3",                                     #17
       "Total_End_Uses_Elec_GJ",                               #18
       "Total_End_Uses_Gas_GJ",                                #19
@@ -112,10 +112,10 @@ CSV.open(res_csv_name, "w") do |csv|
     vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}.empty? ? csv_out << 0 : csv_out << vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}[0]["electricity_GJ"] #heat recovery
     water_systems = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Water Systems"}[0] #water systems
     water_systems["natural_gas_GJ"].nil? ? water_gas = 0 : water_gas = water_systems["natural_gas_GJ"] #gas water systems
-    csv_out << water_gas
     water_systems["electricity_GJ"].nil? ? water_elec = 0 : water_elec = water_systems["electricity_GJ"] #electricity water systems
-    csv_out << water_elec
     csv_out << (water_gas + water_elec)
+    csv_out << water_gas
+    csv_out << water_elec
     csv_out << water_systems["water_m3"]
     tot_end_uses = vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Total End Uses"}[0] #total end uses
     tot_end_uses["natural_gas_GJ"].nil? ? csv_out << 0 : csv_out << tot_end_uses["natural_gas_GJ"] #total end uses gas
@@ -211,9 +211,9 @@ CSV.open(res_avg_csv_name, "w") do |csv|
       "Pumps_Elec_GJ",                                        #11
       "Heat_Rejection_GJ",                                    #12
       "Heat_Recovery_GJ",                                     #13
-      "Water_Systems_Gas_GJ",                                 #14
-      "Water_Systems_Elec_GJ",                                #15
-      "Water_Systems_Tot_GJ",                                 #16
+      "Water_Systems_Tot_GJ",                                 #14
+      "Water_Systems_Gas_GJ",                                 #15
+      "Water_Systems_Elec_GJ",                                #16
       "Water_Systems_m3",                                     #17
       "Total_End_Uses_Elec_GJ",                               #18
       "Total_End_Uses_Gas_GJ",                                #19
