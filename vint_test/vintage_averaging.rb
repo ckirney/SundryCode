@@ -5,8 +5,8 @@ require 'csv'
 # Put json output into array of hashes
 post_vint_file = './simulations_BTAP_vintage_analysis_2020-03-20.json'
 #res_csv_name = "./post_2_results.csv"
-res_csv_name = post_vint_file[0..-5] + "csv"
-res_avg_csv_name = post_vint_file[0..-6] + "_avg.csv"
+res_csv_name = post_vint_file[0..-6] + "_rev.csv"
+res_avg_csv_name = post_vint_file[0..-6] + "_rev_avg.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
@@ -83,11 +83,13 @@ CSV.open(res_csv_name, "w") do |csv|
       "Total_Source_Energy_GJ",                               #24
       "Source_Energy_Per_Total_Building_Area_MJ/m2",          #25
       "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
-      "Analysis_Name",                                        #27
-      "Analysis_ID",                                          #28
-      "Data_Point_ID",                                        #29
-      "Gas_Diff_GJ",                                          #30
-      "Electric_Diff_GJ"                                      #31
+      "HDD",                                                  #27
+      "CDD",                                                  #28
+      "Analysis_Name",                                        #29
+      "Analysis_ID",                                          #30
+      "Data_Point_ID",                                        #31
+      "Gas_Diff_GJ",                                          #32
+      "Electric_Diff_GJ",                                     #33
   ]
   sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
@@ -127,6 +129,8 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << total_source["total_energy_GJ"] #Source Energy
     csv_out << total_source["energy_per_total_building_area_MJ/m2"] #Source Energy
     csv_out << total_source["energy_per_conditioned_building_area_MJ/m2"] #Source Energy
+    csv_out << vint_rec["geography"]["hdd"] #HDD
+    csv_out << vint_rec["geography"]["cdd"] #CDD
     csv_out << vint_rec["analysis_name"]
     csv_out << vint_rec["analysis_id"]
     csv_out << vint_rec["run_uuid"]
@@ -162,7 +166,7 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..26
+      for i in 4..28
         building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
       end
       building_avg << building_type_avg
@@ -183,7 +187,7 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..26
+      for i in 4..28
         weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
       end
       weather_avg << weather_city_avg
@@ -220,6 +224,8 @@ CSV.open(res_avg_csv_name, "w") do |csv|
       "Total_Source_Energy_GJ",                               #24
       "Source_Energy_Per_Total_Building_Area_MJ/m2",          #25
       "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
+      "HDD",                                                  #27
+      "CDD"                                                   #28
   ]
   building_avg.each do |build_avg|
     csv << build_avg
