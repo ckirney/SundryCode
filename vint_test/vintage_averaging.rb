@@ -5,8 +5,8 @@ require 'csv'
 # Put json output into array of hashes
 post_vint_file = './simulations_BTAP_vintage_analysis_2020-03-20.json'
 #res_csv_name = "./post_2_results.csv"
-res_csv_name = post_vint_file[0..-6] + ".csv"
-res_avg_csv_name = post_vint_file[0..-6] + "_avg.csv"
+res_csv_name = post_vint_file[0..-6] + "_w_floor_area.csv"
+res_avg_csv_name = post_vint_file[0..-6] + "_avg_w_floor_area.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
@@ -85,11 +85,29 @@ CSV.open(res_csv_name, "w") do |csv|
       "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
       "HDD",                                                  #27
       "CDD",                                                  #28
-      "Analysis_Name",                                        #29
-      "Analysis_ID",                                          #30
-      "Data_Point_ID",                                        #31
-      "Gas_Diff_GJ",                                          #32
-      "Electric_Diff_GJ",                                     #33
+      "Conditioned_Floor_Area_m2",                            #29
+      "Outdoor_wall_area_m2",                                 #30
+      "Outdoor_roof_area_m2",                                 #31
+      "Ground_floor_area_m2",                                 #32
+      "Window_area_m2",                                       #33
+      "Skylight_area_m2",                                     #34
+      "Total_exterior_area_m2",                               #35
+      "Total_ground_area_m2",                                 #36
+      "Total_outdoor_area_m2",                                #37
+      "Heating_per_floor_area",                               #38
+      "Cooling_per_floor_area",                               #39
+      "Lighting_per_floor_area",                              #40
+      "Equipment_per_floor_area",                             #41
+      "Fans_per_floor_area",                                  #42
+      "Pumps_per_floor_area",                                 #43
+      "Heat_Rejection_per_floor_area",                        #44
+      "Heat_Recovery_per_floor_area",                         #45
+      "Water_Systems_per_floor_area",                         #46
+      "Analysis_Name",                                        #47
+      "Analysis_ID",                                          #48
+      "Data_Point_ID",                                        #49
+      "Gas_Diff_GJ",                                          #50
+      "Electric_Diff_GJ",                                     #51
   ]
   sort_vint.each_with_index do |vint_rec, index|
     csv_out = [
@@ -131,6 +149,25 @@ CSV.open(res_csv_name, "w") do |csv|
     csv_out << total_source["energy_per_conditioned_building_area_MJ/m2"] #Source Energy
     csv_out << vint_rec["geography"]["hdd"] #HDD
     csv_out << vint_rec["geography"]["cdd"] #CDD
+    floor_area = vint_rec["building"]["conditioned_floor_area_m2"]
+    csv_out << floor_area # Floor Area
+    csv_out << vint_rec["envelope"]["outdoor_walls_area_m2"]
+    csv_out << vint_rec["envelope"]["outdoor_roofs_area_m2"]
+    csv_out << vint_rec["envelope"]["ground_floors_area_m2"]
+    csv_out << vint_rec["envelope"]["windows_area_m2"]
+    csv_out << vint_rec["envelope"]["skylights_area_m2"]
+    csv_out << vint_rec["envelope"]["total_exterior_area_m2"]
+    csv_out << vint_rec["envelope"]["total_ground_area_m2"]
+    csv_out << vint_rec["envelope"]["total_outdoor_area_m2"]
+    csv_out << ((heat_gas + heat_elec)/floor_area)
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Cooling"}[0]["electricity_GJ"])/floor_area #cooling/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Lighting"}[0]["electricity_GJ"])/floor_area #lighting/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Interior Equipment"}[0]["electricity_GJ"])/floor_area #equip/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"].nil? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Fans"}[0]["electricity_GJ"])/floor_area #fans/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}.empty? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Pumps"}[0]["electricity_GJ"])/floor_area #pumps/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}.empty? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Rejection"}[0]["electricity_GJ"])/floor_area #heat rejection/floor_area
+    vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}.empty? ? csv_out << 0 : csv_out << (vint_rec["sql_data"][0]["table"].select{|data| data["name"] == "Heat Recovery"}[0]["electricity_GJ"])/floor_area #heat recovery/floor_area
+    csv_out << ((water_gas + water_elec)/floor_area)
     csv_out << vint_rec["analysis_name"]
     csv_out << vint_rec["analysis_id"]
     csv_out << vint_rec["run_uuid"]
@@ -166,8 +203,12 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..28
-        building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
+      for i in 4..46
+        if i < 38
+          building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
+        else
+          building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(4)
+        end
       end
       building_avg << building_type_avg
     end
@@ -187,8 +228,12 @@ templates.each do |template|
           fuel_type,
           template
       ]
-      for i in 4..28
-        weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
+      for i in 4..46
+        if i < 38
+          weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
+        else
+          weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(4)
+        end
       end
       weather_avg << weather_city_avg
     end
@@ -225,7 +270,25 @@ CSV.open(res_avg_csv_name, "w") do |csv|
       "Source_Energy_Per_Total_Building_Area_MJ/m2",          #25
       "Source_Energy_Per_Conditioned_Building_Area_MJ/m2",    #26
       "HDD",                                                  #27
-      "CDD"                                                   #28
+      "CDD",                                                  #28
+      "Conditioned_Floor_Area_m2",                            #29
+      "Outdoor_wall_area_m2",                                 #30
+      "Outdoor_roof_area_m2",                                 #31
+      "Ground_floor_area_m2",                                 #32
+      "Window_area_m2",                                       #33
+      "Skylight_area_m2",                                     #34
+      "Total_exterior_area_m2",                               #35
+      "Total_ground_area_m2",                                 #36
+      "Total_outdoor_area_m2",                                #37
+      "Heating_per_floor_area",                               #38
+      "Cooling_per_floor_area",                               #39
+      "Lighting_per_floor_area",                              #40
+      "Equipment_per_floor_area",                             #41
+      "Fans_per_floor_area",                                  #42
+      "Pumps_per_floor_area",                                 #43
+      "Heat_Rejection_per_floor_area",                        #44
+      "Heat_Recovery_per_floor_area",                         #45
+      "Water_Systems_per_floor_area"                          #46
   ]
   building_avg.each do |build_avg|
     csv << build_avg
