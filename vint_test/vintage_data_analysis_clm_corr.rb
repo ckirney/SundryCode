@@ -10,8 +10,8 @@ res_avg_csv_name = post_vint_file[0..-6] + "_avg_pop_frac.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 # Get climate correction data
-clim_corr_file = './climate_zone_pop_froc.json'
-clim_pop = JSON.part(File.read(clim_corr_file))
+clim_corr_file = './climate_zone_pop_frac.json'
+clim_pop = JSON.parse(File.read(clim_corr_file))
 
 #Get unique templates, weather cities, heating types, and building types from json
 pre_present = false
@@ -214,12 +214,15 @@ templates.each do |template|
           template
       ]
       for i in 4..46
-        if i < 38
+        if i < 29
+          building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]*line_val[47]}).round(2)
+        elsif (i < 38) && (i >= 29)
           building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(2)
         else
-          building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(4)
+          building_type_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]*line_val[47]}).round(4)
         end
       end
+      building_type_avg << 1
       building_avg << building_type_avg
     end
   end
@@ -245,6 +248,7 @@ templates.each do |template|
           weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(4)
         end
       end
+      weather_city_avg << col_res[47]
       weather_avg << weather_city_avg
     end
   end
