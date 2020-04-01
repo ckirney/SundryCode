@@ -248,7 +248,7 @@ templates.each do |template|
           weather_city_avg << (col_res.inject(0.0) {|col_avg, line_val| col_avg + line_val[i]}/array_size).round(4)
         end
       end
-      weather_city_avg << col_res[47]
+      weather_city_avg << col_res[0][47]
       weather_avg << weather_city_avg
     end
   end
