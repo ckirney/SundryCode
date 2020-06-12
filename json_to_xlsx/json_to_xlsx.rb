@@ -24,7 +24,7 @@ json_titles = [
     "necb_schedule_type"
 ]
 
-in_file = './space_types_1980TO2010.json'
+in_file = './data/space_types.json'
 json_info = JSON.parse(File.read(in_file))
 space_types = json_info["tables"]["space_types"]["table"]
 
