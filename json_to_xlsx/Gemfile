@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+ruby '2.5.1'
+
+gem 'write_xlsx', '~> 0.85.7'
