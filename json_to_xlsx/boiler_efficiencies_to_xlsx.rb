@@ -31,10 +31,11 @@ row += 1
 table_info.each do |table_entry|
   col = 0
   json_titles.each do |json_title|
-    if table_entry[json_title] == '-'
+    xlsx_output = table_entry[json_title]
+    if xlsx_output == '-'
       xlsx_output = 0
     else
-      xlsx_output = table_entry[json_title]
+      xlsx_output.is_a?(Float) ? xlsx_output.to_f : xlsx_output.to_s
     end
     worksheet.write(row, col, xlsx_output)
     col += 1
