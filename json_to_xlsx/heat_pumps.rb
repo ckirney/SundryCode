@@ -6,7 +6,7 @@ col_titles = [
     "Heat Pump Type",
     "Minimum Capacity (BTU/hr)",
     "Maximum Capacity (BTU/hr)",
-    "Maximum Thermal Efficiency"
+    "Energy Efficiency Ratio"
 ]
 
 json_titles = [
