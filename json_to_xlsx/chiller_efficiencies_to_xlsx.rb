@@ -4,9 +4,9 @@ require 'fileutils'
 
 col_titles = [
     "Compressor Type",
-    "Minimum Capacity (BTU/hr)",
-    "Maximum Capacity (BTU/hr)",
-    "Minimum Full Load Efficiency"
+    "Minimum Capacity (Tons)",
+    "Maximum Capacity (Tons)",
+    "Minimum Full Load Efficiency (kW/Ton)"
 ]
 
 json_titles = [
