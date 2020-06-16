@@ -3,13 +3,16 @@ require 'json'
 require 'fileutils'
 
 col_titles = [
-    "Fan Type",
-    "Fan Total Efficiency"
+    "Motor Use",
+    "Motor Type",
+    "Minimum Capacity (HP)",
+    "Maximum Capacity (HP)",
+    "Motor Full Load Efficiency"
 ]
 
 json_titles = [
     "motor_use",
-    "moter_type",
+    "motor_type",
     "minimum_capacity",
     "maximum_capacity",
     "nominal_full_load_efficiency"
