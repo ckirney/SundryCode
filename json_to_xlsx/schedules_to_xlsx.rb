@@ -29,7 +29,7 @@ table_info.each do |table_entry|
     row = 3
   end
   if table_entry["day_types"] == "Default|Wkdy"
-    sub_title = table_entry["category"] + ' - ' + table_entry["units"]
+    sub_title = table_entry["name"][7..-1] + ' - ' + table_entry["units"]
     $worksheet.write(row, 0, sub_title)
     row += 1
   end
@@ -38,7 +38,7 @@ table_info.each do |table_entry|
     $worksheet.write(row, i+1, table_entry["values"][i])
   end
   row += 1
-  if table_entry["category"] == "Thermostat Setpoint" && table_entry["day_types"] == "Sun|Hol"
+  if table_entry["category"] == "Thermostat Setpoint" && table_entry["day_types"] == "Sun|Hol" && table_entry["name"].to_s.upcase.include?("HEATING")
     $workbook.close
   end
 end
