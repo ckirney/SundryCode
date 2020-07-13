@@ -36,8 +36,8 @@ CSV.open(out_file, "w") do |csv|
         ind_res["envelope"]["skylights_area_m2"],
         ind_res["envelope"]["fdwr"],
         ind_res["envelope"]["srr"],
-        ((ind_res["envelope"]["windows_area_m2"].to_f + ind_res["envelope"]["doors_area_m2"].to_f)/ind_res["envelope"]["outdoor_walls_area_m2"].to_f).round(3),
-        ((ind_res["envelope"]["skylights_area_m2"].to_f)/(ind_res["envelope"]["outdoor_roofs_area_m2"].to_f)).round(3)
+        ((ind_res["envelope"]["windows_area_m2"].to_f + ind_res["envelope"]["doors_area_m2"].to_f)/(ind_res["envelope"]["outdoor_walls_area_m2"].to_f + ind_res["envelope"]["windows_area_m2"].to_f + ind_res["envelope"]["doors_area_m2"].to_f)).round(3)*100,
+        ((ind_res["envelope"]["skylights_area_m2"].to_f)/(ind_res["envelope"]["outdoor_roofs_area_m2"].to_f)).round(3)*100
     ]
   end
 end
