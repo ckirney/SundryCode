@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+ruby '2.5.1'
+
+gem 'rubyzip', '>= 1.0.0' # will load new rubyzip version
+gem 'zip-zip' # will load compatibility for old rubyzip API.
