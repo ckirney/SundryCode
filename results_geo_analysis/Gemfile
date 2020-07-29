@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+ruby '2.5.1'
+require '/usr/local/openstudio-3.0.1/Ruby/openstudio'
+gem "openstudio-standards", :git => 'https://github.com/NREL/openstudio-standards.git', :branch => 'nrcan'
