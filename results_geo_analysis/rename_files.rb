@@ -9,10 +9,10 @@ cost_files.each do |cost_file|
   fuel = json_cont['building']['principal_heating_source'].to_s.gsub(/\s+/, "")
   building_name = json_cont["building"]["name"].to_s.gsub(/\s+/, "")
   province = json_cont["geography"]["state_province_region"].to_s
-  out_json_file = building_name + '_' + template[0]["value"].to_s + '_' + fuel + '_' + province + '.json'
+  out_json_file = './results_files/' + building_name + '_' + template[0]["value"].to_s + '_' + fuel + '_' + province + '.json'
   loc = /run/ =~ cost_file
   in_osm_file = cost_file[0..(loc + 3)] + 'in.osm'
-  out_osm_file = building_name + '_' + template[0]["value"].to_s + '_' + fuel + '_' + province + '.osm'
+  out_osm_file = './results_files/' + building_name + '_' + template[0]["value"].to_s + '_' + fuel + '_' + province + '.osm'
   FileUtils.cp(cost_file, out_json_file)
   FileUtils.cp(in_osm_file, out_osm_file)
 end
