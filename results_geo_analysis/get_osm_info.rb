@@ -12,8 +12,57 @@ total_out_json = []
 cost_files.each do |cost_file|
   json_file = cost_file[0..-4] + 'json'
   json_cont = JSON.parse(File.read(json_file))
+  template = (json_cont["measure_data_table"]).select { |info| info["measure_name"] == "btap_create_necb_prototype_building" && info["arg_name"] == "template" }
+  fuel = json_cont['building']['principal_heating_source'].to_s.gsub(/\s+/, "")
+  building_name = json_cont["building"]["name"].to_s.gsub(/\s+/, "")
+  province = json_cont["geography"]["state_province_region"].to_s
+  template == "BTAPPRE1980" ? name_template = "Pre" : name_template = "Mid"
+  fuel == "Electricity" ? name_fuel = "elec" : name_fuel = "gas"
+  case building_name.upcase
+  when "FULLSERVICERESTAURANT"
+    name_building = "FSR"
+  when "QUICKSERVICERESTAURANT"
+    name_building = "QSR"
+  when "LARGEHOTEL"
+    name_building = "LHO"
+  when "SMALLHOTEL"
+    name_building = "SHO"
+  when "HIGHRISEAPARTMENT"
+    name_building = "HRA"
+  when "MIDRISEAPARTMENT"
+    name_building = "MRA"
+  when "LARGEOFFICE"
+    name_building = "LOF"
+  when "MEDIUMOFFICE"
+    name_building = "MOF"
+  when "SMALLOFFICE"
+    name_building = "SOF"
+  when "PRIMARYSCHOOL"
+    name_building = "PSC"
+  when "SECONDARYSCHOOL"
+    name_building = "SSC"
+  when "REATILSTANDALONE"
+    name_building = "RSA"
+  when "RETAILSTRIPMALL"
+    name_building = "RSM"
+  when "WAREHOUSE"
+    name_building = "WHO"
+  when "HOSPITAL"
+    name_building = "HOS"
+  when "OUTPATIENT"
+    name_building = "OPA"
+  else
+    name_building = "NA"
+  end
+  curr_sheetname = name_template + "_" + name_building + "_" + name_fuel + "_" + province
   model = BTAP::FileIO.load_osm(cost_file)
-  total_out << cost_file.to_s
+  total_out << [
+      cost_file.to_s,
+      template,
+      building_name,
+      fuel, province,
+      curr_sheetname
+  ]
   tz_json = []
   model.getThermalZones.sort.each do |tz|
     ext_wallarea = 0
@@ -155,6 +204,11 @@ cost_files.each do |cost_file|
   end
   total_out_json << {
       file_name: cost_file,
+      building_type: building_name,
+      template: template,
+      fuel: fuel,
+      province: province,
+      sheet_name: curr_sheetname,
       tz_info: tz_json
   }
   airloops_out << json_file
@@ -202,6 +256,11 @@ cost_files.each do |cost_file|
   end
   airloops_out << {
       file_name: json_file,
+      building_type: building_name,
+      template: template,
+      fuel: fuel,
+      province: province,
+      sheet_name: curr_sheetname,
       airloops: airloops_fileout
   }
 end
@@ -243,6 +302,107 @@ CSV.open('./results_tz_geo.csv', "w") do |csv|
     csv << out
   end
 end
+
+templates = [
+    "BTAPPRE1980",
+    "BTAP1980TO2010"
+]
+
+provinces = []
+provinces_pre = total_out_json.uniq{|ind_res| ind_res[:province]}
+provinces_pre.each {|provinces_ind| provinces << provinces_ind[:province]}
+
+fuel_types = []
+fuel_type_pre = total_out_json.uniq{|ind_res| ind_res[:fuel]}
+fuel_type_pre.each {|fuel_ind| fuel_types << fuel_ind[:fuel]}
+
+building_types = []
+building_type_pre = post_vint.uniq{|ind_res| ind_res[:building_type]}
+building_type_pre.each {|building_ind| building_types << building_ind[:building_type]}
+
+# Sort json output by building type, then weather city, then fuel type, and finally vintage
+sorted_json = []
+building_types.sort.each do |building_type|
+  sort_building_type = total_out.select{|ind_rec| ind_rec[:building_type] == building_type}
+  provinces.sort.each do |prov|
+    sort_weather_loc = sort_building_type.select{|ind_rec| ind_rec[:province] == prov}
+    fuel_types.sort.each do |fuel_type|
+      sort_fuel_types = sort_weather_loc.select{|ind_rec| ind_rec[:fuel] == fuel_type}
+      templates.each do |template|
+        sorted_json << sort_fuel_types.select{|ind_rec| ind_rec[:template] == template}[0]
+      end
+    end
+  end
+end
+
+=begin
+tz_json << {
+    tz_name: tz_out[0],
+    ext_wall_area_m2: tz_out[1],
+    floor_area_m2: tz_out[2],
+    tz_floor_area_m2: tz_out[3],
+    volume_m3: tz_out[4],
+    exp_floor_area_m2: tz_out[5],
+    ground_floor_area_m2: tz_out[6],
+    ground_wall_area_m2: tz_out[7],
+    door_area_m2: tz_out[8],
+    dome_area_m2: tz_out[9],
+    wall_subsurf_area_m2: tz_out[10],
+    skylight_area_m2: tz_out[11],
+    roof_area_m2: tz_out[12],
+    window_area_m2: tz_out[13],
+    num_people: tz_out[14],
+    area_people_m2_per_person: tz_out[15],
+    light_power_W: tz_out[16],
+    light_power_W_per_m2: tz_out[17],
+    electric_power_W: tz_out[18],
+    electric_power_W_per_m2: tz_out[19],
+    shw_m3_per_s: tz_out[20],
+    shw_L_per_hour_per_person: tz_out[21],
+    ventilation_air_L_per_s: tz_out[22],
+    ventilation_air_m3_per_s_per_m2: tz_out[23]
+}
+=end
+
+workbook = WriteXLSX.new('./res_out_2020-07-29.xlsx')
+sorted_json.each do |json_sort|
+  airloop_out = airloops_out.select{|ind_rec| ind_rec[:sheet_name] == json_sort[:sheet_name]}[0]
+  worksheet = workbook.add_worksheet(sheetname=json_sort[:sheetname])
+  col_titles = [
+      "tz_name",
+      "ext_wall_area_m2",
+      "floor_area_m2",
+      "tz_floor_area_m2",
+      "volume_m3",
+      "exp_floor_area_m2",
+      "ground_floor_area_m2",
+      "ground_wall_area_m2",
+      "door_area_m2",
+      "dome_area_m2",
+      "wall_subsurf_area_m2",
+      "skylight_area_m2",
+      "roof_area_m2",
+      "window_area_m2",
+      "num_people",
+      "area_people_m2_per_person",
+      "light_power_W",
+      "light_power_W_per_m2",
+      "electric_power_W",
+      "electric_power_W_per_m2",
+      "shw_m3_per_s",
+      "shw_L_per_hour_per_person",
+      "ventilation_air_L_per_s",
+      "ventilation_air_m3_per_s_per_m2"
+  ]
+  col = 0
+  row = 2
+  col_titles.each do |col_title|
+    worksheet.write(row, col, col_title)
+    col += 1
+  end
+end
+
+
 
 in_file = './data/boilers.json'
 json_info = JSON.parse(File.read(in_file))
