@@ -64,6 +64,15 @@ cost_files.each do |cost_file|
       curr_sheetname
   ]
   tz_json = []
+  total_roof_area_m2 = 0
+  total_extwall_area_m2 = 0
+  total_belowwall_area_m2 = 0
+  total_slab_area_m2 = 0
+  total_skylight_area_m2 = 0
+  total_window_area_m2 = 0
+  total_door_area_m2 = 0
+  total_dome_area_m2 = 0
+  total_subsurface_area_m2 = 0
   model.getThermalZones.sort.each do |tz|
     ext_wallarea = 0
     floor_area = 0
@@ -96,35 +105,45 @@ cost_files.each do |cost_file|
         if surface_BC == 'OUTDOORS'
           if /WALL/ =~ surf_type
             ext_wallarea += surface.grossArea.to_f
+            total_extwall_area_m2 += surface.grossArea.to_f
             surface.subSurfaces.sort.each do |sub_surf|
               wall_subsurf_area += sub_surf.grossArea.to_f
+              total_subsurface_area_m2 += sub_surf.grossArea.to_f
               subsurf_type = sub_surf.subSurfaceType.to_s.upcase
               if /DOOR/ =~ subsurf_type
                 door_area += sub_surf.grossArea.to_f
+                total_door_area_m2 += sub_surf.grossArea.to_f
               elsif /WINDOW/ =~ subsurf_type
                 window_area += sub_surf.grossArea.to_f
+                total_window_area_m2 += sub_surf.grossArea.to_f
               elsif /DOME/ =~ subsurf_type
                 dome_area += sub_surf.grossArea.to_f
+                total_dome_area_m2 += sub_surf.grossArea.to_f
               end
             end
           elsif /FLOOR/ =~ surf_type
             ext_floor_area += surface.grossArea.to_f
           elsif /RoofCeiling/ =~ surf_type
             roof_area += surface.grossArea.to_f
+            total_roof_area_m2 += surface.grossArea.to_f
             surface.subSurfaces.sort.each do |sub_surf|
               subsurf_type = sub_surf.subSurfaceType.to_s.upcase
               if /SKYLIGHT/ =~ subsurf_type
                 skylight_area += sub_surf.grossArea.to_f
+                total_skylight_area_m2 += sub_surf.grossArea.to_f
               elsif /DOME/ =~ subsurf_type
                 dome_area += sub_surf.grossArea.to_f
+                total_dome_area_m2 += sub_surf.grossArea.to_f
               end
             end
           end
         elsif surface_BC == "GROUND"
           if surf_type == "FLOOOR"
             ground_floor_area += surface.grossArea.to_f
+            total_slab_area_m2 += surface.grossArea.to_f
           elsif surf_type == "WALL"
             ground_wall_area += surface.grossArea.to_f
+            total_belowwall_area_m2 += surface.grossArea.to_f
           end
         end
       end
@@ -147,6 +166,16 @@ cost_files.each do |cost_file|
     unless num_people == 0
       area_people = tz_floor_area/num_people
       shw_people = shw*60*60*1000/num_people
+    end
+    srr = 0
+    if roof_area > 0
+      srr = skylight_area/roof_area
+    end
+    fdwr = 0
+    wwr = 0
+    if ext_wallarea > 0
+      fdwr = wall_subsurf_area/ext_wallarea
+      wwr = window_area/ext_wallarea
     end
     tz_out = [
         tz.name.to_s,
@@ -172,7 +201,22 @@ cost_files.each do |cost_file|
         shw,
         shw_people,
         ventilation_air*1000,
-        (ventilation_air/tz_floor_area)
+        (ventilation_air/tz_floor_area),
+        tz.multiplier,
+        srr,
+        fdwr,
+        wwr
+    ]
+    total_out << [
+        total_roof_area_m2,
+        total_extwall_area_m2,
+        total_belowwall_area_m2,
+        total_slab_area_m2,
+        total_skylight_area_m2,
+        total_window_area_m2,
+        total_door_area_m2,
+        total_dome_area_m2,
+        total_subsurface_area_m2
     ]
     tz_json << {
         tz_name: tz_out[0],
@@ -198,7 +242,11 @@ cost_files.each do |cost_file|
         shw_m3_per_s: tz_out[20],
         shw_L_per_hour_per_person: tz_out[21],
         ventilation_air_L_per_s: tz_out[22],
-        ventilation_air_m3_per_s_per_m2: tz_out[23]
+        ventilation_air_m3_per_s_per_m2: tz_out[23],
+        tz_multiplier: tz_out[24],
+        srr: tz_out[25],
+        fdwr: tz_out[26],
+        wwr: tz_out[26]
     }
     total_out << tz_out
   end
@@ -209,14 +257,25 @@ cost_files.each do |cost_file|
       fuel: fuel,
       province: province,
       sheet_name: curr_sheetname,
+      total_roof_area_m2: total_door_area_m2,
+      total_extwall_area_m2: total_extwall_area_m2,
+      total_belowwall_area_m2: total_belowwall_area_m2,
+      total_slab_area_m2: total_slab_area_m2,
+      total_skylight_area_m2: total_skylight_area_m2,
+      total_window_area_m2: total_window_area_m2,
+      total_door_area_m2: total_door_area_m2,
+      total_dome_area_m2: total_dome_area_m2,
+      total_subsurface_area_m2: total_subsurface_area_m2,
       tz_info: tz_json
   }
   airloops_out << json_file
   airloops_fileout = []
+  largest_num_heating_coils = 0
   json_cont["air_loops"].each do |air_loop|
     al_name = air_loop["name"].to_s
     heating_coils = air_loop["heating_coils"]["coil_heating_gas"] unless air_loop["heating_coils"]["coil_heating_gas"].empty?
     heating_coils = air_loop["heating_coils"]["coil_heating_electric"] unless air_loop["heating_coils"]["coil_heating_electric"].empty?
+    heating_coils = air_loop["heating_coils"]["coil_heating_water"] unless air_loop["heating_coils"]["coil_heating_water"].empty?
     if air_loop["supply_fan"].nil?
       supply_fan_motor_eff = "none"
       supply_fan_eff = "none"
@@ -240,6 +299,7 @@ cost_files.each do |cost_file|
         airloop_name: al_name,
         type: al_name[0..4],
         heating_coil: heating_coils,
+        num_heating_coils: heating_coils.size,
         cooling_coil_dx: air_loop["cooling_coils"]["dx_single_speed"],
         cooling_coils_water: air_loop["cooling_coils"]["coil_cooling_water"],
         area_served: air_loop["total_floor_area_served"],
@@ -252,6 +312,7 @@ cost_files.each do |cost_file|
         return_fan_prise: return_fan_prise,
         economizer: economizer
     }
+    largest_num_heating_coils = heating_coils.size if largest_num_heating_coils < heating_coils.size
     airloops_fileout << ind_out
   end
   airloops_out << {
@@ -261,6 +322,7 @@ cost_files.each do |cost_file|
       fuel: fuel,
       province: province,
       sheet_name: curr_sheetname,
+      largest_num_heating_coils: largest_num_heating_coils,
       airloops: airloops_fileout
   }
 end
@@ -290,7 +352,11 @@ CSV.open('./results_tz_geo.csv', "w") do |csv|
       "SHW_Peak_Flow",
       "SHW_Peak_Flow/people_L/hr/occ",
       "Ventilation_Air_L/s",
-      "Ventilation_Air/Area_m/s"
+      "Ventilation_Air/Area_m/s",
+      "TZ_Multiplier",
+      "SRR",
+      "FDWR",
+      "WWR"
   ]
   total_out.each do |csv_out|
     out = []
@@ -317,7 +383,7 @@ fuel_type_pre = total_out_json.uniq{|ind_res| ind_res[:fuel]}
 fuel_type_pre.each {|fuel_ind| fuel_types << fuel_ind[:fuel]}
 
 building_types = []
-building_type_pre = post_vint.uniq{|ind_res| ind_res[:building_type]}
+building_type_pre = total_out_json.uniq{|ind_res| ind_res[:building_type]}
 building_type_pre.each {|building_ind| building_types << building_ind[:building_type]}
 
 # Sort json output by building type, then weather city, then fuel type, and finally vintage
@@ -335,99 +401,197 @@ building_types.sort.each do |building_type|
   end
 end
 
-=begin
-tz_json << {
-    tz_name: tz_out[0],
-    ext_wall_area_m2: tz_out[1],
-    floor_area_m2: tz_out[2],
-    tz_floor_area_m2: tz_out[3],
-    volume_m3: tz_out[4],
-    exp_floor_area_m2: tz_out[5],
-    ground_floor_area_m2: tz_out[6],
-    ground_wall_area_m2: tz_out[7],
-    door_area_m2: tz_out[8],
-    dome_area_m2: tz_out[9],
-    wall_subsurf_area_m2: tz_out[10],
-    skylight_area_m2: tz_out[11],
-    roof_area_m2: tz_out[12],
-    window_area_m2: tz_out[13],
-    num_people: tz_out[14],
-    area_people_m2_per_person: tz_out[15],
-    light_power_W: tz_out[16],
-    light_power_W_per_m2: tz_out[17],
-    electric_power_W: tz_out[18],
-    electric_power_W_per_m2: tz_out[19],
-    shw_m3_per_s: tz_out[20],
-    shw_L_per_hour_per_person: tz_out[21],
-    ventilation_air_L_per_s: tz_out[22],
-    ventilation_air_m3_per_s_per_m2: tz_out[23]
-}
-=end
-
 workbook = WriteXLSX.new('./res_out_2020-07-29.xlsx')
 sorted_json.each do |json_sort|
   airloop_out = airloops_out.select{|ind_rec| ind_rec[:sheet_name] == json_sort[:sheet_name]}[0]
   worksheet = workbook.add_worksheet(sheetname=json_sort[:sheetname])
+  row = 0
+  worksheet.write(row,0, "File Name")
+  worksheet.write(row,1, "Worksheet Name")
+  row += 1 #row = 1
+  worksheet.write(row,0, json_sort[:file_name])
+  worksheet.write(row,1, json_sort[:sheet_name])
+  row += 2 # row = 3
+  worksheet.write(row,0, "Building Type")
+  worksheet.write(row,1, "Template")
+  worksheet.write(row,2, "Predominant Heating Fuel")
+  worksheet.write(row,3, "Province")
+  row += 1 #row = 4
+  worksheet.write(row,0, json_sort[:building_type])
+  worksheet.write(row,1, json_sort[:template])
+  worksheet.write(row,2, json_sort[:fuel])
+  worksheet.write(row,3, json_sort[:province])
+  row += 2 #row = 6
+  col_titles = [
+      "total_roof_area_m2",
+      "total_ext_wall_area_m2",
+      "total_below_grade_wall_area_m2",
+      "total_slab_area_m2",
+      "total_skylight_area_m2",
+      "total_window_area_m2",
+      "total_door_area_m2",
+      "total_dome_area_m2",
+      "total_sub_surface_area_m2",
+      "total_srr",
+      "total_dome_srr",
+      "total_fdwr",
+      "total_wwr",
+  ]
+  col = 0
+  col_titles.each do |col_title|
+    worksheet.write(row, col, col_title)
+    col += 1
+  end
+  row += 1 #row = 7
+  worksheet.write(row, 0, json_sort[:total_roof_area_m2])
+  worksheet.write(row, 1, json_sort[:total_extwall_area_m2])
+  worksheet.write(row, 2, json_sort[:total_belowwall_area_m2])
+  worksheet.write(row, 3, json_sort[:total_slab_area_m2])
+  worksheet.write(row, 4, json_sort[:total_skylight_area_m2])
+  worksheet.write(row, 5, json_sort[:total_window_area_m2])
+  worksheet.write(row, 6, json_sort[:total_door_area_m2])
+  worksheet.write(row, 7, json_sort[:total_dome_area_m2])
+  worksheet.write(row, 8, json_sort[:total_subsurface_area_m2])
+  worksheet.write(row, 9, (json_sort[:total_skylight_area_m2].to_f/json_sort[:total_roof_area_m2].to_f))
+  worksheet.write(row, 10, ((json_sort[:total_skylight_area_m2].to_f+json_sort[:total_dome_area_m2].to_f)/json_sort[:total_roof_area_m2].to_f))
+  worksheet.write(row, 11, (json_sort[:total_subsurface_area_m2].to_f/json_sort[:total_extwall_area_m2].to_f))
+  worksheet.write(row, 12, (json_sort[:total_window_area_m2].to_f/json_sort[:total_extwall_area_m2].to_f))
+
+  row += 2 #row = 9
+
   col_titles = [
       "tz_name",
-      "ext_wall_area_m2",
+      "tz_multiplier",
       "floor_area_m2",
-      "tz_floor_area_m2",
       "volume_m3",
+      "ext_wall_area_m2",
+      "wall_subsurf_area_m2",
+      "area_people_m2_per_person",
+      "num_people",
+      "ventilation_air_L_per_s",
+      "light_power_W_per_m2",
+      "electric_power_W_per_m2",
+      "shw_L_per_hour_per_person",
+      "tz_floor_area_m2",
       "exp_floor_area_m2",
       "ground_floor_area_m2",
       "ground_wall_area_m2",
       "door_area_m2",
       "dome_area_m2",
-      "wall_subsurf_area_m2",
       "skylight_area_m2",
       "roof_area_m2",
       "window_area_m2",
-      "num_people",
-      "area_people_m2_per_person",
       "light_power_W",
-      "light_power_W_per_m2",
       "electric_power_W",
-      "electric_power_W_per_m2",
       "shw_m3_per_s",
-      "shw_L_per_hour_per_person",
-      "ventilation_air_L_per_s",
-      "ventilation_air_m3_per_s_per_m2"
+      "ventilation_air_m3_per_s_per_m2",
+      "srr",
+      "fdwr",
+      "window_to_wall_ratio"
   ]
   col = 0
-  row = 2
   col_titles.each do |col_title|
     worksheet.write(row, col, col_title)
     col += 1
   end
-end
-
-
-
-in_file = './data/boilers.json'
-json_info = JSON.parse(File.read(in_file))
-table_info = json_info["tables"]["boilers"]["table"]
-out_file = './' + in_file[7..-5] + 'xlsx'
-workbook = WriteXLSX.new(out_file)
-worksheet = workbook.add_worksheet
-col = row = 0
-col_titles.each do |col_title|
-  worksheet.write(row, col, col_title)
-  col += 1
-end
-row += 1
-table_info.each do |table_entry|
-  col = 0
-  json_titles.each do |json_title|
-    xlsx_output = table_entry[json_title]
-    if xlsx_output == '-'
-      xlsx_output = 0
-    else
-      xlsx_output.is_a?(Float) ? xlsx_output.to_f : xlsx_output.to_s
-    end
-    worksheet.write(row, col, xlsx_output)
-    col += 1
+  row += 1 #row = 10
+  json_sort[:tz_info].each do |tz_entry|
+    worksheet.write(row,0,tz_entry[:tz_name])
+    worksheet.write(row,1,tz_entry[:tz_multiplier])
+    worksheet.write(row,2,tz_entry[:floor_area_m2])
+    worksheet.write(row,3,tz_entry[:volume_m3])
+    worksheet.write(row,4,tz_entry[:ext_wall_area_m2])
+    worksheet.write(row,5,tz_entry[:wall_subsurf_area_m2])
+    worksheet.write(row,6,tz_entry[:area_people_m2_per_person])
+    worksheet.write(row,7,tz_entry[:num_people])
+    worksheet.write(row,8,tz_entry[:ventilation_air_L_per_s])
+    worksheet.write(row,9,tz_entry[:light_power_W_per_m2])
+    worksheet.write(row,10,tz_entry[:electric_power_W_per_m2])
+    worksheet.write(row,11,tz_entry[:shw_L_per_hour_per_person])
+    worksheet.write(row,12,tz_entry[:tz_floor_area_m2])
+    worksheet.write(row,13,tz_entry[:exp_floor_area_m2])
+    worksheet.write(row,14,tz_entry[:ground_wall_area_m2])
+    worksheet.write(row,15,tz_entry[:door_area_m2])
+    worksheet.write(row,16,tz_entry[:dome_area_m2])
+    worksheet.write(row,17,tz_entry[:skylight_area_m2])
+    worksheet.write(row,18,tz_entry[:roof_area_m2])
+    worksheet.write(row,19,tz_entry[:window_area_m2])
+    worksheet.write(row,20,tz_entry[:light_power_W])
+    worksheet.write(row,21,tz_entry[:electric_power_W])
+    worksheet.write(row,22,tz_entry[:shw_m3_per_s])
+    worksheet.write(row,23,tz_entry[:ventilation_air_m3_per_s_per_m2])
+    worksheet.write(row,24,tz_entry[:srr])
+    worksheet.write(row,25,tz_entry[:fdwr])
+    worksheet.write(row,26,tz_entry[:wwr])
+    row += 1
   end
   row += 1
+
+  worksheet.write(row,0,"Ventilation AHU")
+  row += 2
+
+  worksheet.write(row,0,"File Name")
+  worksheet.write(row,1,"Largest Number Heating Coils")
+  row += 1
+  worksheet.write(row,0,airloop_out[:file_name])
+  worksheet.write(row,1,airloop_out[:largest_num_heating_coils])
+
+  row +=2
+
+  col_titles = [
+      "air_loop_name",
+      "system_type",
+      "heating_coils",
+      "cooling_coils_dx",
+      "cooling_coils_water",
+      "area_served_m2",
+      "outdoor_air_rate_L_per_s",
+      "supply_fan_motor_eff",
+      "supply_fan_static_pressure_rise_Pa",
+      "return_fan_motor_eff",
+      "return_fan_static_pressure_rise_Pa",
+      "economizer",
+      "number_of_heating_coils",
+      "supply_fan_total_efficiency",
+      "return_fan_total_efficiency"
+  ]
+  col = 0
+  col_after_heat_coils = 0
+  col_titles.each do |col_title|
+    if col_title == "heating_coils"
+      worksheet.write(row, col, col_title)
+      col += airloop_out[:num_heating_coils].to_f
+      col_after_heat_coils = col
+    else
+      worksheet.write(row, col, col_title)
+      col += 1
+    end
+  end
+
+  row += 1
+
+  airloop_out[:airloops].each do |air_loop|
+    worksheet.write(row,0,air_loop[:airloop_name])
+    worksheet.write(row,1,air_loop[:type])
+    col = 2
+    air_loop[:heating_coil].each do |heat_coil|
+      worksheet.write(row,col,heat_coil[:type])
+      col += 1
+    end
+    col = col_after_heat_coils
+    worksheet.write(row,col,air_loop[:cooling_coil_dx])
+    worksheet.write(row,col+1,air_loop[:cooling_coils_water])
+    worksheet.write(row,col+2,air_loop[:area_served])
+    worksheet.write(row,col+3,air_loop[:outdoor_air])
+    worksheet.write(row,col+4,air_loop[:supply_fan_motor_eff])
+    worksheet.write(row,col+5,air_loop[:supply_fan_prise])
+    worksheet.write(row,col+6,air_loop[:return_fan_motor_eff])
+    worksheet.write(row,col+7,air_loop[:return_fan_prise])
+    worksheet.write(row,col+8,air_loop[:economizer])
+    worksheet.write(row,col+9,air_loop[:num_heating_coils])
+    worksheet.write(row,col+10,air_loop[:supply_fan_eff])
+    worksheet.write(row,col+11,air_loop[:return_fan_eff])
+    row += 1
+  end
 end
 workbook.close
