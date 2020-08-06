@@ -2,7 +2,7 @@ require 'fileutils'
 require 'json'
 require 'openstudio-standards'
 
-cost_files = Dir['/home/osdev/cost2020-07-24/**/qaqc.json']
+cost_files = Dir['/home/osdev/res/**/qaqc.json']
 cost_files.each do |cost_file|
   json_cont = JSON.parse(File.read(cost_file.to_s))
   template = (json_cont["measure_data_table"]).select { |info| info["measure_name"] == "btap_create_necb_prototype_building" && info["arg_name"] == "template" }
