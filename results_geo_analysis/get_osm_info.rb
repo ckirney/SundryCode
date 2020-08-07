@@ -553,8 +553,9 @@ sorted_json.each do |json_sort|
       "air_loop_name",
       "system_type",
       "heating_coils",
-      "cooling_coils_dx",
-      "cooling_coils_water",
+      "cooling_coils_dx_name",
+      "cooling_coils_dx_cop",
+      "cooling_coils_water_name",
       "area_served_m2",
       "outdoor_air_rate_L_per_s",
       "supply_fan_motor_eff",
@@ -571,7 +572,8 @@ sorted_json.each do |json_sort|
   col_titles.each do |col_title|
     if col_title == "heating_coils"
       worksheet.write(row, col, col_title)
-      col += airloop_out[:lagest_num_heating_coils].to_f
+      col_add = airloop_out[:largest_num_heating_coils].to_i
+      col = col + col_add
       col_after_heat_coils = col
     else
       worksheet.write(row, col, col_title)
@@ -586,7 +588,7 @@ sorted_json.each do |json_sort|
     worksheet.write(row,1,air_loop[:type].to_s)
     col = 2
     air_loop[:heating_coil].each do |heat_coil|
-      worksheet.write(row,col,heat_coil[:type].to_s)
+      worksheet.write(row,col,heat_coil["type"].to_s)
       col += 1
     end
     col = col_after_heat_coils
