@@ -283,7 +283,7 @@ cost_files.each do |cost_file|
     else
       supply_fan_motor_eff = air_loop["supply_fan"]["motor_efficiency"]
       supply_fan_eff = air_loop["supply_fan"]["fan_efficiency"]
-      supply_fan_prise = air_loop["supply_fan"]["pressire_rise"]
+      supply_fan_prise = air_loop["supply_fan"]["pressure_rise"]
     end
     if air_loop["return_fan"].nil?
       return_fan_motor_eff = "none"
@@ -292,7 +292,7 @@ cost_files.each do |cost_file|
     else
       return_fan_motor_eff = air_loop["return_fan"]["motor_efficiency"]
       return_fan_eff = air_loop["return_fan"]["fan_efficiency"]
-      return_fan_prise = air_loop["return_fan"]["pressire_rise"]
+      return_fan_prise = air_loop["return_fan"]["pressure_rise"]
     end
     air_loop["economizer"].nil? ? economizer = "none" : economizer = air_loop["economizer"]["control_type"]
     ind_out = {
