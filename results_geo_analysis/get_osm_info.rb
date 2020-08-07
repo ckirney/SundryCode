@@ -103,7 +103,7 @@ cost_files.each do |cost_file|
           floor_area += surface.grossArea.to_f
         end
         surface_BC = surface.outsideBoundaryCondition.to_s.upcase
-        if surface_BC == 'OUTDOORS'
+        if /OUTDOORS/ =~ surface_BC
           if /WALL/ =~ surf_type
             ext_wallarea += surface.grossArea.to_f
             total_extwall_area_m2 += surface.grossArea.to_f
@@ -124,7 +124,7 @@ cost_files.each do |cost_file|
             end
           elsif /FLOOR/ =~ surf_type
             ext_floor_area += surface.grossArea.to_f
-          elsif /RoofCeiling/ =~ surf_type
+          elsif /ROOFCEILING/ =~ surf_type
             roof_area += surface.grossArea.to_f
             total_roof_area_m2 += surface.grossArea.to_f
             surface.subSurfaces.sort.each do |sub_surf|
@@ -138,11 +138,11 @@ cost_files.each do |cost_file|
               end
             end
           end
-        elsif surface_BC == "GROUND"
-          if surf_type == "FLOOOR"
+        elsif /GROUND/ =~ surface_BC
+          if /FLOOR/ =~ surf_type
             ground_floor_area += surface.grossArea.to_f
             total_slab_area_m2 += surface.grossArea.to_f
-          elsif surf_type == "WALL"
+          elsif /WALL/ =~ surf_type
             ground_wall_area += surface.grossArea.to_f
             total_belowwall_area_m2 += surface.grossArea.to_f
           end
@@ -258,7 +258,7 @@ cost_files.each do |cost_file|
       fuel: fuel,
       province: province,
       sheet_name: curr_sheetname,
-      total_roof_area_m2: total_door_area_m2,
+      total_roof_area_m2: total_roof_area_m2,
       total_extwall_area_m2: total_extwall_area_m2,
       total_belowwall_area_m2: total_belowwall_area_m2,
       total_slab_area_m2: total_slab_area_m2,
