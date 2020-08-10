@@ -74,6 +74,7 @@ cost_files.each do |cost_file|
   total_door_area_m2 = 0
   total_dome_area_m2 = 0
   total_subsurface_area_m2 = 0
+  total_cond_floor_area_m2 = 0
   model.getThermalZones.sort.each do |tz|
     ext_wallarea = 0
     floor_area = 0
@@ -99,6 +100,8 @@ cost_files.each do |cost_file|
       space_floor_area = space.floorArea.to_f
       volume += space.volume.to_f
       tz_floor_area+= space_floor_area
+      space_name = space.name.to_s.upcase
+      total_cond_floor_area_m2 += space_floor_area unless (/ATTIC/ =~ space_name) || (/PLENUM/ =~ space_name)
       space.surfaces.sort.each do |surface|
         surf_type = surface.surfaceType.to_s.upcase
         if /FLOOR/ =~ surf_type
@@ -254,7 +257,7 @@ cost_files.each do |cost_file|
         srr: tz_out[25],
         fdwr: tz_out[26],
         wwr: tz_out[26],
-        tz_spaces: all_tz_spaces
+        tz_spaces: all_tz_spaces,
     }
     total_out << tz_out
   end
@@ -274,6 +277,7 @@ cost_files.each do |cost_file|
       total_door_area_m2: total_door_area_m2,
       total_dome_area_m2: total_dome_area_m2,
       total_subsurface_area_m2: total_subsurface_area_m2,
+      total_cond_floor_area_m2: total_cond_floor_area_m2,
       tz_info: tz_json
   }
   airloops_fileout = []
@@ -304,6 +308,7 @@ cost_files.each do |cost_file|
     air_loop["economizer"].nil? ? economizer = "none" : economizer = air_loop["economizer"]["control_type"]
     ind_out = {
         airloop_name: al_name,
+        thermal_zones: air_loop["thermal_zones"],
         type: al_name[0..4],
         heating_coil: heating_coils,
         num_heating_coils: heating_coils.size,
@@ -436,6 +441,7 @@ sorted_json.each do |json_sort|
   worksheet.write(row,3, json_sort[:province].to_s)
   row += 2 #row = 6
   col_titles = [
+      "total_cond_floor_area_m2",
       "total_roof_area_m2",
       "total_ext_wall_area_m2",
       "total_below_grade_wall_area_m2",
@@ -456,23 +462,24 @@ sorted_json.each do |json_sort|
     col += 1
   end
   row += 1 #row = 7
-  worksheet.write(row, 0, json_sort[:total_roof_area_m2].to_f)
-  worksheet.write(row, 1, json_sort[:total_extwall_area_m2].to_f)
-  worksheet.write(row, 2, json_sort[:total_belowwall_area_m2].to_f)
-  worksheet.write(row, 3, json_sort[:total_slab_area_m2].to_f)
-  worksheet.write(row, 4, json_sort[:total_skylight_area_m2].to_f)
-  worksheet.write(row, 5, json_sort[:total_window_area_m2].to_f)
-  worksheet.write(row, 6, json_sort[:total_door_area_m2].to_f)
-  worksheet.write(row, 7, json_sort[:total_dome_area_m2].to_f)
-  worksheet.write(row, 8, json_sort[:total_subsurface_area_m2].to_f)
+  worksheet.write(row, 0, json_sort[:total_cond_floor_area_m2].to_f)
+  worksheet.write(row, 1, json_sort[:total_roof_area_m2].to_f)
+  worksheet.write(row, 2, json_sort[:total_extwall_area_m2].to_f)
+  worksheet.write(row, 3, json_sort[:total_belowwall_area_m2].to_f)
+  worksheet.write(row, 4, json_sort[:total_slab_area_m2].to_f)
+  worksheet.write(row, 5, json_sort[:total_skylight_area_m2].to_f)
+  worksheet.write(row, 6, json_sort[:total_window_area_m2].to_f)
+  worksheet.write(row, 7, json_sort[:total_door_area_m2].to_f)
+  worksheet.write(row, 8, json_sort[:total_dome_area_m2].to_f)
+  worksheet.write(row, 9, json_sort[:total_subsurface_area_m2].to_f)
   json_sort[:total_roof_area_m2] == 0 ? worksheet_srr = 0 : worksheet_srr = (json_sort[:total_skylight_area_m2].to_f/json_sort[:total_roof_area_m2].to_f)
   json_sort[:total_roof_area_m2] == 0 ? worksheet_srr_dome = 0 : worksheet_srr_dome = (json_sort[:total_skylight_area_m2].to_f+json_sort[:total_dome_area_m2].to_f)/json_sort[:total_roof_area_m2].to_f
   json_sort[:total_extwall_area_m2] == 0 ? worksheet_fdwr = 0 : worksheet_fdwr = (json_sort[:total_subsurface_area_m2].to_f/json_sort[:total_extwall_area_m2].to_f)
   json_sort[:total_extwall_area_m2] == 0 ? worksheet_wwr = 0 : worksheet_wwr = (json_sort[:total_window_area_m2].to_f/json_sort[:total_extwall_area_m2].to_f)
-  worksheet.write(row, 9, worksheet_srr) unless worksheet_srr.nil?
-  worksheet.write(row, 10, worksheet_srr_dome) unless worksheet_srr_dome.nil?
-  worksheet.write(row, 11, worksheet_fdwr) unless worksheet_srr_dome.nil?
-  worksheet.write(row, 12, worksheet_wwr) unless worksheet_wwr.nil?
+  worksheet.write(row, 10, worksheet_srr) unless worksheet_srr.nil?
+  worksheet.write(row, 11, worksheet_srr_dome) unless worksheet_srr_dome.nil?
+  worksheet.write(row, 12, worksheet_fdwr) unless worksheet_srr_dome.nil?
+  worksheet.write(row, 13, worksheet_wwr) unless worksheet_wwr.nil?
 
   row += 2 #row = 9
 
@@ -645,6 +652,36 @@ sorted_json.each do |json_sort|
       worksheet.write(row, col, tz_space_name.to_s)
     end
     row += 1
+  end
+
+  row += 1
+  col_titles = [
+      "airloop_name",
+      "tz_names",
+      "space_names"
+  ]
+  col = 0
+  col_titles.each do |col_title|
+    worksheet.write(row, col, col_title)
+    col += 1
+  end
+  row += 1
+  airloop_out[:airloops].each do |air_loop|
+    col = 0
+    worksheet.write(row, col, air_loop[:airloop_name])
+    row += 1
+    air_loop[:thermal_zones].each do |thermal_zone|
+      col = 1
+      worksheet.write(row, col, thermal_zone)
+      tz_info_ind = json_sort[:tz_info].select {|ind_tz| ind_tz[:tz_name].to_s.upcase == thermal_zone.to_s.upcase}
+      unless tz_info_ind.empty?
+        tz_info_ind[0][:tz_spaces][:tz_space_names].each do |tz_space_name|
+          col += 1
+          worksheet.write(row, col, tz_space_name)
+        end
+      end
+      row += 1
+    end
   end
 end
 workbook.close
