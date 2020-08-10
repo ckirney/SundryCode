@@ -6,9 +6,47 @@ require 'csv'
 require 'write_xlsx'
 
 cost_files = Dir['/home/osdev/SundryCode/results_geo_analysis/results_files/**/*.osm']
+#cost_files = Dir['/home/osdev/SundryCode/results_geo_analysis/NECB_run/**/*.osm']
 total_out = []
 airloops_out = []
 total_out_json = []
+airloop_types = [
+    {
+        high: 0,
+        sys_type: "Sys_1",
+        sys_name: "Unit: Single Zone"
+    },
+    {
+        high: 999,
+        sys_type: "Sys_1",
+        sys_name: "Unit"
+    },
+    {
+        high: 0,
+        sys_type: "Sys_3",
+        sys_name: "Packaged Roof-top Unit: Single"
+    },
+    {
+        high: 999,
+        sys_type: "Sys_3",
+        sys_name: "Packaged Roof-top Unit"
+    },
+    {
+        high: 0,
+        sys_type: "Sys_4",
+        sys_name: "Make-up Air Unit: Single"
+    },
+    {
+        high: 999,
+        sys_type: "Sys_4",
+        sys_name: "Make-up Air Unit"
+    },
+    {
+        high: 999,
+        sys_type: "Sys_6",
+        sys_name: "Roof-top Packaged VAV"
+    }
+]
 cost_files.each do |cost_file|
   json_file = cost_file[0..-4] + 'json'
   json_cont = JSON.parse(File.read(json_file))
@@ -228,8 +266,15 @@ cost_files.each do |cost_file|
         total_dome_area_m2,
         total_subsurface_area_m2
     ]
+    tz_alt_name = ""
+    tz_spaces_length = tz_spaces.length - 1
+    tz_spaces.each_with_index do |tz_space, index|
+      tz_alt_name += tz_space
+      tz_alt_name += "/" unless tz_spaces_length == index
+    end
     tz_json << {
         tz_name: tz_out[0],
+        tz_alt_name: tz_alt_name,
         ext_wall_area_m2: tz_out[1],
         floor_area_m2: tz_out[2],
         tz_floor_area_m2: tz_out[3],
@@ -306,10 +351,25 @@ cost_files.each do |cost_file|
       return_fan_prise = air_loop["return_fan"]["pressure_rise"]
     end
     air_loop["economizer"].nil? ? economizer = "none" : economizer = air_loop["economizer"]["control_type"]
+    alt_airloop_name = ""
+    tot_number_tzs = air_loop["thermal_zones"].size - 1
+    air_loop["thermal_zones"].each_with_index do |al_tz, index|
+      ind_tz_info = tz_json.select {|ind_tz| ind_tz[:tz_name].to_s.upcase == al_tz.to_s.upcase}
+      unless ind_tz_info.empty?
+        alt_airloop_name += ind_tz_info[0][:tz_alt_name]
+        alt_airloop_name += ", " unless tot_number_tzs == index
+      end
+    end
+    sys_type = al_name[0..4].to_s
+    air_loop_type_set = airloop_types.select {|al_type| al_type[:sys_type].to_s == sys_type && tot_number_tzs <= al_type[:high]}
+    air_loop_type_name = "UNKNOWN"
+    air_loop_type_name = air_loop_type_set[0][:sys_name] unless air_loop_type_set.empty?
     ind_out = {
         airloop_name: al_name,
+        alt_airloop_name: alt_airloop_name,
         thermal_zones: air_loop["thermal_zones"],
         type: al_name[0..4],
+        airloop_type: air_loop_type_name,
         heating_coil: heating_coils,
         num_heating_coils: heating_coils.size,
         cooling_coil_dx: air_loop["cooling_coils"]["dx_single_speed"],
@@ -384,6 +444,7 @@ end
 templates = [
     "BTAPPRE1980",
     "BTAP1980TO2010"
+    #"NECB2017"
 ]
 
 provinces = []
@@ -417,6 +478,7 @@ building_types.sort.each do |building_type|
 end
 
 workbook = WriteXLSX.new('./res_out_2020-07-29.xlsx')
+#workbook = WriteXLSX.new('./Outpatient_NECB2017_NaturalGas_NS_mod.xlsx')
 sorted_json.each do |json_sort|
   airloop_out = airloops_out.select{|ind_rec| ind_rec[:sheet_name] == json_sort[:sheet_name]}[0]
   #workbook_name = json_sort[:sheet_name] + '.xlsx'
@@ -485,6 +547,7 @@ sorted_json.each do |json_sort|
 
   col_titles = [
       "tz_name",
+      "tz_alt_name",
       "tz_multiplier",
       "floor_area_m2",
       "volume_m3",
@@ -521,33 +584,34 @@ sorted_json.each do |json_sort|
   row += 1 #row = 10
   json_sort[:tz_info].each do |tz_entry|
     worksheet.write(row,0,tz_entry[:tz_name].to_s)
-    worksheet.write(row,1,tz_entry[:tz_multiplier].to_f)
-    worksheet.write(row,2,tz_entry[:floor_area_m2].to_f)
-    worksheet.write(row,3,tz_entry[:volume_m3].to_f)
-    worksheet.write(row,4,tz_entry[:ext_wall_area_m2].to_f)
-    worksheet.write(row,5,tz_entry[:wall_subsurf_area_m2].to_f)
-    worksheet.write(row,6,tz_entry[:area_people_m2_per_person].to_f)
-    worksheet.write(row,7,tz_entry[:num_people].to_f)
-    worksheet.write(row,8,tz_entry[:ventilation_air_L_per_s].to_f)
-    worksheet.write(row,9,tz_entry[:light_power_W_per_m2].to_f)
-    worksheet.write(row,10,tz_entry[:electric_power_W_per_m2].to_f)
-    worksheet.write(row,11,tz_entry[:shw_L_per_hour_per_person].to_f)
-    worksheet.write(row,12,tz_entry[:tz_floor_area_m2].to_f)
-    worksheet.write(row,13,tz_entry[:exp_floor_area_m2].to_f)
-    worksheet.write(row,14,tz_entry[:ground_floor_area_m2].to_f)
-    worksheet.write(row,15,tz_entry[:ground_wall_area_m2].to_f)
-    worksheet.write(row,16,tz_entry[:door_area_m2].to_f)
-    worksheet.write(row,17,tz_entry[:dome_area_m2].to_f)
-    worksheet.write(row,18,tz_entry[:skylight_area_m2].to_f)
-    worksheet.write(row,19,tz_entry[:roof_area_m2].to_f)
-    worksheet.write(row,20,tz_entry[:window_area_m2].to_f)
-    worksheet.write(row,21,tz_entry[:light_power_W].to_f)
-    worksheet.write(row,22,tz_entry[:electric_power_W].to_f)
-    worksheet.write(row,23,tz_entry[:shw_m3_per_s].to_f)
-    worksheet.write(row,24,tz_entry[:ventilation_air_m3_per_s_per_m2].to_f)
-    worksheet.write(row,25,tz_entry[:srr].to_f)
-    worksheet.write(row,26,tz_entry[:fdwr].to_f)
-    worksheet.write(row,27,tz_entry[:wwr].to_f)
+    worksheet.write(row,1,tz_entry[:tz_alt_name].to_s)
+    worksheet.write(row,2,tz_entry[:tz_multiplier].to_f)
+    worksheet.write(row,3,tz_entry[:floor_area_m2].to_f)
+    worksheet.write(row,4,tz_entry[:volume_m3].to_f)
+    worksheet.write(row,5,tz_entry[:ext_wall_area_m2].to_f)
+    worksheet.write(row,6,tz_entry[:wall_subsurf_area_m2].to_f)
+    worksheet.write(row,7,tz_entry[:area_people_m2_per_person].to_f)
+    worksheet.write(row,8,tz_entry[:num_people].to_f)
+    worksheet.write(row,9,tz_entry[:ventilation_air_L_per_s].to_f)
+    worksheet.write(row,10,tz_entry[:light_power_W_per_m2].to_f)
+    worksheet.write(row,11,tz_entry[:electric_power_W_per_m2].to_f)
+    worksheet.write(row,12,tz_entry[:shw_L_per_hour_per_person].to_f)
+    worksheet.write(row,13,tz_entry[:tz_floor_area_m2].to_f)
+    worksheet.write(row,14,tz_entry[:exp_floor_area_m2].to_f)
+    worksheet.write(row,15,tz_entry[:ground_floor_area_m2].to_f)
+    worksheet.write(row,16,tz_entry[:ground_wall_area_m2].to_f)
+    worksheet.write(row,17,tz_entry[:door_area_m2].to_f)
+    worksheet.write(row,18,tz_entry[:dome_area_m2].to_f)
+    worksheet.write(row,19,tz_entry[:skylight_area_m2].to_f)
+    worksheet.write(row,20,tz_entry[:roof_area_m2].to_f)
+    worksheet.write(row,21,tz_entry[:window_area_m2].to_f)
+    worksheet.write(row,22,tz_entry[:light_power_W].to_f)
+    worksheet.write(row,23,tz_entry[:electric_power_W].to_f)
+    worksheet.write(row,24,tz_entry[:shw_m3_per_s].to_f)
+    worksheet.write(row,25,tz_entry[:ventilation_air_m3_per_s_per_m2].to_f)
+    worksheet.write(row,26,tz_entry[:srr].to_f)
+    worksheet.write(row,27,tz_entry[:fdwr].to_f)
+    worksheet.write(row,28,tz_entry[:wwr].to_f)
     row += 1
   end
   row += 1
@@ -565,7 +629,9 @@ sorted_json.each do |json_sort|
 
   col_titles = [
       "air_loop_name",
+      "alt_airloop_name",
       "system_type",
+      "system_type_name",
       "heating_coils",
       "cooling_coils_dx_name",
       "cooling_coils_dx_cop",
@@ -599,8 +665,10 @@ sorted_json.each do |json_sort|
 
   airloop_out[:airloops].each do |air_loop|
     worksheet.write(row,0,air_loop[:airloop_name].to_s)
-    worksheet.write(row,1,air_loop[:type].to_s)
-    col = 2
+    worksheet.write(row,1,air_loop[:alt_airloop_name].to_s)
+    worksheet.write(row,2,air_loop[:type].to_s)
+    worksheet.write(row,3,air_loop[:airloop_type].to_s)
+    col = 4
     air_loop[:heating_coil].each do |heat_coil|
       worksheet.write(row,col,heat_coil["type"].to_s)
       col += 1
@@ -636,6 +704,7 @@ sorted_json.each do |json_sort|
   row += 1
   col_titles = [
       "tz_name",
+      "tz_alt_name",
       "space_names"
   ]
   col = 0
@@ -645,8 +714,9 @@ sorted_json.each do |json_sort|
   end
   row += 1
   json_sort[:tz_info].each do |tz_info_entry|
-    col = 0
-    worksheet.write(row, col, tz_info_entry[:tz_spaces][:tz_name])
+    worksheet.write(row, 0, tz_info_entry[:tz_spaces][:tz_name])
+    worksheet.write(row, 1, tz_info_entry[:tz_alt_name])
+    col = 1
     tz_info_entry[:tz_spaces][:tz_space_names].each do |tz_space_name|
       col += 1
       worksheet.write(row, col, tz_space_name.to_s)
@@ -657,6 +727,7 @@ sorted_json.each do |json_sort|
   row += 1
   col_titles = [
       "airloop_name",
+      "alt_airloop_name",
       "tz_names",
       "space_names"
   ]
@@ -669,9 +740,10 @@ sorted_json.each do |json_sort|
   airloop_out[:airloops].each do |air_loop|
     col = 0
     worksheet.write(row, col, air_loop[:airloop_name])
+    worksheet.write(row, col + 1, air_loop[:alt_airloop_name])
     row += 1
     air_loop[:thermal_zones].each do |thermal_zone|
-      col = 1
+      col = 2
       worksheet.write(row, col, thermal_zone)
       tz_info_ind = json_sort[:tz_info].select {|ind_tz| ind_tz[:tz_name].to_s.upcase == thermal_zone.to_s.upcase}
       unless tz_info_ind.empty?
