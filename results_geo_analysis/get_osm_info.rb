@@ -93,7 +93,9 @@ cost_files.each do |cost_file|
     ventilation_air = 0
     shw = 0
     tz_floor_area = 0
+    tz_spaces = []
     tz.spaces.sort.each do |space|
+      tz_spaces << space.name.to_s
       space_floor_area = space.floorArea.to_f
       volume += space.volume.to_f
       tz_floor_area+= space_floor_area
@@ -164,6 +166,10 @@ cost_files.each do |cost_file|
     end
     area_people = 0
     shw_people = 0
+    all_tz_spaces = {
+        tz_name: tz.name.to_s,
+        tz_space_names: tz_spaces
+    }
     unless num_people == 0
       area_people = tz_floor_area/num_people
       shw_people = shw*60*60*1000/num_people
@@ -247,7 +253,8 @@ cost_files.each do |cost_file|
         tz_multiplier: tz_out[24],
         srr: tz_out[25],
         fdwr: tz_out[26],
-        wwr: tz_out[26]
+        wwr: tz_out[26],
+        tz_spaces: all_tz_spaces
     }
     total_out << tz_out
   end
@@ -616,6 +623,27 @@ sorted_json.each do |json_sort|
     worksheet.write(row,col+10,air_loop[:num_heating_coils].to_s)
     worksheet.write(row,col+11,air_loop[:supply_fan_eff].to_s)
     worksheet.write(row,col+12,air_loop[:return_fan_eff].to_s)
+    row += 1
+  end
+
+  row += 1
+  col_titles = [
+      "tz_name",
+      "space_names"
+  ]
+  col = 0
+  col_titles.each do |col_title|
+    worksheet.write(row, col, col_title)
+    col += 1
+  end
+  row += 1
+  json_sort[:tz_info].each do |tz_info_entry|
+    col = 0
+    worksheet.write(row, col, tz_info_entry[:tz_spaces][:tz_name])
+    tz_info_entry[:tz_spaces][:tz_space_names].each do |tz_space_name|
+      col += 1
+      worksheet.write(row, col, tz_space_name.to_s)
+    end
     row += 1
   end
 end
