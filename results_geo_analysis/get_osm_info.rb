@@ -139,7 +139,7 @@ cost_files.each do |cost_file|
       volume += space.volume.to_f
       tz_floor_area+= space_floor_area
       space_name = space.name.to_s.upcase
-      total_cond_floor_area_m2 += space_floor_area unless (/ATTIC/ =~ space_name) || (/PLENUM/ =~ space_name)
+      total_cond_floor_area_m2 += space_floor_area*space.multiplier.to_f unless (/ATTIC/ =~ space_name) || (/PLENUM/ =~ space_name)
       space.surfaces.sort.each do |surface|
         surf_type = surface.surfaceType.to_s.upcase
         if /FLOOR/ =~ surf_type
@@ -149,35 +149,35 @@ cost_files.each do |cost_file|
         if /OUTDOORS/ =~ surface_BC
           if /WALL/ =~ surf_type
             ext_wallarea += surface.grossArea.to_f
-            total_extwall_area_m2 += surface.grossArea.to_f
+            total_extwall_area_m2 += surface.grossArea.to_f*space.multiplier.to_f
             surface.subSurfaces.sort.each do |sub_surf|
               wall_subsurf_area += sub_surf.grossArea.to_f
-              total_subsurface_area_m2 += sub_surf.grossArea.to_f
+              total_subsurface_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               subsurf_type = sub_surf.subSurfaceType.to_s.upcase
               if /DOOR/ =~ subsurf_type
                 door_area += sub_surf.grossArea.to_f
-                total_door_area_m2 += sub_surf.grossArea.to_f
+                total_door_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               elsif /WINDOW/ =~ subsurf_type
                 window_area += sub_surf.grossArea.to_f
-                total_window_area_m2 += sub_surf.grossArea.to_f
+                total_window_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               elsif /DOME/ =~ subsurf_type
                 dome_area += sub_surf.grossArea.to_f
-                total_dome_area_m2 += sub_surf.grossArea.to_f
+                total_dome_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               end
             end
           elsif /FLOOR/ =~ surf_type
             ext_floor_area += surface.grossArea.to_f
           elsif /ROOFCEILING/ =~ surf_type
             roof_area += surface.grossArea.to_f
-            total_roof_area_m2 += surface.grossArea.to_f
+            total_roof_area_m2 += surface.grossArea.to_f*space.multiplier.to_f
             surface.subSurfaces.sort.each do |sub_surf|
               subsurf_type = sub_surf.subSurfaceType.to_s.upcase
               if /SKYLIGHT/ =~ subsurf_type
                 skylight_area += sub_surf.grossArea.to_f
-                total_skylight_area_m2 += sub_surf.grossArea.to_f
+                total_skylight_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               elsif /DOME/ =~ subsurf_type
                 dome_area += sub_surf.grossArea.to_f
-                total_dome_area_m2 += sub_surf.grossArea.to_f
+                total_dome_area_m2 += sub_surf.grossArea.to_f*space.multiplier.to_f
               end
             end
           end
@@ -187,7 +187,7 @@ cost_files.each do |cost_file|
             total_slab_area_m2 += surface.grossArea.to_f
           elsif /WALL/ =~ surf_type
             ground_wall_area += surface.grossArea.to_f
-            total_belowwall_area_m2 += surface.grossArea.to_f
+            total_belowwall_area_m2 += surface.grossArea.to_f*space.multiplier.to_f
           end
         end
       end
@@ -255,17 +255,6 @@ cost_files.each do |cost_file|
         fdwr,
         wwr
     ]
-    total_out << [
-        total_roof_area_m2,
-        total_extwall_area_m2,
-        total_belowwall_area_m2,
-        total_slab_area_m2,
-        total_skylight_area_m2,
-        total_window_area_m2,
-        total_door_area_m2,
-        total_dome_area_m2,
-        total_subsurface_area_m2
-    ]
     tz_alt_name = ""
     tz_spaces_length = tz_spaces.length - 1
     tz_spaces.each_with_index do |tz_space, index|
@@ -306,6 +295,18 @@ cost_files.each do |cost_file|
     }
     total_out << tz_out
   end
+  total_out << [
+      total_roof_area_m2,
+      total_extwall_area_m2,
+      total_belowwall_area_m2,
+      total_slab_area_m2,
+      total_skylight_area_m2,
+      total_window_area_m2,
+      total_door_area_m2,
+      total_dome_area_m2,
+      total_subsurface_area_m2,
+      total_cond_floor_area_m2
+  ]
   total_out_json << {
       file_name: cost_file,
       building_type: building_name,
@@ -364,6 +365,11 @@ cost_files.each do |cost_file|
     air_loop_type_set = airloop_types.select {|al_type| al_type[:sys_type].to_s == sys_type && tot_number_tzs <= al_type[:high]}
     air_loop_type_name = "UNKNOWN"
     air_loop_type_name = air_loop_type_set[0][:sys_name] unless air_loop_type_set.empty?
+    al_area_served = 0
+    air_loop["thermal_zones"].each do |air_loop_tz|
+      tz_info = tz_json.select {|ind_tz| ind_tz[:tz_name].to_s.upcase == air_loop_tz.to_s.upcase}
+      al_area_served += tz_info[0][:tz_floor_area_m2].to_f*tz_info[0][:tz_multiplier].to_f unless tz_info.empty?
+    end
     ind_out = {
         airloop_name: al_name,
         alt_airloop_name: alt_airloop_name,
@@ -374,7 +380,8 @@ cost_files.each do |cost_file|
         num_heating_coils: heating_coils.size,
         cooling_coil_dx: air_loop["cooling_coils"]["dx_single_speed"],
         cooling_coils_water: air_loop["cooling_coils"]["coil_cooling_water"],
-        area_served: air_loop["total_floor_area_served"],
+        area_served_m2: air_loop["total_floor_area_served"],
+        area_served_m2_mult: al_area_served,
         outdoor_air: air_loop["outdoor_air_L_per_s"],
         supply_fan_motor_eff: supply_fan_motor_eff,
         supply_fan_eff: supply_fan_eff,
@@ -637,6 +644,7 @@ sorted_json.each do |json_sort|
       "cooling_coils_dx_cop",
       "cooling_coils_water_name",
       "area_served_m2",
+      "area_served_m2_w_mult",
       "outdoor_air_rate_L_per_s",
       "supply_fan_motor_eff",
       "supply_fan_static_pressure_rise_Pa",
@@ -688,16 +696,17 @@ sorted_json.each do |json_sort|
     worksheet.write(row,col,cooling_dx_name) unless cooling_dx_name.nil?
     worksheet.write(row,col+1,cooling_dx_cop) unless cooling_dx_cop.nil?
     worksheet.write(row,col+2,cooling_water_name) unless cooling_water_name.nil?
-    worksheet.write(row,col+3,air_loop[:area_served].to_f)
-    worksheet.write(row,col+4,air_loop[:outdoor_air].to_f)
-    worksheet.write(row,col+5,air_loop[:supply_fan_motor_eff].to_f)
-    worksheet.write(row,col+6,air_loop[:supply_fan_prise].to_f)
-    worksheet.write(row,col+7,air_loop[:return_fan_motor_eff].to_f)
-    worksheet.write(row,col+8,air_loop[:return_fan_prise].to_f)
-    worksheet.write(row,col+9,air_loop[:economizer].to_s)
-    worksheet.write(row,col+10,air_loop[:num_heating_coils].to_s)
-    worksheet.write(row,col+11,air_loop[:supply_fan_eff].to_s)
-    worksheet.write(row,col+12,air_loop[:return_fan_eff].to_s)
+    worksheet.write(row,col+3,air_loop[:area_served_m2].to_f)
+    worksheet.write(row,col+4,air_loop[:area_served_m2_mult].to_f)
+    worksheet.write(row,col+5,air_loop[:outdoor_air].to_f)
+    worksheet.write(row,col+6,air_loop[:supply_fan_motor_eff].to_f)
+    worksheet.write(row,col+7,air_loop[:supply_fan_prise].to_f)
+    worksheet.write(row,col+8,air_loop[:return_fan_motor_eff].to_f)
+    worksheet.write(row,col+9,air_loop[:return_fan_prise].to_f)
+    worksheet.write(row,col+10,air_loop[:economizer].to_s)
+    worksheet.write(row,col+11,air_loop[:num_heating_coils].to_s)
+    worksheet.write(row,col+12,air_loop[:supply_fan_eff].to_s)
+    worksheet.write(row,col+13,air_loop[:return_fan_eff].to_s)
     row += 1
   end
 
