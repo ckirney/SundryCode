@@ -5,7 +5,7 @@ require 'json'
 require 'csv'
 require 'write_xlsx'
 
-cost_files = Dir['/home/osdev/SundryCode/results_geo_analysis/results_files/**/*.osm']
+cost_files = Dir['/home/osdev/SundryCode/results_geo_analysis/results/**/*.osm']
 #cost_files = Dir['/home/osdev/SundryCode/results_geo_analysis/NECB_run/**/*.osm']
 total_out = []
 airloops_out = []
@@ -55,8 +55,22 @@ cost_files.each do |cost_file|
   fuel = json_cont['building']['principal_heating_source'].to_s.gsub(/\s+/, "")
   building_name = json_cont["building"]["name"].to_s.gsub(/\s+/, "")
   province = json_cont["geography"]["state_province_region"].to_s
-  template == "BTAPPRE1980" ? name_template = "Pre" : name_template = "Mid"
-  fuel == "Electricity" ? name_fuel = "elec" : name_fuel = "gas"
+  case template.to_s.upcase
+  when "BTAPPRE1980"
+    name_template = "Pre"
+  when "BTAP1980TO2010"
+    name_template = "Mid"
+  else
+    name_template = template.to_s.upcase
+  end
+  case fuel
+  when "Electricity"
+    name_fuel = "elec"
+  when "Natural Gas"
+    name_fuel = "gas"
+  else
+    name_fuel = "other"
+  end
   case building_name.upcase
   when "FULLSERVICERESTAURANT"
     name_building = "FSR"
@@ -80,7 +94,7 @@ cost_files.each do |cost_file|
     name_building = "PSC"
   when "SECONDARYSCHOOL"
     name_building = "SSC"
-  when "REATILSTANDALONE"
+  when "RETAILSTANDALONE"
     name_building = "RSA"
   when "RETAILSTRIPMALL"
     name_building = "RSM"
@@ -453,8 +467,10 @@ end
 
 templates = [
     "BTAPPRE1980",
-    "BTAP1980TO2010"
-    #"NECB2017"
+    "BTAP1980TO2010",
+    "NECB2011",
+    "NECB2015",
+    "NECB2017"
 ]
 
 provinces = []
@@ -487,7 +503,7 @@ building_types.sort.each do |building_type|
   end
 end
 
-workbook = WriteXLSX.new('./res_out_2020-07-29.xlsx')
+workbook = WriteXLSX.new('./res_out_2020-08-14.xlsx')
 #workbook = WriteXLSX.new('./Outpatient_NECB2017_NaturalGas_NS_mod.xlsx')
 sorted_json.each do |json_sort|
   airloop_out = airloops_out.select{|ind_rec| ind_rec[:sheet_name] == json_sort[:sheet_name]}[0]
