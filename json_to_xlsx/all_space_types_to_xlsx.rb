@@ -5,9 +5,9 @@ require 'fileutils'
 col_titles = [
     "Building Type",
     "Space Type",
-    "Lighting (W/ft2)",
-    "Outdoor Air Flow Rate (cfm/ft2)",
     "NECB Occupancy (people/1000 ft2)",
+    "Outdoor Air Flow Rate (cfm/ft2)",
+    "Lighting (W/ft2)",
     "Space Equipment Electrical Load (W/ft2)",
     "Service Hot Water Flow Rate (US Gal/hr/ft2)",
     "NECB Schedule Table"
@@ -16,9 +16,9 @@ col_titles = [
 json_titles = [
     "building_type",
     "space_type",
-    "lighting_per_area",
-    "ventilation_per_area",
     "occupancy_per_area",
+    "ventilation_per_area",
+    "lighting_per_area",
     "electric_equipment_per_area",
     "service_water_heating_peak_flow_per_area",
     "necb_schedule_type"
