@@ -5,12 +5,23 @@ require 'fileutils'
 col_titles = [
     "Building Type",
     "Space Type",
-    "NECB Occupancy (people/1000 ft2)",
-    "Outdoor Air Flow Rate (cfm/ft2)",
-    "Lighting (W/ft2)",
-    "Space Equipment Electrical Load (W/ft2)",
-    "Service Hot Water Flow Rate (US Gal/hr/ft2)",
+    "NECB Occupancy",
+    "Outdoor Air Flow Rate",
+    "Lighting",
+    "Space Equipment Electrical Load",
+    "Service Hot Water Flow Rate",
     "NECB Schedule Table"
+]
+
+col_units = [
+    "",
+    "",
+    "people/1000 ft2",
+    "cfm/ft2",
+    "W/ft2",
+    "W/ft2",
+    "US Gal/hr/ft2",
+    ""
 ]
 
 json_titles = [
@@ -40,6 +51,12 @@ standard_versions.each do |standard_version|
   space_types = JSON.parse(File.read(in_file))["tables"]["space_types"]["table"]
   col_titles.each do |col_title|
     worksheet.write(row, col, col_title)
+    col += 1
+  end
+  row += 1
+  col = 0
+  col_units.each do |col_unit|
+    worksheet.write(row, col, col_unit)
     col += 1
   end
   space_types.each do |space_type|
