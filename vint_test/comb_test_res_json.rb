@@ -9,6 +9,7 @@ dirlist = Dir.entries(cost_fold).select {|entry| File.directory? File.join(cost_
 dirlist.each do |file_dir|
   split_name = file_dir.split('-')
   qaqc_loc = cost_fold + file_dir + '/run/001_btap_results/qaqc.json'
+  osm_loc = cost_fold + file_dir + '/in.osm'
   if File.exist?(qaqc_loc)
     qaqc_orig = JSON.parse(File.read(qaqc_loc))
     qaqc_orig["building_type"] = split_name[0]
@@ -16,6 +17,8 @@ dirlist.each do |file_dir|
     qaqc_orig["primary_heating_fuel"] = split_name[2]
     qaqc_orig["weather_location"] = split_name[3]
     qaqc_res << qaqc_orig
+    osm_out = curdir + "/" + file_dir + '.osm'
+    FileUtils.cp osm_loc, osm_out
   else
     failed_runs << qaqc_loc
   end
