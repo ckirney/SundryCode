@@ -2,11 +2,28 @@ require 'fileutils'
 require 'json'
 require 'csv'
 
-in_csv = "./census_hdd_out_mod.csv"
-out_json = "./climate_zone_pop_frac.json"
+provinces = [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NT",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT",
+    "NU"
+]
+
+in_csv = "./census_hdd_out_adj_2020-10-21.csv"
+out_json = "./climate_zone_pop_frac_prov.json"
 in_data = CSV.read(in_csv)
 out_array = []
 tot_pop = 0
+
 for i in (2000..7000).step(1000)
   top_lim = i + 999
   if i == 7000
