@@ -27,26 +27,26 @@ tot_pop = 0
 provinces.each do |province|
   prov_pop = 0
   prov_clim = []
-  prov_data = in_data.select{|data_row| data_row.to_s == province}
+  prov_data = in_data.select{|data_row| data_row[1].to_s == province}
   for i in (2000..7000).step(1000)
     top_lim = i + 999
     if i == 7000
       top_lim = 99999
     end
-    clim_zone_info = prov_data.select{|row| (row[6].to_f <= top_lim) && (row[6].to_f >= i)}
+    clim_zone_info = prov_data.select{|row| (row[3].to_f <= top_lim) && (row[3].to_f >= i)}
     if clim_zone_info.empty?
       next
     end
     pop = 0
     clim_zone_info.each do |city|
-      pop += city[0].to_f
+      pop += city[2].to_f
     end
 
     prov_clim << {
         min_hdd18: i,
         max_hdd18: top_lim,
         population: pop,
-        pop_frac: 0
+        nat_pop_frac: 0
     }
     tot_pop += pop
     prov_pop += pop
@@ -61,8 +61,9 @@ provinces.each do |province|
   }
 end
 
+test_pop = 0
 out_array.each do |prov|
-  prov.each do |prov_cz|
+  prov[:prov_climate_zones].each do |prov_cz|
     prov_cz[:nat_pop_frac] = prov_cz[:population].to_f/tot_pop.to_f
   end
 end
