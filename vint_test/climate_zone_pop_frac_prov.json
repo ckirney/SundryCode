@@ -1,0 +1,262 @@
+[
+  {
+    "province": "AB",
+    "prov_pop": 3334092.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 1653652.0,
+        "nat_pop_frac": 0.0564430809088989,
+        "prov_pop_frac": 0.49598271433421753
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 1607120.0,
+        "nat_pop_frac": 0.054854832933597636,
+        "prov_pop_frac": 0.48202629081621023
+      },
+      {
+        "min_hdd18": 6000,
+        "max_hdd18": 6999,
+        "population": 73320.0,
+        "nat_pop_frac": 0.0025025862105451857,
+        "prov_pop_frac": 0.02199099484957224
+      }
+    ]
+  },
+  {
+    "province": "BC",
+    "prov_pop": 4108128.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 2000,
+        "max_hdd18": 2999,
+        "population": 3282511.0,
+        "nat_pop_frac": 0.11203991768361822,
+        "prov_pop_frac": 0.7990284139150484
+      },
+      {
+        "min_hdd18": 3000,
+        "max_hdd18": 3999,
+        "population": 615192.0,
+        "nat_pop_frac": 0.02099796803106538,
+        "prov_pop_frac": 0.14974995910546118
+      },
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 169851.0,
+        "nat_pop_frac": 0.005797419127759279,
+        "prov_pop_frac": 0.041345109013156356
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 40574.0,
+        "nat_pop_frac": 0.0013848872464083518,
+        "prov_pop_frac": 0.009876517966334057
+      }
+    ]
+  },
+  {
+    "province": "MB",
+    "prov_pop": 909600.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 895922.0,
+        "nat_pop_frac": 0.03057995148559825,
+        "prov_pop_frac": 0.9849626209322779
+      },
+      {
+        "min_hdd18": 7000,
+        "max_hdd18": 99999,
+        "population": 13678.0,
+        "nat_pop_frac": 0.0004668627139639532,
+        "prov_pop_frac": 0.015037379067722076
+      }
+    ]
+  },
+  {
+    "province": "NB",
+    "prov_pop": 468043.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 400295.0,
+        "nat_pop_frac": 0.013663021646892868,
+        "prov_pop_frac": 0.855252615678474
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 67748.0,
+        "nat_pop_frac": 0.002312400580905827,
+        "prov_pop_frac": 0.144747384321526
+      }
+    ]
+  },
+  {
+    "province": "NL",
+    "prov_pop": 276360.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 248955.0,
+        "nat_pop_frac": 0.008497427032818831,
+        "prov_pop_frac": 0.9008358662613982
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 27405.0,
+        "nat_pop_frac": 0.0009353979146207148,
+        "prov_pop_frac": 0.09916413373860182
+      }
+    ]
+  },
+  {
+    "province": "NT",
+    "prov_pop": 19569.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 7000,
+        "max_hdd18": 99999,
+        "population": 19569.0,
+        "nat_pop_frac": 0.0006679365732973095,
+        "prov_pop_frac": 1.0
+      }
+    ]
+  },
+  {
+    "province": "NS",
+    "prov_pop": 608574.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 608574.0,
+        "nat_pop_frac": 0.020772079930391787,
+        "prov_pop_frac": 1.0
+      }
+    ]
+  },
+  {
+    "province": "ON",
+    "prov_pop": 12062321.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 3000,
+        "max_hdd18": 3999,
+        "population": 8939503.0,
+        "nat_pop_frac": 0.3051265266902253,
+        "prov_pop_frac": 0.7411096919075525
+      },
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 2709246.0,
+        "nat_pop_frac": 0.09247301801111159,
+        "prov_pop_frac": 0.22460403764748094
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 413572.0,
+        "nat_pop_frac": 0.01411619727588098,
+        "prov_pop_frac": 0.034286270444966606
+      }
+    ]
+  },
+  {
+    "province": "PE",
+    "prov_pop": 142907.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 142907.0,
+        "nat_pop_frac": 0.004877756241003558,
+        "prov_pop_frac": 1.0
+      }
+    ]
+  },
+  {
+    "province": "QC",
+    "prov_pop": 6624857.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 4000,
+        "max_hdd18": 4999,
+        "population": 5249112.0,
+        "nat_pop_frac": 0.17916469324614376,
+        "prov_pop_frac": 0.792335894948374
+      },
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 1227641.0,
+        "nat_pop_frac": 0.04190231093971498,
+        "prov_pop_frac": 0.18530830174900378
+      },
+      {
+        "min_hdd18": 6000,
+        "max_hdd18": 6999,
+        "population": 148104.0,
+        "nat_pop_frac": 0.005055142227585708,
+        "prov_pop_frac": 0.02235580330262223
+      }
+    ]
+  },
+  {
+    "province": "SK",
+    "prov_pop": 707276.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 5000,
+        "max_hdd18": 5999,
+        "population": 663116.0,
+        "nat_pop_frac": 0.022633728281395,
+        "prov_pop_frac": 0.9375632709154559
+      },
+      {
+        "min_hdd18": 6000,
+        "max_hdd18": 6999,
+        "population": 44160.0,
+        "nat_pop_frac": 0.0015072859664167402,
+        "prov_pop_frac": 0.06243672908454408
+      }
+    ]
+  },
+  {
+    "province": "YT",
+    "prov_pop": 28225.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 6000,
+        "max_hdd18": 6999,
+        "population": 28225.0,
+        "nat_pop_frac": 0.0009633864674391416,
+        "prov_pop_frac": 1.0
+      }
+    ]
+  },
+  {
+    "province": "NU",
+    "prov_pop": 7740.0,
+    "prov_climate_zones": [
+      {
+        "min_hdd18": 7000,
+        "max_hdd18": 99999,
+        "population": 7740.0,
+        "nat_pop_frac": 0.0002641846327007602,
+        "prov_pop_frac": 1.0
+      }
+    ]
+  }
+]

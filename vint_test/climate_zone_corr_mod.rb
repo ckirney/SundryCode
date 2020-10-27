@@ -61,7 +61,6 @@ provinces.each do |province|
   }
 end
 
-test_pop = 0
 out_array.each do |prov|
   prov[:prov_climate_zones].each do |prov_cz|
     prov_cz[:nat_pop_frac] = prov_cz[:population].to_f/tot_pop.to_f
