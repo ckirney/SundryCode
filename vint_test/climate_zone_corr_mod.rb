@@ -2,6 +2,44 @@ require 'fileutils'
 require 'json'
 require 'csv'
 
+def clm_agg(out_array:, provs:)
+  clm_agg_pop = 0
+  clm_agg_out = []
+  provs.each do |prov|
+    prov_data = out_array.select{|cl_prov| cl_prov[:province].to_s == prov}[0]
+    prov_data[:prov_climate_zones].each do |prov_cz|
+      clm_agg_pop += prov_cz[:population].to_f
+      if clm_agg_out.nil?
+        clm_agg_out << {
+            min_hdd18: prov_cz[:min_hdd18],
+            max_hdd18: prov_cz[:max_hdd18],
+            population: prov_cz[:population],
+            pop_frac: 0
+        }
+      else
+        prov_cz_data = clm_agg_out.select{|prov_data| prov_data[:min_hdd18] == prov_cz[:min_hdd18]}
+        if prov_cz_data.empty?
+          clm_agg_out << {
+              min_hdd18: prov_cz[:min_hdd18],
+              max_hdd18: prov_cz[:max_hdd18],
+              population: prov_cz[:population],
+              pop_frac: 0
+          }
+        else
+          cz_pop = prov_cz_data[0][:population].to_f + prov_cz[:population].to_f
+          prov_cz_data[0][:population] = cz_pop
+        end
+      end
+    end
+  end
+
+  clm_agg_out.each do |agg_prov_cz|
+    agg_prov_cz[:pop_frac] = agg_prov_cz[:population].to_f / clm_agg_pop
+  end
+  return clm_agg_out
+end
+
+
 provinces = [
     "AB",
     "BC",
@@ -68,3 +106,23 @@ out_array.each do |prov|
   File.write(out_name, JSON.pretty_generate(prov[:prov_climate_zones]))
 end
 File.write(out_json, JSON.pretty_generate(out_array))
+
+neud_atl_provs = [
+    "NB",
+    "NS",
+    "PE",
+    "NL"
+]
+
+neud_bc_terrs = [
+    "BC",
+    "NU",
+    "NT",
+    "YT"
+]
+
+out_name = "./atl_prov_climate_info.json"
+File.write(out_name, JSON.pretty_generate(clm_agg(out_array: out_array, provs: neud_atl_provs)))
+
+out_name = "./bc_terr_climate_info.json"
+File.write(out_name, JSON.pretty_generate(clm_agg(out_array: out_array, provs: neud_bc_terrs)))
