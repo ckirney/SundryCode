@@ -11,7 +11,8 @@ res_avg_csv_name = post_vint_file[0..-6] + "AB_pop_adj_avg.csv"
 post_vint = JSON.parse(File.read(post_vint_file))
 
 # Get climate correction data
-clim_corr_file = './climate_zone_pop_frac.json'
+#clim_corr_file = './climate_zone_pop_frac.json'
+clim_corr_file = './AB_climate_info.json'
 clim_pop = JSON.parse(File.read(clim_corr_file))
 
 #Get unique templates, weather cities, heating types, and building types from json

@@ -1,48 +1,44 @@
-{
-  "province": "PE",
-  "prov_pop": 142907.0,
-  "prov_climate_zones": [
-    {
-      "min_hdd18": 2000,
-      "max_hdd18": 2999,
-      "population": 0,
-      "nat_pop_frac": 0.0,
-      "pop_frac": 0.0
-    },
-    {
-      "min_hdd18": 3000,
-      "max_hdd18": 3999,
-      "population": 0,
-      "nat_pop_frac": 0.0,
-      "pop_frac": 0.0
-    },
-    {
-      "min_hdd18": 4000,
-      "max_hdd18": 4999,
-      "population": 142907.0,
-      "nat_pop_frac": 0.004877756241003558,
-      "pop_frac": 1.0
-    },
-    {
-      "min_hdd18": 5000,
-      "max_hdd18": 5999,
-      "population": 0,
-      "nat_pop_frac": 0.0,
-      "pop_frac": 0.0
-    },
-    {
-      "min_hdd18": 6000,
-      "max_hdd18": 6999,
-      "population": 0,
-      "nat_pop_frac": 0.0,
-      "pop_frac": 0.0
-    },
-    {
-      "min_hdd18": 7000,
-      "max_hdd18": 99999,
-      "population": 0,
-      "nat_pop_frac": 0.0,
-      "pop_frac": 0.0
-    }
-  ]
-}
+[
+  {
+    "min_hdd18": 2000,
+    "max_hdd18": 2999,
+    "population": 0,
+    "nat_pop_frac": 0.0,
+    "pop_frac": 0.0
+  },
+  {
+    "min_hdd18": 3000,
+    "max_hdd18": 3999,
+    "population": 0,
+    "nat_pop_frac": 0.0,
+    "pop_frac": 0.0
+  },
+  {
+    "min_hdd18": 4000,
+    "max_hdd18": 4999,
+    "population": 142907.0,
+    "nat_pop_frac": 0.004877756241003558,
+    "pop_frac": 1.0
+  },
+  {
+    "min_hdd18": 5000,
+    "max_hdd18": 5999,
+    "population": 0,
+    "nat_pop_frac": 0.0,
+    "pop_frac": 0.0
+  },
+  {
+    "min_hdd18": 6000,
+    "max_hdd18": 6999,
+    "population": 0,
+    "nat_pop_frac": 0.0,
+    "pop_frac": 0.0
+  },
+  {
+    "min_hdd18": 7000,
+    "max_hdd18": 99999,
+    "population": 0,
+    "nat_pop_frac": 0.0,
+    "pop_frac": 0.0
+  }
+]
