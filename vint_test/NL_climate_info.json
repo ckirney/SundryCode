@@ -1,0 +1,20 @@
+{
+  "province": "NL",
+  "prov_pop": 276360.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 4000,
+      "max_hdd18": 4999,
+      "population": 248955.0,
+      "nat_pop_frac": 0.008497427032818831,
+      "prov_pop_frac": 0.9008358662613982
+    },
+    {
+      "min_hdd18": 5000,
+      "max_hdd18": 5999,
+      "population": 27405.0,
+      "nat_pop_frac": 0.0009353979146207148,
+      "prov_pop_frac": 0.09916413373860182
+    }
+  ]
+}

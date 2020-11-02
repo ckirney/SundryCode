@@ -65,5 +65,7 @@ out_array.each do |prov|
   prov[:prov_climate_zones].each do |prov_cz|
     prov_cz[:nat_pop_frac] = prov_cz[:population].to_f/tot_pop.to_f
   end
+  out_name = "./" + prov[:province].to_s + "_climate_info.json"
+  File.write(out_name, JSON.pretty_generate(prov))
 end
 File.write(out_json, JSON.pretty_generate(out_array))

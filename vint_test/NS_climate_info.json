@@ -1,0 +1,13 @@
+{
+  "province": "NS",
+  "prov_pop": 608574.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 4000,
+      "max_hdd18": 4999,
+      "population": 608574.0,
+      "nat_pop_frac": 0.020772079930391787,
+      "prov_pop_frac": 1.0
+    }
+  ]
+}

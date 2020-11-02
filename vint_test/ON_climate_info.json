@@ -1,0 +1,27 @@
+{
+  "province": "ON",
+  "prov_pop": 12062321.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 3000,
+      "max_hdd18": 3999,
+      "population": 8939503.0,
+      "nat_pop_frac": 0.3051265266902253,
+      "prov_pop_frac": 0.7411096919075525
+    },
+    {
+      "min_hdd18": 4000,
+      "max_hdd18": 4999,
+      "population": 2709246.0,
+      "nat_pop_frac": 0.09247301801111159,
+      "prov_pop_frac": 0.22460403764748094
+    },
+    {
+      "min_hdd18": 5000,
+      "max_hdd18": 5999,
+      "population": 413572.0,
+      "nat_pop_frac": 0.01411619727588098,
+      "prov_pop_frac": 0.034286270444966606
+    }
+  ]
+}

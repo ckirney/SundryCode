@@ -1,0 +1,13 @@
+{
+  "province": "YT",
+  "prov_pop": 28225.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 6000,
+      "max_hdd18": 6999,
+      "population": 28225.0,
+      "nat_pop_frac": 0.0009633864674391416,
+      "prov_pop_frac": 1.0
+    }
+  ]
+}

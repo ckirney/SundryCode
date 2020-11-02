@@ -1,0 +1,20 @@
+{
+  "province": "NB",
+  "prov_pop": 468043.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 4000,
+      "max_hdd18": 4999,
+      "population": 400295.0,
+      "nat_pop_frac": 0.013663021646892868,
+      "prov_pop_frac": 0.855252615678474
+    },
+    {
+      "min_hdd18": 5000,
+      "max_hdd18": 5999,
+      "population": 67748.0,
+      "nat_pop_frac": 0.002312400580905827,
+      "prov_pop_frac": 0.144747384321526
+    }
+  ]
+}

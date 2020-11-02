@@ -1,0 +1,13 @@
+{
+  "province": "PE",
+  "prov_pop": 142907.0,
+  "prov_climate_zones": [
+    {
+      "min_hdd18": 4000,
+      "max_hdd18": 4999,
+      "population": 142907.0,
+      "nat_pop_frac": 0.004877756241003558,
+      "prov_pop_frac": 1.0
+    }
+  ]
+}
