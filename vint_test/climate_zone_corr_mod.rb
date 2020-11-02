@@ -34,12 +34,11 @@ provinces.each do |province|
       top_lim = 99999
     end
     clim_zone_info = prov_data.select{|row| (row[3].to_f <= top_lim) && (row[3].to_f >= i)}
-    if clim_zone_info.empty?
-      next
-    end
     pop = 0
-    clim_zone_info.each do |city|
-      pop += city[2].to_f
+    unless clim_zone_info.empty?
+      clim_zone_info.each do |city|
+        pop += city[2].to_f
+      end
     end
 
     prov_clim << {
@@ -52,7 +51,7 @@ provinces.each do |province|
     prov_pop += pop
   end
   prov_clim.each do |clm_zone|
-    clm_zone[:prov_pop_frac] = clm_zone[:population]/prov_pop
+    clm_zone[:pop_frac] = clm_zone[:population]/prov_pop
   end
   out_array << {
       province: province,
