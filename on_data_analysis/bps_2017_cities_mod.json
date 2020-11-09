@@ -1,0 +1,8782 @@
+[
+  {
+    "city": "Brampton",
+    "climate": "Toronto-Pearson",
+    "schools": 181,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 19,
+    "total_number": 202
+  },
+  {
+    "city": "Hamilton",
+    "climate": "Hamilton",
+    "schools": 117,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 128
+  },
+  {
+    "city": "Mississauga",
+    "climate": "Tononto-Pearson",
+    "schools": 218,
+    "admin_facilities": 8,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 250
+  },
+  {
+    "city": "Ottawa",
+    "climate": "Ottawa",
+    "schools": 201,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 215
+  },
+  {
+    "city": "Toronto",
+    "climate": "Toronto-City",
+    "schools": 754,
+    "admin_facilities": 10,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 788
+  },
+  {
+    "city": "Kitchener",
+    "climate": "Waterloo",
+    "schools": 75,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 89
+  },
+  {
+    "city": "LONDON",
+    "climate": "London",
+    "schools": 84,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 93
+  },
+  {
+    "city": "Windsor",
+    "climate": "Windsor",
+    "schools": 74,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 87
+  },
+  {
+    "city": "Markham",
+    "climate": "Toronto-Pearson",
+    "schools": 69,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 77
+  },
+  {
+    "city": "Kingston",
+    "climate": "Kingston",
+    "schools": 43,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 53
+  },
+  {
+    "city": "Brantford",
+    "climate": "Hamilton",
+    "schools": 47,
+    "admin_facilities": 5,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 65
+  },
+  {
+    "city": "Barrie",
+    "climate": "Barrie",
+    "schools": 52,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 56
+  },
+  {
+    "city": "Burlington",
+    "climate": "Burlington",
+    "schools": 55,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 59
+  },
+  {
+    "city": "Cambridge",
+    "climate": "Waterloo",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 55
+  },
+  {
+    "city": "Guelph",
+    "climate": "Guelph",
+    "schools": 54,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 15,
+    "total_number": 75
+  },
+  {
+    "city": "Oshawa",
+    "climate": "Oshawa",
+    "schools": 59,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 66
+  },
+  {
+    "city": "St. Catharines",
+    "climate": "Niagra",
+    "schools": 55,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 67
+  },
+  {
+    "city": "Thunder Bay",
+    "climate": "Thunder Bay",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 11,
+    "total_number": 61
+  },
+  {
+    "city": "Oakville",
+    "climate": "Burlington",
+    "schools": 61,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 72
+  },
+  {
+    "city": "Richmond Hill",
+    "climate": "Toronto-Pearson",
+    "schools": 50,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 56
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "climate": "Sault St. Marie",
+    "schools": 40,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 47
+  },
+  {
+    "city": "Niagara Falls",
+    "climate": "Niagra",
+    "schools": 34,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 42
+  },
+  {
+    "city": "Peterborough",
+    "climate": "Peterborough",
+    "schools": 31,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 16,
+    "total_number": 49
+  },
+  {
+    "city": "Vaughan",
+    "climate": "Toronto-Pearson",
+    "schools": 37,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 42
+  },
+  {
+    "city": "Whitby",
+    "climate": "Oshawa",
+    "schools": 41,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 49
+  },
+  {
+    "city": "Ajax",
+    "climate": "Oshawa",
+    "schools": 38,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 41
+  },
+  {
+    "city": "Sudbury",
+    "climate": "Sudbury",
+    "schools": 40,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 43
+  },
+  {
+    "city": "London",
+    "climate": "London",
+    "schools": 44,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 47
+  },
+  {
+    "city": "Newmarket",
+    "climate": "Toronto-Pearson",
+    "schools": 28,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 12,
+    "total_number": 43
+  },
+  {
+    "city": "Belleville",
+    "climate": "CFB Trenton",
+    "schools": 25,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 34
+  },
+  {
+    "city": "Cornwall",
+    "climate": "Ottawa",
+    "schools": 26,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 35
+  },
+  {
+    "city": "North Bay",
+    "climate": "North Bay",
+    "schools": 32,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 40
+  },
+  {
+    "city": "Sarnia",
+    "climate": "Sarnia",
+    "schools": 25,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 32
+  },
+  {
+    "city": "Waterloo",
+    "climate": "Waterloo",
+    "schools": 33,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 39
+  },
+  {
+    "city": "Milton",
+    "climate": "Toronto-Pearson",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 34
+  },
+  {
+    "city": "Napanee",
+    "climate": "Kingston",
+    "schools": 5,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 14,
+    "total_number": 22
+  },
+  {
+    "city": "Stoney Creek",
+    "climate": "Hamilton",
+    "schools": 23,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 24
+  },
+  {
+    "city": "Lindsay",
+    "climate": "Peterborough",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 26
+  },
+  {
+    "city": "Orillia",
+    "climate": "Barrie",
+    "schools": 18,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 26
+  },
+  {
+    "city": "Pickering",
+    "climate": "Oshawa",
+    "schools": 25,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 27
+  },
+  {
+    "city": "Timmins",
+    "climate": "Timmins",
+    "schools": 22,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 30
+  },
+  {
+    "city": "Orleans",
+    "climate": "Ottawa",
+    "schools": 28,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 28
+  },
+  {
+    "city": "Nepean",
+    "climate": "Ottawa",
+    "schools": 24,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 25
+  },
+  {
+    "city": "Welland",
+    "climate": "Niagara",
+    "schools": 24,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 29
+  },
+  {
+    "city": "Aurora",
+    "climate": "Toronto-Pearson",
+    "schools": 23,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 26
+  },
+  {
+    "city": "Chatham",
+    "climate": "Windsor",
+    "schools": 20,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 28
+  },
+  {
+    "city": "Orangeville",
+    "climate": "Toronto-Pearson",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 21
+  },
+  {
+    "city": "Cobourg",
+    "climate": "CFB-Trenton",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 21
+  },
+  {
+    "city": "Thornhill",
+    "climate": "Toronto-Pearson",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 30
+  },
+  {
+    "city": "Trenton",
+    "climate": "CFB-Trenton",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 14
+  },
+  {
+    "city": "Stratford",
+    "climate": "Waterloo",
+    "schools": 15,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 17
+  },
+  {
+    "city": "Owen Sound",
+    "climate": "Barrie",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 17
+  },
+  {
+    "city": "Simcoe",
+    "climate": "London",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 12
+  },
+  {
+    "city": "Brockville",
+    "climate": "Ottawa",
+    "schools": 12,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 17
+  },
+  {
+    "city": "Carleton Place",
+    "climate": "Ottawa",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 13
+  },
+  {
+    "city": "Perth",
+    "climate": "Ottawa",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 12
+  },
+  {
+    "city": "Smiths Falls",
+    "climate": "Ottawa",
+    "schools": 9,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 11
+  },
+  {
+    "city": "Dryden",
+    "climate": "Dryden",
+    "schools": 6,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "Ancaster",
+    "climate": "Hamilton",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 13
+  },
+  {
+    "city": "Kenora",
+    "climate": "Kenora",
+    "schools": 8,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 15
+  },
+  {
+    "city": "Pembroke",
+    "climate": "Pembroke",
+    "schools": 11,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 20
+  },
+  {
+    "city": "Port Colborne",
+    "climate": "Niagara",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "New Liskeard",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 12
+  },
+  {
+    "city": "North York",
+    "climate": "Toronto-Pearson",
+    "schools": 10,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 17
+  },
+  {
+    "city": "Scarborough",
+    "climate": "Toronto-Pearson",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 15
+  },
+  {
+    "city": "Woodstock",
+    "climate": "London",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 11,
+    "total_number": 16
+  },
+  {
+    "city": "Kanata",
+    "climate": "Ottawa",
+    "schools": 16,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 16
+  },
+  {
+    "city": "Gloucester",
+    "climate": "Ottawa",
+    "schools": 16,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 16
+  },
+  {
+    "city": "Kapuskasing",
+    "climate": "Kapuskasing",
+    "schools": 8,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 13
+  },
+  {
+    "city": "Kirkland Lake",
+    "climate": "Kirkland Lake",
+    "schools": 7,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 12
+  },
+  {
+    "city": "Hearst",
+    "climate": "Kapuskasing",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 11
+  },
+  {
+    "city": "Stouffville",
+    "climate": "Toronto-Pearson",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 14
+  },
+  {
+    "city": "Maple",
+    "climate": "Toronto-Pearson",
+    "schools": 14,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 14
+  },
+  {
+    "city": "Caledon",
+    "climate": "Toronto-Pearson",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 16
+  },
+  {
+    "city": "Collingwood",
+    "climate": "Barrie",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "Tecumseh",
+    "climate": "Windsor",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 12
+  },
+  {
+    "city": "Leamington",
+    "climate": "Windsor",
+    "schools": 11,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 13
+  },
+  {
+    "city": "Renfrew",
+    "climate": "Ottawa",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 11
+  },
+  {
+    "city": "Alliston",
+    "climate": "Barrie",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "Huntsville",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "Bracebridge",
+    "climate": "none",
+    "schools": 8,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 13
+  },
+  {
+    "city": "Grimsby",
+    "climate": "Hamilton",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 11
+  },
+  {
+    "city": "Port Perry",
+    "climate": "Peterborough",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 12
+  },
+  {
+    "city": "Halton Hills",
+    "climate": "Toronto-Pearson",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 15
+  },
+  {
+    "city": "Bowmanville",
+    "climate": "Oshawa",
+    "schools": 15,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 19
+  },
+  {
+    "city": "Pickle Lake",
+    "climate": "Pickle Lake",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 14
+  },
+  {
+    "city": "Parry Sound",
+    "climate": "Parry Sound",
+    "schools": 5,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 11
+  },
+  {
+    "city": "Moosonee",
+    "climate": "Moosonee",
+    "schools": 1,
+    "admin_facilities": 9,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "Bradford",
+    "climate": "Barrie",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 17
+  },
+  {
+    "city": "Innisfil",
+    "climate": "Barrie",
+    "schools": 6,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "WOODSTOCK",
+    "climate": "London",
+    "schools": 16,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 17
+  },
+  {
+    "city": "ST THOMAS",
+    "climate": "London",
+    "schools": 14,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 15
+  },
+  {
+    "city": "Keswick",
+    "climate": "Barrie",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 11
+  },
+  {
+    "city": "Hilton Beach",
+    "climate": "Sault Ste. Marie",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 13
+  },
+  {
+    "city": "Woodbridge",
+    "climate": "Toronto-Pearson",
+    "schools": 14,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 14
+  },
+  {
+    "city": "Desbarats",
+    "climate": "Sault Ste Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Elliot Lake",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 10
+  },
+  {
+    "city": "Chapleau",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Hornepayne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Goulais River",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Richards Landing",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 5
+  },
+  {
+    "city": "Bruce Mines",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Blind River",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "Echo Bay",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Wawa",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Missanabie",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Serpent River",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Thessalon",
+    "climate": "Sault Ste. Marie",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Amherstview",
+    "climate": "Kingston",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Wolfe Island",
+    "climate": "Kingston",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Tweed",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Picton",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Whitney",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Shannonville",
+    "climate": "Belleville",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Marysville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bancroft",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 8
+  },
+  {
+    "city": "Batawa",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Marmora",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 10
+  },
+  {
+    "city": "Erinsville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Harrowsmith",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Sharbot Lake",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Hensall",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Lucknow",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Clinton",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 9
+  },
+  {
+    "city": "Sebringville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "St. Pauls",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Atwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Exeter",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Gorrie",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Londesboro",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Marys",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Wingham",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 8
+  },
+  {
+    "city": "Milverton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Listowel",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Ethel",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Shakespeare",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mitchell",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Goderich",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 10
+  },
+  {
+    "city": "Brucefield",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Newton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Seaforth",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Crediton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sauble Beach",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Tara",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Thornbury",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Markdale",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Chesley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Hanover",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "Holstein",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kincardine",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 9
+  },
+  {
+    "city": "Southampton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Hepworth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Teeswater",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Meaford",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 8
+  },
+  {
+    "city": "Mildmay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ayton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Paisley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wiarton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Port Elgin",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 6
+  },
+  {
+    "city": "Tobermory",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Desboro",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Derby",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lions Head",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dundalk",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Flesherton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Holland Centre",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Maxwell",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ripley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Durham",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Walkerton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Burford",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Paris",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 8
+  },
+  {
+    "city": "Caledonia",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "Courtland",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "La Salette",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Langton",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "Waterford",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "Port Dover",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Delhi",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Hagersville",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Dunnville",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "Cayuga",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "South Bruce",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Brockton",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Saugeen Shores",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "West Grey",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Williamstown",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Hammond",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Lanark",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Westport",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alexandria",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Long Saul",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Gananoque",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 7
+  },
+  {
+    "city": "Toledo",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Kemptville",
+    "climate": "Ottawa",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "Almonte",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Russell",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Ingleside",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Andrews West",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Vankleek Hill",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Prescott",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 9
+  },
+  {
+    "city": "Morrisburg",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Rockland",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 6
+  },
+  {
+    "city": "Elizabethtown",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "CHELMSFORD",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "SUDBURY",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 8
+  },
+  {
+    "city": "FALCONBRIDGE",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "GARSON",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "LIVELY",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "NAUGHTON",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "LIVELY ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "LEVACK",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "SKEAD",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "HANMER",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Dundas",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 8
+  },
+  {
+    "city": "Binbrook",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Bobcaygeon",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Fenelon Falls",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Frankford",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 5
+  },
+  {
+    "city": "St. Thomas",
+    "climate": "London",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 10
+  },
+  {
+    "city": "St. Thomas ",
+    "climate": "London",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "STRATFORD",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 5
+  },
+  {
+    "city": "Haileybury",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Temiskaming Shores",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "South Porcupine",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Etobicoke",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 8
+  },
+  {
+    "city": "East York",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Welland ",
+    "climate": "Niagara",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Casselman",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Embrun",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "Hawkesbury",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "Vanier",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 6
+  },
+  {
+    "city": "Ignace",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Navan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Barrhaven",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Merrickville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Vars",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Marionville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "River Valley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sturgeon Falls",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 10
+  },
+  {
+    "city": "Bonfield",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Thorne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mattawa",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Verner",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Astorville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Earlton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Cochrane",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 7
+  },
+  {
+    "city": "Mattice",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Moonbeam",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ramore",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Gogama",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Foleyet",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Smooth Rock Falls",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 5
+  },
+  {
+    "city": "Iroquois Falls",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 10
+  },
+  {
+    "city": "Porcupine",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Virginiatown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Georgetown",
+    "climate": "none",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 9
+  },
+  {
+    "city": "East Gwillimbury",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "CFB Borden",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lafontaine",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Penetanguishene",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 10
+  },
+  {
+    "city": "Chelmsford",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "Val Caron",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 6
+  },
+  {
+    "city": "Coniston",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Hanmer",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 6
+  },
+  {
+    "city": "Espanola",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "St-Charles",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Val Therese",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dowling",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Lively",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Spanish",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Noelville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Garson",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Azilda",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Dubreuilville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Warren",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alfred",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Saint-Bernardin",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Crysler",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St-Albert",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Clarence Creek",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St-Pascal-Baylon",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Moose Creek",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Limoges",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bourget",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "L'Orignal",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Plantagenet",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "St-Isidore-de-Prescott",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wendover",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Eugene",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "North Lancaster",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Joachim",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "La Salle",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Tilbury",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "St. Clair Beach",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Paincourt",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Pointe-aux-Roches",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Pain Court",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Grande Pointe",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Amherstburg",
+    "climate": "none",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 9
+  },
+  {
+    "city": "Belle River",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 8
+  },
+  {
+    "city": "McGregor",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Markstay",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Longlac",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Sault Ste Marie",
+    "climate": "Sault Ste. Marie",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Borden",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kleinburg",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Oakland",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Onondaga",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Essex",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 9
+  },
+  {
+    "city": "Colchester Twp",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Kingsville",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Comber",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Colchester N Twp",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Glenburnie",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Minden",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 5
+  },
+  {
+    "city": "Quinte West",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Brussels",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Wyoming",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 7
+  },
+  {
+    "city": "Pt. Edward",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Bewdley",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Brighton",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 8
+  },
+  {
+    "city": "Seymour",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Bridgenorth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Keene",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Buckhorn",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Lakefield",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 8
+  },
+  {
+    "city": "Otonabee",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Peterborough ",
+    "climate": "Peterborough",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Arnprior",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 9
+  },
+  {
+    "city": "Midhurst",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Midland",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 10
+  },
+  {
+    "city": "Beeton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Puslinch",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Belwood",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Elora",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Fergus",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 9
+  },
+  {
+    "city": "Mount Forest",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Harriston",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Rothsay",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Gravenhurst",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Beamsville",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "Ridgeway",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Smithville",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Fort Erie",
+    "climate": "none",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 10
+  },
+  {
+    "city": "Fonthill",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Caistor Centre",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Niagara-On-The-Lake",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Crystal Beach",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "St. Ann's",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Thorold",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 10
+  },
+  {
+    "city": "Fenwick",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Stevensville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Vineland",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wainfleet",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "St. Davids",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Elk Lake",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Englehart",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Schumacher",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Matheson",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Thornloe",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Temagami",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bolton",
+    "climate": "none",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 10
+  },
+  {
+    "city": "Uxbridge",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 6
+  },
+  {
+    "city": "Brooklin",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 6
+  },
+  {
+    "city": "Beaverton",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Cannington",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Blackstock",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Claremont",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Goodwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Greenbank",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sandford",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Prince Albert",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sunderland",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Greenwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Glen Morris",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Jarvis",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Scotland",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Port Rowan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mt. Pleasant",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Fisherville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "York",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. George",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Teeterville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wheatley",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Pelee Island",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lasalle",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Cottam",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Emeryville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Acton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Milton ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Campbellville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Limehouse",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "halton hills",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Hannon",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Waterdown",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "Winona",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Carlisle",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Troy",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Freelton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sheffield",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Millgrove",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mount Hope",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Copetown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Greensville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cherry Valley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Madoc",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Coe Hill",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Foxboro",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ameliasburgh",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Maynooth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Wellington",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Deseronto",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Corbyville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bloomfield",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Stirling",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "St. Mary's",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dashwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dublin",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Zurich",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Horneypayne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "White River",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Massey",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Baltimore",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Port Hope",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Campbellford",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Newcastle",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Apsley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Colborne ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Courtice",
+    "climate": "none",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 10
+  },
+  {
+    "city": "Grafton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Hampton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Newtonville",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cavan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Castleton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Norwood",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Enniskillen",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Hastings",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Havelock",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Scugog",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Millbrook",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Campbellcroft",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Orono",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Warkworth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Gores Landing",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Warsaw",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Roseneath",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Ear Falls",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 5
+  },
+  {
+    "city": "Keewatin",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Vermilion Bay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Red Lake",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Savant Lake",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Upsala",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Balmertown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Sioux Lookout",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Sioux Narrows",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Murillo",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Armstrong",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Collins",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kakabeka Falls",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Wallaceburg",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 9
+  },
+  {
+    "city": "Thedford",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Point Edward",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Brigden",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Corruna",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Camlachie",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Grand Bend",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 8
+  },
+  {
+    "city": "Blenheim",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Bright's Grove",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alvinston",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Dresden",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Watford",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Petrolia",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Forest",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Merlin",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mooretown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Ridgetown",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Thamesville",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Bothwell",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Port Lambton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Corunna",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Bath",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Centreville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Plevna",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Odessa",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Mountain Grove",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Newburgh",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cloyne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Stella",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Elginburg",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Enterprise",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Joyceville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sydenham",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Perth Road",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Verona",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Tamworth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Westbrook",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Yarker",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Selby",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Battersea ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Aylmer",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Strathroy",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Glencoe",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Dorchester",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "London ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Tillsonburg",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Delaware",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Parkhill",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Ingersoll",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "West Lorne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Lucan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Straffordville",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Bayfield",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Mindemoya",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Charlton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Highgate",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Dutton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 5
+  },
+  {
+    "city": "Haliburton",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 9
+  },
+  {
+    "city": "Corbeil",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Gore Bay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Cardiff",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Gooderham",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Wilberforce",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Huron East",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Iron Bridge",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Killarney",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Tiverton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Kicardine",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Port Franks",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Arkona",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Magnetawan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "McDougall",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Ilderton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "NEEBING",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Gowanstown",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Lion's Head",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Rosslyn",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Powassan",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 7
+  },
+  {
+    "city": "STRATHROY",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "Kinmount",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Trent Lakes, Ontario",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Rodney",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Elmwood",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Bornholm",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "South River",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Port Loring",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Britt",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Emsdale",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Callander",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mactier",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Nobel",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Redbridge",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Burk's Falls",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 5
+  },
+  {
+    "city": "Nipissing",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Sundridge",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Dunchurch",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Jordan",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Virgil",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 5
+  },
+  {
+    "city": "Callandar",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cobalt",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Fort Frances",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 8
+  },
+  {
+    "city": "Stratton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Atikokan",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Stittsville",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "Metcalfe",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Manotick",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Carp",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Richmond",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Belfountain",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Terra Cotta",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Palgrave",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kirkfield",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Douro",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ennismore",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Capreol",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Copper Cliff",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Monetville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Manitowaning",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Levack",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Little Current",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Shining Tree",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "M'Chigeeng",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Whitefish",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Devlin",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Sleeman",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Rainy River",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Emo",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Mine Centre",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Nestor Falls",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Barwick",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Burlington ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "St Catharines",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Whitchurch-Stouffville",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Georgina",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Combermere",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Petawawa",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 7
+  },
+  {
+    "city": "Killaloe",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Barry's Bay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Douglas",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Westmeath",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Chalk River",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Eganville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Calabogie",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Deep River",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Bonnechere Valley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Admaston",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Barry's bay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Beachburg",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cobden",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Palmer Rapids",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Laurentian Valley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Loretto",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Stroud",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Angus",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Cumberland Beach",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Egbert",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Brechin",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Stayner",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Coldwater",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cookstown",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Hawkestone",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wasaga Beach",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Creemore",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Duntroon",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Elmvale",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Oro Station",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Hillsdale",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lefroy",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Minesing",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "New Lowell",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Shanty Bay",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Victoria Harbour",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Moonstone",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Nottawa",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Port McNicoll",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Washago",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Tottenham",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 7
+  },
+  {
+    "city": "Everett",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Waubaushene",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Warminster",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wyebridge",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wyevale",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ramara",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "New Tecumseth",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Essa",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Springwater",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bradford West Gwillimbury",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Tay",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Brights Grove",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Beardmore",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dorion",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Nipigon",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Geraldton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Terrace Bay",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 6
+  },
+  {
+    "city": "Manitouwadge",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Marathon",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 5
+  },
+  {
+    "city": "Red Rock",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 4
+  },
+  {
+    "city": "Schreiber",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Nakina",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Maberly",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "KINTORE",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "TILLSONBURG",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "DRUMBO",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "RODNEY",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "MOUNT BRYDGES",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "ARVA",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "DUTTON",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "AILSA CRAIG",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "NORWICH",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "INGERSOLL",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "INNERKIP",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "AYLMER",
+    "climate": "none",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 5
+  },
+  {
+    "city": "DELAWARE",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "GLENCOE",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "HICKSON",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "DORCHESTER",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "PARKHILL",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "KOMOKA",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "PLATTSVILLE",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "ILDERTON",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "PORT BURWELL",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "PORT STANLEY",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "STRAFFORDVILLE",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "THAMESFORD",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "THORNDALE",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "BELMONT",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "SPRINGFIELD",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "TAVISTOCK",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "WEST LORNE",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "LUCAN",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "EMBRO",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Fournier",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Aurora ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Collingwood ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Sharon",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Erin",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Hillsburgh",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Harrow",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Colchester North",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Sutton",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "KIRKLAND LAKE",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "LaSalle",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 6
+  },
+  {
+    "city": "Palmerston",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Mono",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Niagara-on-the-Lake",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Sheguiandah",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Shelburne",
+    "climate": "none",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "WIARTON",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "AMABEL",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "HEPWORTH",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "ST. MARYS",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Flinton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Renfrew ON",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Alberton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Dorset",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Algonquin Highlands",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Amaranth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Athens",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "McKerrow",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Kagawong",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Drumbo",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Gratton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Quadeville",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Boulter",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Belle Valleé",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Chamberlain",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "VAnkleek Hill",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Chatsworth",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Coleman Township",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Conmee",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Colborne",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "East Garafraxa",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "St Eugene",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Grand Valley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Hickson",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Spencerville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Addison",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Utopia",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Mallorytown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Howe Island",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Simcoe Island",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Port Severn",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Guelph/Eramosa",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Hilliardton",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Elk lake",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "King City",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 5
+  },
+  {
+    "city": "Laird Township",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Dwight",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 4
+  },
+  {
+    "city": "Larder Lake",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Lansdowne",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Lucan ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Drayton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Moorefield",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "McKellar",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Melancthon",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Mulmur",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Nairn Centre",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Golden Lake",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Winchester",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Arden",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Harlowe",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Ardoch",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Mississippi",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Ompah",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": " Alexandria ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Blyth",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Algoma Mills",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Berwick",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Otterville",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Norwich",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "O'Connor Township",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Opasatika",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Emsdale, ON",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Bruce Mines, On",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Prince Township",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Delta",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Seguin",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Selwyn",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Selwyn Township",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "ORILLIA",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Brinston",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Lancaster, Ont",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Long Sault",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Fingal",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Tehkummah",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Tiny",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 4
+  },
+  {
+    "city": "Gilmour",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "St Clements",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Kenilworth",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Baden ",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Elmira",
+    "climate": "none",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 8
+  },
+  {
+    "city": "Zorra",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Embro",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Dunsford",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Cameron",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Honey Harbour",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Oakwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Little Britian",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Port Carling",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bethany",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Severn Bridge",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Omemee",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Coboconck",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Haliburton ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Utterson",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ullswater",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Woodville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "L'Original",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Finch",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Winchester Springs",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Green Valley",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Stonecliffe",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Cardinal ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alexandria ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Iroquois",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Lombardy ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Long Sault ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lyn",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Merrickville ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Athens ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Chesterville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Dalkeith",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lanark ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Maxville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Morrisburg ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "South Mountain ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Chesterville ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Pakenham",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Portland ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ingleside ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Bainsville ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Lyndhurst",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kemptville ",
+    "climate": "Ottawa",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Oxford Mills ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Elgin",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Frankville",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Westport ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Avonmore ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Johnstown",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Avonmore",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Alma",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Arthur",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Rockwood",
+    "climate": "none",
+    "schools": 4,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 4
+  },
+  {
+    "city": "Salem",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Newbury",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Oil Springs",
+    "climate": "none",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "New Hamburg",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Maryhill",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Clements",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Ayr",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "St. Agatha",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Baden",
+    "climate": "none",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Breslau",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Conestogo",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Linwood",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "New Dundee",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "St. Jacobs",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Wellesley",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mt Forest",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "River Canard",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Stoney Point",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Woodslee",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Maidstone",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "east gwillimbury",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Kleinberg",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Nobleton",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "King",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Stouffville ",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Unionville",
+    "climate": "none",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 10
+  },
+  {
+    "city": "Concord",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Holland Landing",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Pefferlaw",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Mount Albert",
+    "climate": "none",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Kettleby",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Queensville",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Schomberg",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Sutton West",
+    "climate": "none",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  }
+]
