@@ -1,0 +1,452 @@
+[
+  {
+    "city": "Toronto",
+    "schools": 754,
+    "admin_facilities": 10,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 788
+  },
+  {
+    "city": "Mississauga",
+    "schools": 218,
+    "admin_facilities": 8,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 250
+  },
+  {
+    "city": "Ottawa",
+    "schools": 201,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 215
+  },
+  {
+    "city": "Brampton",
+    "schools": 181,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 19,
+    "total_number": 202
+  },
+  {
+    "city": "Hamilton",
+    "schools": 117,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 128
+  },
+  {
+    "city": "LONDON",
+    "schools": 84,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 93
+  },
+  {
+    "city": "Kitchener",
+    "schools": 75,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 89
+  },
+  {
+    "city": "Windsor",
+    "schools": 74,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 87
+  },
+  {
+    "city": "Markham",
+    "schools": 69,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 77
+  },
+  {
+    "city": "Guelph",
+    "schools": 54,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 15,
+    "total_number": 75
+  },
+  {
+    "city": "Oakville",
+    "schools": 61,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 72
+  },
+  {
+    "city": "St. Catharines",
+    "schools": 55,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 67
+  },
+  {
+    "city": "Oshawa",
+    "schools": 59,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 66
+  },
+  {
+    "city": "Brantford",
+    "schools": 47,
+    "admin_facilities": 5,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 65
+  },
+  {
+    "city": "Thunder Bay",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 11,
+    "total_number": 61
+  },
+  {
+    "city": "Burlington",
+    "schools": 55,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 59
+  },
+  {
+    "city": "Richmond Hill",
+    "schools": 50,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 56
+  },
+  {
+    "city": "Barrie",
+    "schools": 52,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 56
+  },
+  {
+    "city": "Cambridge",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 55
+  },
+  {
+    "city": "Kingston",
+    "schools": 43,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 53
+  },
+  {
+    "city": "Whitby",
+    "schools": 41,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 49
+  },
+  {
+    "city": "Peterborough",
+    "schools": 31,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 16,
+    "total_number": 49
+  },
+  {
+    "city": "London",
+    "schools": 44,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 47
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "schools": 40,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 47
+  },
+  {
+    "city": "Newmarket",
+    "schools": 28,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 12,
+    "total_number": 43
+  },
+  {
+    "city": "Sudbury",
+    "schools": 40,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 43
+  },
+  {
+    "city": "Vaughan",
+    "schools": 37,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 42
+  },
+  {
+    "city": "Niagara Falls",
+    "schools": 34,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 42
+  },
+  {
+    "city": "Ajax",
+    "schools": 38,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 41
+  },
+  {
+    "city": "North Bay",
+    "schools": 32,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 40
+  },
+  {
+    "city": "Waterloo",
+    "schools": 33,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 39
+  },
+  {
+    "city": "Cornwall",
+    "schools": 26,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 35
+  },
+  {
+    "city": "Milton",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 34
+  },
+  {
+    "city": "Belleville",
+    "schools": 25,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 34
+  },
+  {
+    "city": "Sarnia",
+    "schools": 25,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 32
+  },
+  {
+    "city": "Thornhill",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 30
+  },
+  {
+    "city": "Timmins",
+    "schools": 22,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 30
+  },
+  {
+    "city": "Welland",
+    "schools": 24,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 29
+  },
+  {
+    "city": "Chatham",
+    "schools": 20,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 28
+  },
+  {
+    "city": "Orleans",
+    "schools": 28,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 28
+  },
+  {
+    "city": "Pickering",
+    "schools": 25,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 27
+  },
+  {
+    "city": "Aurora",
+    "schools": 23,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 26
+  },
+  {
+    "city": "Orillia",
+    "schools": 18,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 26
+  },
+  {
+    "city": "Lindsay",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 26
+  },
+  {
+    "city": "Nepean",
+    "schools": 24,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 25
+  },
+  {
+    "city": "Stoney Creek",
+    "schools": 23,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 24
+  },
+  {
+    "city": "Napanee",
+    "schools": 5,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 14,
+    "total_number": 22
+  },
+  {
+    "city": "Cobourg",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 21
+  },
+  {
+    "city": "Orangeville",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 21
+  },
+  {
+    "city": "Pembroke",
+    "schools": 11,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 20
+  }
+]
