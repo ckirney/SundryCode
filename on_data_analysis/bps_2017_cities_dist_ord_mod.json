@@ -183,6 +183,7 @@
         },
         {
           "city": "St. Catharines",
+          "climate": "Niagra",
           "schools": 55,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -192,6 +193,7 @@
         },
         {
           "city": "Thunder Bay",
+          "climate": "Thunder Bay",
           "schools": 50,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -201,6 +203,7 @@
         },
         {
           "city": "Oakville",
+          "climate": "Burlington",
           "schools": 61,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -210,6 +213,7 @@
         },
         {
           "city": "Richmond Hill",
+          "climate": "Toronto-Pearson",
           "schools": 50,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -226,6 +230,7 @@
       "cities": [
         {
           "city": "Sault Ste. Marie",
+          "climate": "Sault St. Marie",
           "schools": 40,
           "admin_facilities": 4,
           "classrooms": 0,
@@ -235,6 +240,7 @@
         },
         {
           "city": "Niagara Falls",
+          "climate": "Niagra",
           "schools": 34,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -244,6 +250,7 @@
         },
         {
           "city": "Peterborough",
+          "climate": "Peterborough",
           "schools": 31,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -253,6 +260,7 @@
         },
         {
           "city": "Vaughan",
+          "climate": "Toronto-Pearson",
           "schools": 37,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -262,6 +270,7 @@
         },
         {
           "city": "Whitby",
+          "climate": "Oshawa",
           "schools": 41,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -271,6 +280,7 @@
         },
         {
           "city": "Ajax",
+          "climate": "Oshawa",
           "schools": 38,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -280,6 +290,7 @@
         },
         {
           "city": "Sudbury",
+          "climate": "Sudbury",
           "schools": 40,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -289,6 +300,7 @@
         },
         {
           "city": "London",
+          "climate": "London",
           "schools": 44,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -298,6 +310,7 @@
         },
         {
           "city": "Newmarket",
+          "climate": "Toronto-Pearson",
           "schools": 28,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -314,6 +327,7 @@
       "cities": [
         {
           "city": "Belleville",
+          "climate": "CFB Trenton",
           "schools": 25,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -323,6 +337,7 @@
         },
         {
           "city": "Cornwall",
+          "climate": "Ottawa",
           "schools": 26,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -332,6 +347,7 @@
         },
         {
           "city": "North Bay",
+          "climate": "North Bay",
           "schools": 32,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -341,6 +357,7 @@
         },
         {
           "city": "Sarnia",
+          "climate": "Sarnia",
           "schools": 25,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -360,6 +377,7 @@
         },
         {
           "city": "Milton",
+          "climate": "Toronto-Pearson",
           "schools": 30,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -376,6 +394,7 @@
       "cities": [
         {
           "city": "Napanee",
+          "climate": "Kingston",
           "schools": 5,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -385,6 +404,7 @@
         },
         {
           "city": "Stoney Creek",
+          "climate": "Hamilton",
           "schools": 23,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -394,6 +414,7 @@
         },
         {
           "city": "Lindsay",
+          "climate": "Peterborough",
           "schools": 15,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -403,6 +424,7 @@
         },
         {
           "city": "Orillia",
+          "climate": "Barrie",
           "schools": 18,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -412,6 +434,7 @@
         },
         {
           "city": "Pickering",
+          "climate": "Oshawa",
           "schools": 25,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -421,6 +444,7 @@
         },
         {
           "city": "Timmins",
+          "climate": "Timmins",
           "schools": 22,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -430,6 +454,7 @@
         },
         {
           "city": "Orleans",
+          "climate": "Ottawa",
           "schools": 28,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -439,6 +464,7 @@
         },
         {
           "city": "Nepean",
+          "climate": "Ottawa",
           "schools": 24,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -448,6 +474,7 @@
         },
         {
           "city": "Welland",
+          "climate": "Niagara",
           "schools": 24,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -457,6 +484,7 @@
         },
         {
           "city": "Aurora",
+          "climate": "Toronto-Pearson",
           "schools": 23,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -466,6 +494,7 @@
         },
         {
           "city": "Chatham",
+          "climate": "Windsor",
           "schools": 20,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -475,6 +504,7 @@
         },
         {
           "city": "Orangeville",
+          "climate": "Toronto-Pearson",
           "schools": 15,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -484,6 +514,7 @@
         },
         {
           "city": "Cobourg",
+          "climate": "CFB-Trenton",
           "schools": 12,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -493,6 +524,7 @@
         },
         {
           "city": "Thornhill",
+          "climate": "Toronto-Pearson",
           "schools": 30,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -509,6 +541,7 @@
       "cities": [
         {
           "city": "Trenton",
+          "climate": "CFB-Trenton",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -518,6 +551,7 @@
         },
         {
           "city": "Stratford",
+          "climate": "Waterloo",
           "schools": 15,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -527,6 +561,7 @@
         },
         {
           "city": "Owen Sound",
+          "climate": "Barrie",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -536,6 +571,7 @@
         },
         {
           "city": "Simcoe",
+          "climate": "London",
           "schools": 9,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -545,6 +581,7 @@
         },
         {
           "city": "Brockville",
+          "climate": "Ottawa",
           "schools": 12,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -554,6 +591,7 @@
         },
         {
           "city": "Carleton Place",
+          "climate": "Ottawa",
           "schools": 8,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -563,6 +601,7 @@
         },
         {
           "city": "Perth",
+          "climate": "Ottawa",
           "schools": 8,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -572,6 +611,7 @@
         },
         {
           "city": "Smiths Falls",
+          "climate": "Ottawa",
           "schools": 9,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -581,6 +621,7 @@
         },
         {
           "city": "Dryden",
+          "climate": "Dryden",
           "schools": 6,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -590,6 +631,7 @@
         },
         {
           "city": "Ancaster",
+          "climate": "Hamilton",
           "schools": 12,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -599,6 +641,7 @@
         },
         {
           "city": "Kenora",
+          "climate": "Kenora",
           "schools": 8,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -608,6 +651,7 @@
         },
         {
           "city": "Pembroke",
+          "climate": "Pembroke",
           "schools": 11,
           "admin_facilities": 4,
           "classrooms": 0,
@@ -617,6 +661,7 @@
         },
         {
           "city": "Port Colborne",
+          "climate": "Niagara",
           "schools": 10,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -626,6 +671,7 @@
         },
         {
           "city": "New Liskeard",
+          "climate": "none",
           "schools": 4,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -635,6 +681,7 @@
         },
         {
           "city": "North York",
+          "climate": "Toronto-Pearson",
           "schools": 10,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -644,6 +691,7 @@
         },
         {
           "city": "Scarborough",
+          "climate": "Toronto-Pearson",
           "schools": 8,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -653,6 +701,7 @@
         },
         {
           "city": "Woodstock",
+          "climate": "London",
           "schools": 5,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -662,6 +711,7 @@
         },
         {
           "city": "Kanata",
+          "climate": "Ottawa",
           "schools": 16,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -671,6 +721,7 @@
         },
         {
           "city": "Gloucester",
+          "climate": "Ottawa",
           "schools": 16,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -680,6 +731,7 @@
         },
         {
           "city": "Kapuskasing",
+          "climate": "Kapuskasing",
           "schools": 8,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -689,6 +741,7 @@
         },
         {
           "city": "Kirkland Lake",
+          "climate": "Kirkland Lake",
           "schools": 7,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -698,6 +751,7 @@
         },
         {
           "city": "Hearst",
+          "climate": "Kapuskasing",
           "schools": 5,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -707,6 +761,7 @@
         },
         {
           "city": "Stouffville",
+          "climate": "Toronto-Pearson",
           "schools": 9,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -716,6 +771,7 @@
         },
         {
           "city": "Maple",
+          "climate": "Toronto-Pearson",
           "schools": 14,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -725,6 +781,7 @@
         },
         {
           "city": "Caledon",
+          "climate": "Toronto-Pearson",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -734,6 +791,7 @@
         },
         {
           "city": "Collingwood",
+          "climate": "Barrie",
           "schools": 10,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -743,6 +801,7 @@
         },
         {
           "city": "Tecumseh",
+          "climate": "Windsor",
           "schools": 9,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -752,6 +811,7 @@
         },
         {
           "city": "Leamington",
+          "climate": "Windsor",
           "schools": 11,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -761,6 +821,7 @@
         },
         {
           "city": "Renfrew",
+          "climate": "Ottawa",
           "schools": 6,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -770,6 +831,7 @@
         },
         {
           "city": "Alliston",
+          "climate": "Barrie",
           "schools": 7,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -779,6 +841,7 @@
         },
         {
           "city": "Huntsville",
+          "climate": "none",
           "schools": 7,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -788,6 +851,7 @@
         },
         {
           "city": "Bracebridge",
+          "climate": "none",
           "schools": 8,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -797,6 +861,7 @@
         },
         {
           "city": "Grimsby",
+          "climate": "Hamilton",
           "schools": 10,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -806,6 +871,7 @@
         },
         {
           "city": "Port Perry",
+          "climate": "Peterborough",
           "schools": 5,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -815,6 +881,7 @@
         },
         {
           "city": "Halton Hills",
+          "climate": "Toronto-Pearson",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -824,6 +891,7 @@
         },
         {
           "city": "Bowmanville",
+          "climate": "Oshawa",
           "schools": 15,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -833,6 +901,7 @@
         },
         {
           "city": "Pickle Lake",
+          "climate": "Pickle Lake",
           "schools": 1,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -842,6 +911,7 @@
         },
         {
           "city": "Parry Sound",
+          "climate": "Parry Sound",
           "schools": 5,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -851,6 +921,7 @@
         },
         {
           "city": "Moosonee",
+          "climate": "Moosonee",
           "schools": 1,
           "admin_facilities": 9,
           "classrooms": 0,
@@ -860,6 +931,7 @@
         },
         {
           "city": "Bradford",
+          "climate": "Barrie",
           "schools": 12,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -869,6 +941,7 @@
         },
         {
           "city": "Innisfil",
+          "climate": "Barrie",
           "schools": 6,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -878,6 +951,7 @@
         },
         {
           "city": "WOODSTOCK",
+          "climate": "London",
           "schools": 16,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -887,6 +961,7 @@
         },
         {
           "city": "ST THOMAS",
+          "climate": "London",
           "schools": 14,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -896,6 +971,7 @@
         },
         {
           "city": "Keswick",
+          "climate": "Barrie",
           "schools": 9,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -905,6 +981,7 @@
         },
         {
           "city": "Hilton Beach",
+          "climate": "Sault Ste. Marie",
           "schools": 0,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -914,6 +991,7 @@
         },
         {
           "city": "Woodbridge",
+          "climate": "Toronto-Pearson",
           "schools": 14,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -1840,6 +1918,7 @@
         },
         {
           "city": "Kemptville",
+          "climate": "Ottawa",
           "schools": 6,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -2065,6 +2144,7 @@
         },
         {
           "city": "St. Thomas",
+          "climate": "London",
           "schools": 3,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -2074,6 +2154,7 @@
         },
         {
           "city": "St. Thomas ",
+          "climate": "London",
           "schools": 0,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -2137,6 +2218,7 @@
         },
         {
           "city": "Welland ",
+          "climate": "Niagara",
           "schools": 0,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -3047,6 +3129,7 @@
         },
         {
           "city": "Peterborough ",
+          "climate": "Peterborough",
           "schools": 0,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -7592,6 +7675,7 @@
         },
         {
           "city": "Kemptville ",
+          "climate": "Ottawa",
           "schools": 1,
           "admin_facilities": 0,
           "classrooms": 0,
