@@ -1,0 +1,1082 @@
+[
+  {
+    "city": "Brampton",
+    "climate": "Toronto-Pearson",
+    "schools": 181,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 19,
+    "total_number": 202
+  },
+  {
+    "city": "Hamilton",
+    "climate": "Hamilton",
+    "schools": 117,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 128
+  },
+  {
+    "city": "Mississauga",
+    "climate": "Tononto-Pearson",
+    "schools": 218,
+    "admin_facilities": 8,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 250
+  },
+  {
+    "city": "Ottawa",
+    "climate": "Ottawa",
+    "schools": 201,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 215
+  },
+  {
+    "city": "Toronto",
+    "climate": "Toronto-City",
+    "schools": 754,
+    "admin_facilities": 10,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 24,
+    "total_number": 788
+  },
+  {
+    "city": "Kitchener",
+    "climate": "Waterloo",
+    "schools": 75,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 89
+  },
+  {
+    "city": "LONDON",
+    "climate": "London",
+    "schools": 84,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 93
+  },
+  {
+    "city": "Windsor",
+    "climate": "Windsor",
+    "schools": 74,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 87
+  },
+  {
+    "city": "Markham",
+    "climate": "Toronto-Pearson",
+    "schools": 69,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 77
+  },
+  {
+    "city": "Kingston",
+    "climate": "Kingston",
+    "schools": 43,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 53
+  },
+  {
+    "city": "Brantford",
+    "climate": "Hamilton",
+    "schools": 47,
+    "admin_facilities": 5,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 65
+  },
+  {
+    "city": "Barrie",
+    "climate": "Barrie",
+    "schools": 52,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 56
+  },
+  {
+    "city": "Burlington",
+    "climate": "Burlington",
+    "schools": 55,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 59
+  },
+  {
+    "city": "Cambridge",
+    "climate": "Waterloo",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 55
+  },
+  {
+    "city": "Guelph",
+    "climate": "Guelph",
+    "schools": 54,
+    "admin_facilities": 6,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 15,
+    "total_number": 75
+  },
+  {
+    "city": "Oshawa",
+    "climate": "Oshawa",
+    "schools": 59,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 66
+  },
+  {
+    "city": "St. Catharines",
+    "climate": "Niagra",
+    "schools": 55,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 67
+  },
+  {
+    "city": "Thunder Bay",
+    "climate": "Thunder Bay",
+    "schools": 50,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 11,
+    "total_number": 61
+  },
+  {
+    "city": "Oakville",
+    "climate": "Burlington",
+    "schools": 61,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 72
+  },
+  {
+    "city": "Richmond Hill",
+    "climate": "Toronto-Pearson",
+    "schools": 50,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 56
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "climate": "Sault St. Marie",
+    "schools": 40,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 47
+  },
+  {
+    "city": "Niagara Falls",
+    "climate": "Niagra",
+    "schools": 34,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 42
+  },
+  {
+    "city": "Peterborough",
+    "climate": "Peterborough",
+    "schools": 31,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 16,
+    "total_number": 49
+  },
+  {
+    "city": "Vaughan",
+    "climate": "Toronto-Pearson",
+    "schools": 37,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 42
+  },
+  {
+    "city": "Whitby",
+    "climate": "Oshawa",
+    "schools": 41,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 49
+  },
+  {
+    "city": "Ajax",
+    "climate": "Oshawa",
+    "schools": 38,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 41
+  },
+  {
+    "city": "Sudbury",
+    "climate": "Sudbury",
+    "schools": 40,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 43
+  },
+  {
+    "city": "London",
+    "climate": "London",
+    "schools": 44,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 47
+  },
+  {
+    "city": "Newmarket",
+    "climate": "Toronto-Pearson",
+    "schools": 28,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 12,
+    "total_number": 43
+  },
+  {
+    "city": "Belleville",
+    "climate": "CFB Trenton",
+    "schools": 25,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 34
+  },
+  {
+    "city": "Cornwall",
+    "climate": "Ottawa",
+    "schools": 26,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 35
+  },
+  {
+    "city": "North Bay",
+    "climate": "North Bay",
+    "schools": 32,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 40
+  },
+  {
+    "city": "Sarnia",
+    "climate": "Sarnia",
+    "schools": 25,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 32
+  },
+  {
+    "city": "Waterloo",
+    "climate": "Waterloo",
+    "schools": 33,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 39
+  },
+  {
+    "city": "Milton",
+    "climate": "Toronto-Pearson",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 34
+  },
+  {
+    "city": "Napanee",
+    "climate": "Kingston",
+    "schools": 5,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 14,
+    "total_number": 22
+  },
+  {
+    "city": "Stoney Creek",
+    "climate": "Hamilton",
+    "schools": 23,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 24
+  },
+  {
+    "city": "Lindsay",
+    "climate": "Peterborough",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 10,
+    "total_number": 26
+  },
+  {
+    "city": "Orillia",
+    "climate": "Barrie",
+    "schools": 18,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 8,
+    "total_number": 26
+  },
+  {
+    "city": "Pickering",
+    "climate": "Oshawa",
+    "schools": 25,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 27
+  },
+  {
+    "city": "Timmins",
+    "climate": "Timmins",
+    "schools": 22,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 30
+  },
+  {
+    "city": "Orleans",
+    "climate": "Ottawa",
+    "schools": 28,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 28
+  },
+  {
+    "city": "Nepean",
+    "climate": "Ottawa",
+    "schools": 24,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 25
+  },
+  {
+    "city": "Welland",
+    "climate": "Niagara",
+    "schools": 24,
+    "admin_facilities": 3,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 29
+  },
+  {
+    "city": "Aurora",
+    "climate": "Toronto-Pearson",
+    "schools": 23,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 26
+  },
+  {
+    "city": "Chatham",
+    "climate": "Windsor",
+    "schools": 20,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 28
+  },
+  {
+    "city": "Orangeville",
+    "climate": "Toronto-Pearson",
+    "schools": 15,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 21
+  },
+  {
+    "city": "Cobourg",
+    "climate": "CFB-Trenton",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 9,
+    "total_number": 21
+  },
+  {
+    "city": "Thornhill",
+    "climate": "Toronto-Pearson",
+    "schools": 30,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 30
+  },
+  {
+    "city": "Trenton",
+    "climate": "CFB-Trenton",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 14
+  },
+  {
+    "city": "Stratford",
+    "climate": "Waterloo",
+    "schools": 15,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 17
+  },
+  {
+    "city": "Owen Sound",
+    "climate": "Barrie",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 17
+  },
+  {
+    "city": "Simcoe",
+    "climate": "London",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 12
+  },
+  {
+    "city": "Brockville",
+    "climate": "Ottawa",
+    "schools": 12,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 17
+  },
+  {
+    "city": "Carleton Place",
+    "climate": "Ottawa",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 13
+  },
+  {
+    "city": "Perth",
+    "climate": "Ottawa",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 12
+  },
+  {
+    "city": "Smiths Falls",
+    "climate": "Ottawa",
+    "schools": 9,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 11
+  },
+  {
+    "city": "Dryden",
+    "climate": "Dryden",
+    "schools": 6,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "Ancaster",
+    "climate": "Hamilton",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 13
+  },
+  {
+    "city": "Kenora",
+    "climate": "Kenora",
+    "schools": 8,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 15
+  },
+  {
+    "city": "Pembroke",
+    "climate": "Pembroke",
+    "schools": 11,
+    "admin_facilities": 4,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 20
+  },
+  {
+    "city": "Port Colborne",
+    "climate": "Niagara",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "North York",
+    "climate": "Toronto-Pearson",
+    "schools": 10,
+    "admin_facilities": 2,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 17
+  },
+  {
+    "city": "Scarborough",
+    "climate": "Toronto-Pearson",
+    "schools": 8,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 15
+  },
+  {
+    "city": "Woodstock",
+    "climate": "London",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 11,
+    "total_number": 16
+  },
+  {
+    "city": "Kanata",
+    "climate": "Ottawa",
+    "schools": 16,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 16
+  },
+  {
+    "city": "Gloucester",
+    "climate": "Ottawa",
+    "schools": 16,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 16
+  },
+  {
+    "city": "Kapuskasing",
+    "climate": "Kapuskasing",
+    "schools": 8,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 13
+  },
+  {
+    "city": "Kirkland Lake",
+    "climate": "Kirkland Lake",
+    "schools": 7,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 12
+  },
+  {
+    "city": "Hearst",
+    "climate": "Kapuskasing",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 6,
+    "total_number": 11
+  },
+  {
+    "city": "Stouffville",
+    "climate": "Toronto-Pearson",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 14
+  },
+  {
+    "city": "Maple",
+    "climate": "Toronto-Pearson",
+    "schools": 14,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 14
+  },
+  {
+    "city": "Caledon",
+    "climate": "Toronto-Pearson",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 16
+  },
+  {
+    "city": "Collingwood",
+    "climate": "Barrie",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "Tecumseh",
+    "climate": "Windsor",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 12
+  },
+  {
+    "city": "Leamington",
+    "climate": "Windsor",
+    "schools": 11,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 13
+  },
+  {
+    "city": "Renfrew",
+    "climate": "Ottawa",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 11
+  },
+  {
+    "city": "Alliston",
+    "climate": "Barrie",
+    "schools": 7,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "Grimsby",
+    "climate": "Hamilton",
+    "schools": 10,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 11
+  },
+  {
+    "city": "Port Perry",
+    "climate": "Peterborough",
+    "schools": 5,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 12
+  },
+  {
+    "city": "Halton Hills",
+    "climate": "Toronto-Pearson",
+    "schools": 13,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 15
+  },
+  {
+    "city": "Bowmanville",
+    "climate": "Oshawa",
+    "schools": 15,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 19
+  },
+  {
+    "city": "Pickle Lake",
+    "climate": "Pickle Lake",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 14
+  },
+  {
+    "city": "Parry Sound",
+    "climate": "Parry Sound",
+    "schools": 5,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 11
+  },
+  {
+    "city": "Moosonee",
+    "climate": "Moosonee",
+    "schools": 1,
+    "admin_facilities": 9,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 12
+  },
+  {
+    "city": "Bradford",
+    "climate": "Barrie",
+    "schools": 12,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 5,
+    "total_number": 17
+  },
+  {
+    "city": "Innisfil",
+    "climate": "Barrie",
+    "schools": 6,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 11
+  },
+  {
+    "city": "WOODSTOCK",
+    "climate": "London",
+    "schools": 16,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 17
+  },
+  {
+    "city": "ST THOMAS",
+    "climate": "London",
+    "schools": 14,
+    "admin_facilities": 1,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 15
+  },
+  {
+    "city": "Keswick",
+    "climate": "Barrie",
+    "schools": 9,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 11
+  },
+  {
+    "city": "Hilton Beach",
+    "climate": "Sault Ste. Marie",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 13,
+    "total_number": 13
+  },
+  {
+    "city": "Woodbridge",
+    "climate": "Toronto-Pearson",
+    "schools": 14,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 14
+  },
+  {
+    "city": "Desbarats",
+    "climate": "Sault Ste Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Richards Landing",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 4,
+    "total_number": 5
+  },
+  {
+    "city": "Bruce Mines",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 3
+  },
+  {
+    "city": "Echo Bay",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 2
+  },
+  {
+    "city": "Serpent River",
+    "climate": "Sault Ste. Marie",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  },
+  {
+    "city": "Thessalon",
+    "climate": "Sault Ste. Marie",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Amherstview",
+    "climate": "Kingston",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 3
+  },
+  {
+    "city": "Wolfe Island",
+    "climate": "Kingston",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 4
+  },
+  {
+    "city": "Shannonville",
+    "climate": "Belleville",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 3
+  },
+  {
+    "city": "Kemptville",
+    "climate": "Ottawa",
+    "schools": 6,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 7
+  },
+  {
+    "city": "St. Thomas",
+    "climate": "London",
+    "schools": 3,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 7,
+    "total_number": 10
+  },
+  {
+    "city": "St. Thomas ",
+    "climate": "London",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 2,
+    "total_number": 2
+  },
+  {
+    "city": "Welland ",
+    "climate": "Niagara",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 3,
+    "total_number": 3
+  },
+  {
+    "city": "Sault Ste Marie",
+    "climate": "Sault Ste. Marie",
+    "schools": 2,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 2
+  },
+  {
+    "city": "Peterborough ",
+    "climate": "Peterborough",
+    "schools": 0,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 1,
+    "total_number": 1
+  },
+  {
+    "city": "Kemptville ",
+    "climate": "Ottawa",
+    "schools": 1,
+    "admin_facilities": 0,
+    "classrooms": 0,
+    "residences": 0,
+    "admin_facilities_council_chambers": 0,
+    "total_number": 1
+  }
+]
