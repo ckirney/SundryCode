@@ -1,5 +1,5 @@
 {
-  "total_climates": 29,
+  "total_climates": 28,
   "climates": [
     {
       "climate": "Toronto",
@@ -143,13 +143,13 @@
     },
     {
       "climate": "CFB Trenton",
-      "number": 3,
-      "schools": 50,
+      "number": 4,
+      "schools": 52,
       "admin_facilities": 3,
       "classrooms": 0,
       "residences": 0,
-      "admin_facilities_council_chambers": 16,
-      "total_number": 69
+      "admin_facilities_council_chambers": 17,
+      "total_number": 72
     },
     {
       "climate": "Thunder Bay",
@@ -280,16 +280,6 @@
       "residences": 0,
       "admin_facilities_council_chambers": 5,
       "total_number": 11
-    },
-    {
-      "climate": "Belleville",
-      "number": 1,
-      "schools": 2,
-      "admin_facilities": 0,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 1,
-      "total_number": 3
     }
   ]
 }
