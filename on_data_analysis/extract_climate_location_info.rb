@@ -3,6 +3,7 @@ require 'fileutils'
 
 in_file = "./bps_2017_cities_analyse.json"
 out_file = "./bps_2017_climate_info.json"
+out_sum = "./bps_2017_climates.json"
 
 in_json = JSON.parse(File.read(in_file))
 
@@ -13,9 +14,10 @@ out_info = {
     climates: []
 }
 
+climate_list = []
 climates.each do |climate|
   climate_records = in_json.select{|record| record["climate"] == climate["climate"]}
-  climate_records
+  climate_list << climate["climate"]
   out_info[:climates] << {
       climate: climate["climate"],
       number: climate_records.size,
@@ -34,3 +36,4 @@ out_info_sort = {
 }
 
 File.write(out_file, JSON.pretty_generate(out_info_sort))
+File.write(out_sum, JSON.pretty_generate(climate_list))
