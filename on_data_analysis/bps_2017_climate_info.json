@@ -1,25 +1,15 @@
 {
-  "total_climates": 32,
+  "total_climates": 29,
   "climates": [
     {
-      "climate": "Toronto-Pearson",
-      "number": 17,
-      "schools": 762,
-      "admin_facilities": 20,
+      "climate": "Toronto",
+      "number": 18,
+      "schools": 1516,
+      "admin_facilities": 30,
       "classrooms": 0,
       "residences": 0,
-      "admin_facilities_council_chambers": 104,
-      "total_number": 886
-    },
-    {
-      "climate": "Toronto-City",
-      "number": 1,
-      "schools": 754,
-      "admin_facilities": 10,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 24,
-      "total_number": 788
+      "admin_facilities_council_chambers": 128,
+      "total_number": 1674
     },
     {
       "climate": "Ottawa",
@@ -82,6 +72,16 @@
       "total_number": 161
     },
     {
+      "climate": "Niagara",
+      "number": 5,
+      "schools": 123,
+      "admin_facilities": 6,
+      "classrooms": 0,
+      "residences": 0,
+      "admin_facilities_council_chambers": 24,
+      "total_number": 153
+    },
+    {
       "climate": "Windsor",
       "number": 4,
       "schools": 114,
@@ -102,16 +102,6 @@
       "total_number": 131
     },
     {
-      "climate": "Niagra",
-      "number": 2,
-      "schools": 89,
-      "admin_facilities": 3,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 17,
-      "total_number": 109
-    },
-    {
       "climate": "Peterborough",
       "number": 4,
       "schools": 51,
@@ -130,6 +120,16 @@
       "residences": 0,
       "admin_facilities_council_chambers": 24,
       "total_number": 82
+    },
+    {
+      "climate": "Sault Ste. Marie",
+      "number": 9,
+      "schools": 49,
+      "admin_facilities": 4,
+      "classrooms": 0,
+      "residences": 0,
+      "admin_facilities_council_chambers": 25,
+      "total_number": 78
     },
     {
       "climate": "Guelph",
@@ -162,26 +162,6 @@
       "total_number": 61
     },
     {
-      "climate": "Sault St. Marie",
-      "number": 1,
-      "schools": 40,
-      "admin_facilities": 4,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 3,
-      "total_number": 47
-    },
-    {
-      "climate": "Niagara",
-      "number": 3,
-      "schools": 34,
-      "admin_facilities": 3,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 7,
-      "total_number": 44
-    },
-    {
       "climate": "Sudbury",
       "number": 1,
       "schools": 40,
@@ -210,16 +190,6 @@
       "residences": 0,
       "admin_facilities_council_chambers": 5,
       "total_number": 32
-    },
-    {
-      "climate": "Sault Ste. Marie",
-      "number": 8,
-      "schools": 9,
-      "admin_facilities": 0,
-      "classrooms": 0,
-      "residences": 0,
-      "admin_facilities_council_chambers": 22,
-      "total_number": 31
     },
     {
       "climate": "Timmins",

@@ -9,7 +9,7 @@
       "cities": [
         {
           "city": "Brampton",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 181,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -29,7 +29,7 @@
         },
         {
           "city": "Mississauga",
-          "climate": "Tononto-Pearson",
+          "climate": "Toronto",
           "schools": 218,
           "admin_facilities": 8,
           "classrooms": 0,
@@ -49,7 +49,7 @@
         },
         {
           "city": "Toronto",
-          "climate": "Toronto-City",
+          "climate": "Toronto",
           "schools": 754,
           "admin_facilities": 10,
           "classrooms": 0,
@@ -96,7 +96,7 @@
         },
         {
           "city": "Markham",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 69,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -183,7 +183,7 @@
         },
         {
           "city": "St. Catharines",
-          "climate": "Niagra",
+          "climate": "Niagara",
           "schools": 55,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -213,7 +213,7 @@
         },
         {
           "city": "Richmond Hill",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 50,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -230,7 +230,7 @@
       "cities": [
         {
           "city": "Sault Ste. Marie",
-          "climate": "Sault St. Marie",
+          "climate": "Sault Ste. Marie",
           "schools": 40,
           "admin_facilities": 4,
           "classrooms": 0,
@@ -240,7 +240,7 @@
         },
         {
           "city": "Niagara Falls",
-          "climate": "Niagra",
+          "climate": "Niagara",
           "schools": 34,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -260,7 +260,7 @@
         },
         {
           "city": "Vaughan",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 37,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -310,7 +310,7 @@
         },
         {
           "city": "Newmarket",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 28,
           "admin_facilities": 3,
           "classrooms": 0,
@@ -377,7 +377,7 @@
         },
         {
           "city": "Milton",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 30,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -484,7 +484,7 @@
         },
         {
           "city": "Aurora",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 23,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -504,7 +504,7 @@
         },
         {
           "city": "Orangeville",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 15,
           "admin_facilities": 1,
           "classrooms": 0,
@@ -514,7 +514,7 @@
         },
         {
           "city": "Cobourg",
-          "climate": "CFB-Trenton",
+          "climate": "CFB Trenton",
           "schools": 12,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -524,7 +524,7 @@
         },
         {
           "city": "Thornhill",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 30,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -541,7 +541,7 @@
       "cities": [
         {
           "city": "Trenton",
-          "climate": "CFB-Trenton",
+          "climate": "CFB Trenton",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -681,7 +681,7 @@
         },
         {
           "city": "North York",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 10,
           "admin_facilities": 2,
           "classrooms": 0,
@@ -691,7 +691,7 @@
         },
         {
           "city": "Scarborough",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 8,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -761,7 +761,7 @@
         },
         {
           "city": "Stouffville",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 9,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -771,7 +771,7 @@
         },
         {
           "city": "Maple",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 14,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -781,7 +781,7 @@
         },
         {
           "city": "Caledon",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -881,7 +881,7 @@
         },
         {
           "city": "Halton Hills",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 13,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -991,7 +991,7 @@
         },
         {
           "city": "Woodbridge",
-          "climate": "Toronto-Pearson",
+          "climate": "Toronto",
           "schools": 14,
           "admin_facilities": 0,
           "classrooms": 0,
@@ -1008,7 +1008,7 @@
       "cities": [
         {
           "city": "Desbarats",
-          "climate": "Sault Ste Marie",
+          "climate": "Sault Ste. Marie",
           "schools": 1,
           "admin_facilities": 0,
           "classrooms": 0,
