@@ -21,7 +21,7 @@
   },
   {
     "city": "Mississauga",
-    "climate": "Tononto-Pearson",
+    "climate": "Toronto-Pearson",
     "schools": 218,
     "admin_facilities": 8,
     "classrooms": 0,
@@ -471,7 +471,7 @@
   },
   {
     "city": "Cobourg",
-    "climate": "CFB-Trenton",
+    "climate": "CFB Trenton",
     "schools": 12,
     "admin_facilities": 0,
     "classrooms": 0,
@@ -491,7 +491,7 @@
   },
   {
     "city": "Trenton",
-    "climate": "CFB-Trenton",
+    "climate": "CFB Trenton",
     "schools": 13,
     "admin_facilities": 0,
     "classrooms": 0,
@@ -921,7 +921,7 @@
   },
   {
     "city": "Desbarats",
-    "climate": "Sault Ste Marie",
+    "climate": "Sault Ste. Marie",
     "schools": 1,
     "admin_facilities": 0,
     "classrooms": 0,
